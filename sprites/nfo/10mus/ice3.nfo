@@ -1,0 +1,87 @@
+
+// ----------------------------------
+// ------------- ICE-3 --------------
+// ----------------------------------
+ 
+ 
+-1 * 0  04 00 7F 01 3D "ICE-3 (Electric) - DJ " 00
+ 2307 * 60	 00 00 18 01 3D 00 10 72 03 19 04 32 06 0F 05 00 08 01 09 DC 00 0B 35 1E 0D C1 0E 3C 4C 00 00 13
+	 00 14 \b56 15 00 16 \b179 24 01 17 73 19 30 1B 00 00 1C 00 1D 00 00 00 00 21 00 28 01 00   12 FD   1E 11
+
+-1 * 0  01 00 05 08
+// Front
+ 2309 sprites/dutchtrainsw.pcx 786 2920 01 22 8 -3 -10
+ 2310 sprites/dutchtrainsw.pcx 2 2952 01 13 20 -11 -6
+ 2311 sprites/dutchtrainsw.pcx 34 2952 01 11 32 -16 -7
+ 2312 sprites/dutchtrainsw.pcx 82 2952 01 15 19 -10 -10
+ 2313 sprites/dutchtrainsw.pcx 114 2952 01 23 8 -3 -11
+ 2314 sprites/dutchtrainsw.pcx 130 2952 01 15 19 -8 -9
+ 2315 sprites/dutchtrainsw.pcx 162 2952 01 11 33 -16 -7
+ 2316 sprites/dutchtrainsw.pcx 210 2952 01 13 20 -8 -7
+// Back 
+ 2339 sprites/dutchtrainsw.pcx 66 3000 01 23 8 -3 -11
+ 2340 sprites/dutchtrainsw.pcx 82 3000 01 15 19 -8 -9
+ 2341 sprites/dutchtrainsw.pcx 114 3000 01 11 32 -16 -7
+ 2342 sprites/dutchtrainsw.pcx 162 3000 01 13 20 -8 -7
+ 2343 sprites/dutchtrainsw.pcx 194 3000 01 22 8 -3 -10
+ 2344 sprites/dutchtrainsw.pcx 210 3000 01 13 20 -11 -6
+ 2345 sprites/dutchtrainsw.pcx 242 3000 01 11 32 -15 -7
+ 2346 sprites/dutchtrainsw.pcx 290 3000 01 15 19 -10 -10
+// Panto
+ 2319 sprites/dutchtrainsw.pcx 274 2952 01 23 8 -3 -11
+ 2320 sprites/dutchtrainsw.pcx 290 2952 01 16 22 -11 -9
+ 2321 sprites/dutchtrainsw.pcx 322 2952 01 13 33 -16 -9
+ 2322 sprites/dutchtrainsw.pcx 370 2952 01 18 22 -10 -12
+ 2323 sprites/dutchtrainsw.pcx 402 2952 01 25 8 -3 -12
+ 2324 sprites/dutchtrainsw.pcx 418 2952 01 18 22 -11 -11
+ 2325 sprites/dutchtrainsw.pcx 450 2952 01 13 33 -16 -9
+ 2326 sprites/dutchtrainsw.pcx 498 2952 01 16 22 -10 -10
+// Unpanto
+ 2329 sprites/dutchtrainsw.pcx 562 2952 01 23 8 -3 -11
+ 2330 sprites/dutchtrainsw.pcx 578 2952 01 16 22 -11 -9
+ 2331 sprites/dutchtrainsw.pcx 610 2952 01 12 33 -16 -8
+ 2332 sprites/dutchtrainsw.pcx 658 2952 01 16 22 -10 -10
+ 2333 sprites/dutchtrainsw.pcx 690 2952 01 23 8 -3 -11
+ 2334 sprites/dutchtrainsw.pcx 706 2952 01 16 22 -11 -9
+ 2335 sprites/dutchtrainsw.pcx 738 2952 01 12 33 -16 -8
+ 2336 sprites/dutchtrainsw.pcx 2 3000 01 16 22 -10 -10
+// Unpanto Reverse
+ 2333 sprites/dutchtrainsw.pcx 690 2952 01 23 8 -3 -11
+ 2334 sprites/dutchtrainsw.pcx 706 2952 01 16 22 -11 -9
+ 2335 sprites/dutchtrainsw.pcx 738 2952 01 12 33 -16 -8
+ 2336 sprites/dutchtrainsw.pcx 2 3000 01 16 22 -10 -10
+ 2329 sprites/dutchtrainsw.pcx 562 2952 01 23 8 -3 -11
+ 2330 sprites/dutchtrainsw.pcx 578 2952 01 16 22 -11 -9
+ 2331 sprites/dutchtrainsw.pcx 610 2952 01 12 33 -16 -8
+ 2332 sprites/dutchtrainsw.pcx 658 2952 01 16 22 -10 -10
+
+ 2347 * 9	 02 00 A0 01 01 00 00 00 00 // <--
+ 2347 * 9	 02 00 A1 01 01 01 00 01 00 // -->
+ 2347 * 9	 02 00 B0 01 01 02 00 02 00 // pan
+ 2347 * 9	 02 00 C0 01 01 03 00 03 00 // un
+ 2347 * 9	 02 00 C1 01 01 04 00 04 00 // un rev
+ 
+ 
+ // -1 * 0  02 00 B3 81 41 00 01 01 B8 00 00 00 B7 00 <-- some bogus shit
+
+// What where 
+ -1 * 0	 02 00 AA 81 40 00 01 01   C0 00 00 00   C1 00  // Every 2nd wagon is this, every 1st wagon is that
+ -1 * 0	 02 00 AF 81 40 80 FF 00 08 03   A0 00 00 00   B0 00 01 01   AA 00 02 06   A1 00 // Modulo
+
+ 2349 * 6	 01 00 01 FF 01 00
+ 2350 sprites/dutchtrainsw.pcx 370 3000 01 11 50 -25 -7
+ 2351 * 9	 02 00 05 01 01 00 00 00 00
+
+// Articulation '10'
+-1 * 0	02 00 CA 81 10 00 FF 02   3D 80 01 06   3D 80 07 07   FF 80  // Use 8 wagons, and a head 
+// Cannot attach '10'
+-1 * 0  02 00 CB 81 10 00 FF 01   E1 80 00 FE   FE 80
+// Callbacks + attach grapics
+-1 * 0	02 00 AF 81 0C 00 FF 02   CB 00 1D 1D   CA 00 16 16   AF 00  // cannot attach + artic
+
+// P-list CB's
+-1 * 0  02 00 05 81 0C 00 FF 02   3C 80 23 23   CA 00 16 16   05 00  // extra p-list + artic
+
+  2353 * 10	 03 00 01 3D 01 FF 05 00 AF 00
+ 
+ 

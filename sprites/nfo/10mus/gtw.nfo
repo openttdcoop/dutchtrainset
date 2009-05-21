@@ -1,0 +1,161 @@
+
+-1 * 0  04 00 7F 01 40 "GTW" 00
+ 2446 * 58	 00 00 17 01 40 00 0B 7C 03 14 06 0F 05 00 08 01 09 8C 00 0B \w805 0D 14 0E 36 4C 00 00 13 00 14
+	 \b55 15 00 16 44 24 00 17 11 19 10 1B 00 00 1C 00 1D 00 00 00 00 21 00 28 01 00  12 FD   1E 3F
+// -1 * 0       00 00 01 01 40 0B \w1
+
+-1 * 0  01 00 08 08
+// Front - 1
+-1 sprites/mus/gtw.pcx	1	1	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	10	1	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	33	1	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	66	1	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	89	1	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	98	1	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	121	1	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	154	1	1	18	22	-11	-10
+// End - 1
+-1 sprites/mus/gtw.pcx	1	32	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	10	32	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	33	32	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	66	32	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	89	32	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	98	32	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	121	32	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	154	32	1	18	22	-11	-10
+// PAX - 1
+-1 sprites/mus/gtw.pcx	1	64	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	10	64	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	33	64	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	66	64	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	89	64	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	98	64	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	121	64	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	154	64	1	18	22	-11	-10
+// Motor - 1 
+-1 sprites/mus/gtw.pcx	1	96	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	10	96	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	33	96	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	66	96	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	89	96	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	98	96	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	121	96	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	154	96	1	18	22	-11	-10
+
+// Front - 2
+-1 sprites/mus/gtw.pcx	1	128	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	10	128	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	33	128	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	66	128	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	89	128	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	98	128	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	121	128	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	154	128	1	18	22	-11	-10
+// End - 2
+-1 sprites/mus/gtw.pcx	1	160	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	10	160	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	33	160	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	66	160	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	89	160	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	98	160	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	121	160	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	154	160	1	18	22	-11	-10
+// PAX - 2
+-1 sprites/mus/gtw.pcx	1	192	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	10	192	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	33	192	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	66	192	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	89	192	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	98	192	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	121	192	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	154	192	1	18	22	-11	-10
+// Motor - 2 
+-1 sprites/mus/gtw.pcx	1	224	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	10	224	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	33	224	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	66	224	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	89	224	1	24	8	-3	-12
+-1 sprites/mus/gtw.pcx	98	224	1	18	22	-11	-10
+-1 sprites/mus/gtw.pcx	121	224	1	14	32	-16	-10
+-1 sprites/mus/gtw.pcx	154	224	1	18	22	-11	-10
+
+// Livary 1
+-1 * 0  02 00 A0 01 01 00 00 00 00 // <-- A0 Front
+-1 * 0  02 00 A1 01 01 01 00 01 00 // <-- A1 End
+-1 * 0  02 00 B0 01 01 02 00 02 00 // <-- B0 PAX
+-1 * 0  02 00 F0 01 01 03 00 03 00 // <-- F0 Motor
+// Livary 2
+-1 * 0  02 00 A2 01 01 04 00 04 00 // <-- A0 Front
+-1 * 0  02 00 A3 01 01 05 00 05 00 // <-- A1 End
+-1 * 0  02 00 B1 01 01 06 00 06 00 // <-- B0 PAX
+-1 * 0  02 00 F1 01 01 07 00 07 00 // <-- F0 Motor
+
+// Different grapichs to different parts on different livarys
+-1 * 0  02 00 A0 81 F2 00 FF 02   A0 00 00 00   A2 00 01 01   FF FF
+-1 * 0  02 00 A1 81 F2 00 FF 02   A1 00 00 00   A3 00 01 01   FF FF
+-1 * 0  02 00 B0 81 F2 00 FF 02   B0 00 00 00   B1 00 01 01   FF FF
+-1 * 0  02 00 F0 81 F2 00 FF 02   F0 00 00 00   F1 00 01 01   FF FF
+-1 * 0  02 00 D0 81 F2 00 FF 02   F0 FF 00 00   F1 FF 01 01   FF FF // Text
+
+// Refitted capacaties
+-1 * 0  02 00 B2 81 F2 00 FF 01   \b55 80 00 01   \b56 80
+-1 * 0  02 00 F2 81 F2 00 FF 01   \b01 80 00 01   \b00 80
+
+// Make stuff shorter + refit capacity
+-1 * 0  02 00 B0 81 0C 00 FF 02   B2 00 15 15   01 80 11 11   B0 00
+-1 * 0  02 00 F0 81 0C 00 FF 02   F2 00 15 15   05 80 11 11   F0 00
+// Refit on A1
+-1 * 0  02 00 A1 81 0C 00 FF 01   B2 00 15 15   A1 00
+
+// '10' for the Motorcoach
+-1 * 0  02 00 FC 81 10 00 FF 01    01 80 14 14   05 00  // 1 capacity
+// '10' for the pax
+-1 * 0  02 00 BC 81 10 00 FF 01  \b55 80 14 14   05 00  // 55 Capacity
+// CB36's
+-1 * 0  02 00 F0 81 0C 00 FF 01    FC 00 36 36   F0 00
+-1 * 0  02 00 B0 81 0C 00 FF 01    BC 00 36 36   B0 00
+-1 * 0  02 00 A1 81 0C 00 FF 01    BC 00 36 36   A1 00
+
+// What where
+-1 * 0  02 00 AF 81 41 00 FF 01   F0 00 01 01   A0 00 // ID40
+-1 * 0  02 00 BA 81 41 08 FF 01   A1 00 00 00   B0 00 // ID1E
+// Name the Wagons as well
+-1 * 0  02 00 BA 81 0C 00 FF 01   D0 00 19 19   BA 00
+
+// Articulation '10'
+1 * 0     02 00 CA 81 10 00 FF 02   40 80 01 01   1E 80 02 02   FF FF
+
+//                                                                      vv fail, not enough heads
+1 * 1     02 00 1E 82 40 70 FF 01 01 \2/ 60 40 00 FF 01   FF FF 00 01   E0 80 // disallow 1E ((length+1)/3) > (# of 3B)
+//                                                   vv fail, too many heads
+1 * 1     02 00 3B 82 60 40 00 FF 01   FF FF 00 04   E1 80 // allow 40 if count < 4
+//                                                              vv fail, other wagon not allowed
+1 * 1     02 00 11 81 C6 00 FF 02   3B 00 40 40   1E 00 1E 1E   E2 80  // get vehicle ID
+1 * 1     02 00 AF 81 0C 00 FF 03   CA 00 16 16   D0 00 19 19   11 00 1D 1D   AF 00              // Callbacks
+  
+
+// --------------------
+// ------ P-list ------
+// --------------------
+
+ 2571 * 6	 01 00 01 FF 01 00
+ 2572 sprites/dutchtrainsw.pcx 306 3256 01 12 50 -25 -8
+ 2573 * 9	 02 00 05 01 01 00 00 00 00
+
+// '10' for p-list
+-1 * 0  02 00 D0 81 10 00 FF 01  \b111 80 14 14   05 00
+// CB's for P-list
+-1 * 0  02 00 05 81 0C 00 FF 02     D0 00 36 36   40 80 23 23    05 00
+
+// A3
+-1 * 0  03 00 01  40  01 FF 05 00 AF 00
+-1 * 0  03 00 81  1E  00 BA 00 
+ 
+ 
+ 
+//  <Pikka>	http://wiki.ttdpatch.net/tiki-index.php?page=VarAction2Advanced
+//	<Pikka>	var 40 shifted by 10 gives us the train length -1
+//	<Pikka>	+20 an <operator> <variable> <varadjust> triple follows this <varadjust>
+//	<Pikka>	+40 This is a shift-and-add-divide adjustment
+ 
+ 

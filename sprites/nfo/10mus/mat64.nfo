@@ -1,0 +1,148 @@
+
+
+
+
+
+
+// ----------------------------------- 
+// ------------- Mat 64 --------------
+// ----------------------------------- 
+ 
+ -1 * 0  04 00 7F 01 35 "Mat '64 (Electric)" 00
+ 
+ 1304 * 60	 00 00 18 01 35   00 BC 3E 03 19   04 32   06 0F   05 00   08 01   09 8C 00   0B \w935   0D 1E   0E 3C 4C 00 00   12 FD   13
+	 00   14 \b66 15 00   16 \b86   24 00   17 16   19 30   1B 00 00   1C 50   1D 00 00 00 00   21 04   28 01 00   1E 3E
+
+
+
+-1 * 0  01 00 \b7  08
+// Head unanto - yellow 00
+ 1316 sprites/dutchtrainsw.pcx 674 1592 01 21 8  -3  -10
+ 1317 sprites/dutchtrainsw.pcx 690 1592 01 16 22 -11 -9
+ 1318 sprites/dutchtrainsw.pcx 722 1592 01 12 33 -16 -7
+ 1319 sprites/dutchtrainsw.pcx 770 1592 01 17 22 -10 -11
+ 1320 sprites/dutchtrainsw.pcx 2   1624 01 21 8  -3  -13
+ 1321 sprites/dutchtrainsw.pcx 18  1624 01 17 22 -11 -10
+ 1322 sprites/dutchtrainsw.pcx 50  1624 01 12 33 -16 -7
+ 1323 sprites/dutchtrainsw.pcx 98  1624 01 16 22 -10 -10
+ 
+// Head unpanto - red  01 
+ 1346 sprites/dutchtrainsw.pcx 738 1624 01 21 8 -3 -13
+ 1347 sprites/dutchtrainsw.pcx 754 1624 01 17 22 -11 -10
+ 1348 sprites/dutchtrainsw.pcx 2 1656 01 12 33 -16 -7
+ 1349 sprites/dutchtrainsw.pcx 50 1656 01 16 22 -10 -10
+ 1350 sprites/dutchtrainsw.pcx 82 1656 01 21 8 -3 -10
+ 1351 sprites/dutchtrainsw.pcx 98 1656 01 16 22 -11 -9
+ 1352 sprites/dutchtrainsw.pcx 130 1656 01 12 33 -16 -7
+ 1353 sprites/dutchtrainsw.pcx 178 1656 01 17 22 -10 -11
+
+
+
+// Head Panto - yellow  02
+ 1336 sprites/dutchtrainsw.pcx 450 1624 01 21 8 -3 -12
+ 1337 sprites/dutchtrainsw.pcx 466 1624 01 16 22 -11 -9
+ 1338 sprites/dutchtrainsw.pcx 498 1624 01 15 33 -32 -10
+ 1339 sprites/dutchtrainsw.pcx 546 1624 01 20 22 -10 -14
+ 1340 sprites/dutchtrainsw.pcx 578 1624 01 22 8 -3 -9
+ 1341 sprites/dutchtrainsw.pcx 594 1624 01 20 22 -11 -13
+ 1342 sprites/dutchtrainsw.pcx 626 1624 01 15 33 -16 -10
+ 1343 sprites/dutchtrainsw.pcx 674 1624 01 16 22 -10 -10
+
+// Head Panto - red  03
+ 1340 sprites/mus/mat64.pcx 90 32 01 22 8 -3 -9
+ 1341 sprites/mus/mat64.pcx 99 32 01 20 22 -11 -13
+ 1342 sprites/mus/mat64.pcx 122 32 01 15 33 -16 -10
+ 1343 sprites/mus/mat64.pcx 156 32 01 16 22 -10 -10
+ 1336 sprites/mus/mat64.pcx 1 32 01 21 8 -3 -12
+ 1337 sprites/mus/mat64.pcx 10 32 01 16 22 -11 -9
+ 1338 sprites/mus/mat64.pcx 33 32 01 15 33 -16 -10
+ 1339 sprites/mus/mat64.pcx 67 32 01 20 22 -10 -14
+
+// Wagon unpanto 04
+ 1306 sprites/dutchtrainsw.pcx 386 1592 01 21 8 -3 -12
+ 1307 sprites/dutchtrainsw.pcx 402 1592 01 17 22 -11 -10
+ 1308 sprites/dutchtrainsw.pcx 434 1592 01 12 33 -16 -7
+ 1309 sprites/dutchtrainsw.pcx 482 1592 01 17 22 -10 -11
+ 1310 sprites/dutchtrainsw.pcx 514 1592 01 21 8 -3 -12
+ 1311 sprites/dutchtrainsw.pcx 530 1592 01 17 22 -11 -10
+ 1312 sprites/dutchtrainsw.pcx 562 1592 01 12 33 -16 -7
+ 1313 sprites/dutchtrainsw.pcx 610 1592 01 17 22 -10 -11
+
+// Wagon panto  05
+ 1326 sprites/dutchtrainsw.pcx 162 1624 01 22 8 -3 -12
+ 1327 sprites/dutchtrainsw.pcx 178 1624 01 20 22 -11 -13
+ 1328 sprites/dutchtrainsw.pcx 210 1624 01 15 33 -16 -10
+ 1329 sprites/dutchtrainsw.pcx 258 1624 01 17 22 -10 -11
+ 1330 sprites/dutchtrainsw.pcx 290 1624 01 21 8 -3 -11
+ 1331 sprites/dutchtrainsw.pcx 306 1624 01 17 22 -11 -10
+ 1332 sprites/dutchtrainsw.pcx 338 1624 01 15 33 -16 -10
+ 1333 sprites/dutchtrainsw.pcx 386 1624 01 20 22 -10 -14
+
+// Blank 06
+ 1336 sprites/mus/mat64.pcx 1 1 01 1 1 0 0
+ 1336 sprites/mus/mat64.pcx 1 1 01 1 1 0 0
+ 1336 sprites/mus/mat64.pcx 1 1 01 1 1 0 0
+ 1336 sprites/mus/mat64.pcx 1 1 01 1 1 0 0
+ 1336 sprites/mus/mat64.pcx 1 1 01 1 1 0 0
+ 1336 sprites/mus/mat64.pcx 1 1 01 1 1 0 0
+ 1336 sprites/mus/mat64.pcx 1 1 01 1 1 0 0
+ 1336 sprites/mus/mat64.pcx 1 1 01 1 1 0 0
+
+-1 * 0  02 00 A0 01 01 \w0 \w0 // head unpanto yellow
+-1 * 0  02 00 A1 01 01 \w1 \w1 // head unpanto red
+-1 * 0  02 00 B0 01 01 \w2 \w2 // head panto yellow
+-1 * 0  02 00 B1 01 01 \w3 \w3 // head panto red
+-1 * 0  02 00 C0 01 01 \w4 \w4 // wagon unpanto
+-1 * 0  02 00 C1 01 01 \w5 \w5 // wagon panto
+-1 * 0  02 00 D0 01 01 \w6 \w6 // blank
+
+-1 * 0  02 00 D1 81 F2 00 FF 01   \b0 80 00 00   FF FF
+-1 * 0  02 00 D0 81 0C 00 FF 01    D1 00 15 15   D0 00  
+
+// P-list
+-1 * 0  01 00 \b1  01
+1356 sprites/dutchtrainsw.pcx 242 1656 01 15 50 -25 -9
+-1 * 0  02 00 11 01 01 \w0 \w0 // P-list
+
+// Set real capacity
+-1 * 0  02 00 10 81 10 00 FF 01   \b33 80 14 14    99 00
+-1 * 0  02 00 11 81 0C 00 FF 01     10 00 36 36    11 00
+
+
+// Train
+// Doubling with 36'
+-1 * 0  02 00 23 81 10 00 FF 01   \b0  80 14 14   D0 00
+// CB36
+-1 * 0  02 00 D0 81 0C 00 FF 01   23 00 36 36   D0 00
+
+// Plan V 
+// What where
+-1 * 0  02 00 3F 81 41 00 03 02   B0 00 00 00   A1 00 02 02   D0 00
+
+// Plan T
+// What where + Make things normal size
+-1 * 0  02 00 40 81 41 00 03 03   A0 00 00 00   C1 00 01 01   C0 00 02 02   A1 00
+-1 * 0  02 00 41 81 41 00 03 03   A0 00 00 00   C0 00 01 01   C1 00 02 02   A1 00
+// Flip
+-1 * 0  02 00 4F 82 FF 00 01 01 	40 00 00 00 	41 00 // Flip (when train reverse)
+// CB 36s 10 on 4unit, more tons and more power
+-1 * 0  02 00 4A 81 10 00 FF 02   53 87 0B 0B   \b163 80 16 16   99 00
+// CB 11 (length) and 36 (^^)
+-1 * 0  02 00 4F 81 0C 00 FF 02   00 80 11 11   4A 00 36 36      4F 00
+
+// Refitted names - CB 19 
+-1 * 0  02 00 59 81 F2 00 FF 02   F5 80 00 00   F6 80 01 01   FF FF   
+// Graphical Selection
+-1 * 0  02 00 50 81 F2 00 FF 02   3F 00 00 00   4F 00 01 01   FF FF
+// Refitted CB's
+-1 * 0  02 00 5C 81 0C 00 FF 01   59 00 19 19   50 00
+
+// Use P-list if this or that
+-1 * 0  02 00 5F 81 41 10 FF 01   11 00 00 00   5C 00
+
+// 4 part articulation
+-1 * 0  02 00 20 81 10 00 FF 01   35 80 01 03   FF 80
+// CB 16 and 23
+-1 * 0  02 00 2F 81 0C 00 FF 02   20 00 16 16   35 80 23 23   5F 00
+
+-1 * 0  03 00 01 35 00 2F 00

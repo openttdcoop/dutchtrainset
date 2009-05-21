@@ -1,0 +1,130 @@
+
+// ----------------------------------
+// --------- TGV THALYS -------------
+// ----------------------------------
+
+-1 * 0  04 00 7F 01 3C "Thalys - DJ" 00
+ 2206 * 60	 00 00 18 01 3C 00 5C 6C 03 19 04 32 06 0F 05 00 08 01 09 2C 01 0B \w11800 0D FF 0E 3C 4C 00 00 13
+	 00 14 00 15 00 16 \b130 24 01 17 BC 19 30 1B 00 00 1C 00 1D 00 00 00 00 21 00 28 01 00   1E 10   12 FD
+	 
+-1 * 0  01 00 09  08
+// Front Engine - 00
+ 2208 sprites/dutchtrainsw.pcx 466 2792 01 19 8 -3 -6
+ 2209 sprites/dutchtrainsw.pcx 482 2792 01 14 22 -11 -7
+ 2210 sprites/dutchtrainsw.pcx 514 2792 01 14 29 -16 -10
+ 2211 sprites/dutchtrainsw.pcx 562 2792 01 17 19 -10 -12
+ 2212 sprites/dutchtrainsw.pcx 594 2792 01 22 8 -3 -11
+ 2213 sprites/dutchtrainsw.pcx 610 2792 01 17 19 -8 -11
+ 2214 sprites/dutchtrainsw.pcx 642 2792 01 14 30 -14 -10
+ 2215 sprites/dutchtrainsw.pcx 690 2792 01 14 22 -10 -8
+// Rear engine - 01
+ 2218 sprites/dutchtrainsw.pcx 754 2792 01 22 8 -3 -11
+ 2219 sprites/dutchtrainsw.pcx 770 2792 01 16 19 -8 -10
+ 2220 sprites/dutchtrainsw.pcx 2 2824 01 12 30 -14 -8
+ 2221 sprites/dutchtrainsw.pcx 50 2824 01 14 22 -10 -8
+ 2222 sprites/dutchtrainsw.pcx 82 2824 01 19 8 -3 -7
+ 2223 sprites/dutchtrainsw.pcx 98 2824 01 14 22 -11 -7
+ 2224 sprites/dutchtrainsw.pcx 130 2824 01 12 29 -16 -8
+ 2225 sprites/dutchtrainsw.pcx 178 2824 01 16 19 -10 -11
+// Front pax - 02
+ 2228 sprites/dutchtrainsw.pcx 242 2824 01 23 8 -3 -11
+ 2229 sprites/dutchtrainsw.pcx 258 2824 01 17 22 -11 -10
+ 2230 sprites/dutchtrainsw.pcx 290 2824 01 12 32 -16 -8
+ 2231 sprites/dutchtrainsw.pcx 338 2824 01 16 22 -10 -10
+ 2232 sprites/dutchtrainsw.pcx 370 2824 01 21 8 -3 -10
+ 2233 sprites/dutchtrainsw.pcx 386 2824 01 16 22 -11 -9
+ 2234 sprites/dutchtrainsw.pcx 418 2824 01 12 32 -16 -8
+ 2235 sprites/dutchtrainsw.pcx 466 2824 01 17 22 -10 -11
+// End pax - 03
+ 2238 sprites/dutchtrainsw.pcx 530 2824 01 21 8 -3 -10
+ 2239 sprites/dutchtrainsw.pcx 546 2824 01 16 22 -11 -9
+ 2240 sprites/dutchtrainsw.pcx 578 2824 01 12 32 -16 -8
+ 2241 sprites/dutchtrainsw.pcx 626 2824 01 17 22 -10 -11
+ 2242 sprites/dutchtrainsw.pcx 658 2824 01 23 8 -3 -11
+ 2243 sprites/dutchtrainsw.pcx 674 2824 01 17 22 -11 -10
+ 2244 sprites/dutchtrainsw.pcx 706 2824 01 12 32 -16 -8
+ 2245 sprites/dutchtrainsw.pcx 754 2824 01 16 22 -10 -10
+// Inbetween pax - 04
+ 2248 sprites/dutchtrainsw.pcx 18 2872 01 21 8 -3 -10
+ 2249 sprites/dutchtrainsw.pcx 34 2872 01 16 22 -11 -9
+ 2250 sprites/dutchtrainsw.pcx 66 2872 01 11 32 -16 -7
+ 2251 sprites/dutchtrainsw.pcx 114 2872 01 16 22 -10 -10
+ 2252 sprites/dutchtrainsw.pcx 146 2872 01 21 8 -3 -10
+ 2253 sprites/dutchtrainsw.pcx 162 2872 01 16 22 -11 -9
+ 2254 sprites/dutchtrainsw.pcx 194 2872 01 11 32 -16 -7
+ 2255 sprites/dutchtrainsw.pcx 242 2872 01 16 22 -10 -10
+// Inbetween pax - Reverse - 05
+ 2252 sprites/dutchtrainsw.pcx 146 2872 01 21 8 -3 -10
+ 2253 sprites/dutchtrainsw.pcx 162 2872 01 16 22 -11 -9
+ 2254 sprites/dutchtrainsw.pcx 194 2872 01 11 32 -16 -7
+ 2255 sprites/dutchtrainsw.pcx 242 2872 01 16 22 -10 -10
+ 2248 sprites/dutchtrainsw.pcx 18 2872 01 21 8 -3 -10
+ 2249 sprites/dutchtrainsw.pcx 34 2872 01 16 22 -11 -9
+ 2250 sprites/dutchtrainsw.pcx 66 2872 01 11 32 -16 -7
+ 2251 sprites/dutchtrainsw.pcx 114 2872 01 16 22 -10 -10
+// Dining car - 06
+ 2248 sprites/thaldin.pcx 18 1 01 21 8 -3 -10
+ 2249 sprites/thaldin.pcx 34 1 01 16 22 -11 -9
+ 2250 sprites/thaldin.pcx 66 1 01 11 32 -16 -7
+ 2251 sprites/thaldin.pcx 114 1 01 16 22 -10 -10
+ 2252 sprites/thaldin.pcx 146 1 01 21 8 -3 -10
+ 2253 sprites/thaldin.pcx 162 1 01 16 22 -11 -9
+ 2254 sprites/thaldin.pcx 194 1 01 11 32 -16 -7
+ 2255 sprites/thaldin.pcx 242 1 01 16 22 -10 -10
+// Dining car - Reverse - 07
+ 2252 sprites/thaldin.pcx 146 1 01 21 8 -3 -10
+ 2253 sprites/thaldin.pcx 162 1 01 16 22 -11 -9
+ 2254 sprites/thaldin.pcx 194 1 01 11 32 -16 -7
+ 2255 sprites/thaldin.pcx 242 1 01 16 22 -10 -10
+ 2248 sprites/thaldin.pcx 18 1 01 21 8 -3 -10
+ 2249 sprites/thaldin.pcx 34 1 01 16 22 -11 -9
+ 2250 sprites/thaldin.pcx 66 1 01 11 32 -16 -7
+ 2251 sprites/thaldin.pcx 114 1 01 16 22 -10 -10
+// P-list sprite - 08
+-1 * 0  0
+-1 * 0  0
+sprites/dutchtrainsw.pcx 722 2744 01 1 1 -0 -0
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+ 2296 sprites/dutchtrainsw.pcx 530 2922 01 12 50 -25 -8
+-1 * 0  0
+ 
+-1 * 0  02 00 A0 01 01 00 00 00 00 // <-- A0 Front
+-1 * 0  02 00 A1 01 01 01 00 01 00 // <-- A1 End
+-1 * 0  02 00 B0 01 01 02 00 02 00 // <-- B0 Front pax
+-1 * 0  02 00 B1 01 01 03 00 03 00 // <-- B1 end pax
+-1 * 0  02 00 C0 01 01 04 00 04 00 // <-- C0 pax
+-1 * 0  02 00 C1 01 01 05 00 05 00 // <-- C1 pax reverse
+-1 * 0  02 00 D0 01 01 06 00 06 00 // <-- D0 dining
+-1 * 0  02 00 D1 01 01 07 00 07 00 // <-- D1 dining reverse
+-1 * 0  02 00 05 01 01 08 00 08 00 // <-- 05 P-list
+
+// CB 36ish
+//-1 * 0  02 00 CA 81 10 00 FF 01   \b47 80 14 14  00 FF // Normal Wagon
+//-1 * 0  02 00 B0 81 0C 00 FF 01   CA 00 36 36   B0 00
+//-1 * 0  02 00 B1 81 0C 00 FF 01   CA 00 36 36   B1 00
+//-1 * 0  02 00 C0 81 0C 00 FF 01   CA 00 36 36   C0 00
+//-1 * 0  02 00 C1 81 0C 00 FF 01   CA 00 36 36   C1 00
+//-1 * 0  02 00 D0 81 0C 00 FF 01   CA 00 36 36   D0 00
+//-1 * 0  02 00 D1 81 0C 00 FF 01   CA 00 36 36   D1 00
+
+// Modulo                               engine        thingy        pax           Diner         pax           thingy        engine
+-1 * 0	02 00 AA 81 40 80 FF 00 0A 06   A0 00 00 00   B0 00 01 01   C0 00 02 03   D0 00 04 04   C0 00 05 07   B1 00 08 08   A1 00 //
+-1 * 0  02 00 AB 81 40 80 FF 00 0A 06   A0 00 00 00   B0 00 01 01   C1 00 02 04   D1 00 05 05   C1 00 06 07   B1 00 08 08   A1 00 //
+// Flip
+-1 * 0  02 00 AF 82 FF 00 01 01 	AA 00 00 00 	AB 00
+
+// Articulation '10'
+-1 * 0	02 00 CA 81 10 00 FF 02   7F 80 01 08   3C 80 09 09   FF 80  // Use 8 wagons, and a head 
+// Cannot attach '10'
+-1 * 0  02 00 CB 81 10 00 FF 01   E1 80 00 FE   FE 80
+// Callbacks + attach grapics
+-1 * 0	02 00 02 81 0C 00 FF 02   CB 00 1D 1D   CA 00 16 16   AF 00
+
+
+-1 * 0	02 00 05 81 0C 00 FF 02   3C 80 23 23   CA 00 16 16   05 00 // Articulation for P-list
+ 
+-1 * 0  03 00 01  3C  01 FF 05 00 02 00
+-1 * 0  03 00 81  7F  00 02 00
+ 

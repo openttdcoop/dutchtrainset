@@ -1,0 +1,544 @@
+
+// ----------------------------------- 
+// --------------- ICM ---------------
+// ----------------------------------- 
+ 
+-1 * 0  04 00 7F 01 37 "ICM 'Koploper' (Electric) - DJ" 00
+ 1551 * 60	 00 00 18 01 37 00 1F 54 03 19 04 32 06 0F 05 00 08 01 09 A0 00 0B \w1689 0D 26 0E 3C 4C 00 00 13
+	 00 14 3E 15 00 16 \b144 24 00 17 1C 19 30 1B \w0 1C 00 1D 00 00 00 00 21 00 28 01 00   12 FD   1E 3F
+
+-1 * 0  01 00 \b32  08
+// Engine - ICM - Normal - Panto A0 1
+ 1553 sprites/dutchtrainsw.pcx 562 1896 01 22 8 -3 -11
+ 1554 sprites/dutchtrainsw.pcx 578 1896 01 16 22 -11 -9
+ 1555 sprites/dutchtrainsw.pcx 610 1896 01 14 32 -16 -9
+ 1556 sprites/dutchtrainsw.pcx 658 1896 01 16 20 -10 -11
+ 1557 sprites/dutchtrainsw.pcx 690 1896 01 23 8 -3 -11
+ 1558 sprites/dutchtrainsw.pcx 706 1896 01 16 20 -9 -10
+ 1559 sprites/dutchtrainsw.pcx 738 1896 01 14 32 -16 -9
+ 1560 sprites/dutchtrainsw.pcx 2 1944 01 16 22 -10 -10
+// Engine - ICM - Normal - Unpanto A1 2
+ 1573 sprites/dutchtrainsw.pcx 354 1944 01 23 8 -3 -11
+ 1574 sprites/dutchtrainsw.pcx 370 1944 01 15 20 -9 -9
+ 1575 sprites/dutchtrainsw.pcx 402 1944 01 14 32 -16 -9
+ 1576 sprites/dutchtrainsw.pcx 450 1944 01 16 22 -10 -10
+ 1577 sprites/dutchtrainsw.pcx 482 1944 01 22 8 -3 -11
+ 1578 sprites/dutchtrainsw.pcx 498 1944 01 16 22 -11 -9
+ 1579 sprites/dutchtrainsw.pcx 530 1944 01 14 32 -16 -9
+ 1580 sprites/dutchtrainsw.pcx 578 1944 01 15 20 -10 -10
+// Engine - ICM - Normal - Panto - Reverse - A2 3
+ 1557 sprites/mus/icmreverse.pcx 89 0 01 23 8 -3 -11
+ 1558 sprites/mus/icmreverse.pcx 98 0 01 16 20 -9 -10
+ 1559 sprites/mus/icmreverse.pcx 121 0 01 14 32 -16 -9
+ 1560 sprites/mus/icmreverse.pcx 154 0 01 16 22 -10 -10
+ 1553 sprites/mus/icmreverse.pcx 1 0 01 22 8 -3 -11
+ 1554 sprites/mus/icmreverse.pcx 10 0 01 16 22 -11 -9
+ 1555 sprites/mus/icmreverse.pcx 33 0 01 14 32 -16 -9
+ 1556 sprites/mus/icmreverse.pcx 66 0 01 16 20 -10 -11
+
+// Engine - ICM - Normal - Unpanto - Reverse A3 4
+ 1577 sprites/mus/icmreverse.pcx 89 32 01 22 8 -3 -11
+ 1578 sprites/mus/icmreverse.pcx 98 32 01 16 22 -11 -9
+ 1579 sprites/mus/icmreverse.pcx 121 32 01 14 32 -16 -9
+ 1580 sprites/mus/icmreverse.pcx 154 32 01 15 20 -10 -10
+ 1573 sprites/mus/icmreverse.pcx 1 32 01 23 8 -3 -11
+ 1574 sprites/mus/icmreverse.pcx 10 32 01 15 20 -9 -9
+ 1575 sprites/mus/icmreverse.pcx 33 32 01 14 32 -16 -9
+ 1576 sprites/mus/icmreverse.pcx 66 32 01 16 22 -10 -10
+
+// Wagon - Normal A8 5
+ 1563 sprites/dutchtrainsw.pcx 66 1944 01 22 8 -3 -11
+ 1564 sprites/dutchtrainsw.pcx 82 1944 01 16 22 -11 -9
+ 1565 sprites/dutchtrainsw.pcx 114 1944 01 12 32 -16 -7
+ 1566 sprites/dutchtrainsw.pcx 162 1944 01 16 22 -10 -10
+ 1567 sprites/dutchtrainsw.pcx 194 1944 01 22 8 -3 -11
+ 1568 sprites/dutchtrainsw.pcx 210 1944 01 16 22 -11 -9
+ 1569 sprites/dutchtrainsw.pcx 242 1944 01 12 32 -16 -7
+ 1570 sprites/dutchtrainsw.pcx 290 1944 01 16 22 -10 -10
+// Engine - ICM - Open - Panto AA 6
+ 1583 sprites/dutchtrainsw.pcx 642 1944 01 22 8 -3 -11
+ 1584 sprites/dutchtrainsw.pcx 658 1944 01 16 22 -11 -9
+ 1585 sprites/dutchtrainsw.pcx 690 1944 01 14 32 -16 -9
+ 1586 sprites/dutchtrainsw.pcx 738 1944 01 16 20 -10 -11
+ 1587 sprites/dutchtrainsw.pcx 770 1944 01 23 8 -3 -11
+ 1588 sprites/dutchtrainsw.pcx 2 1992 01 16 20 -9 -10
+ 1589 sprites/dutchtrainsw.pcx 34 1992 01 14 32 -16 -9
+ 1590 sprites/dutchtrainsw.pcx 82 1992 01 16 22 -10 -10
+// Engine - ICM - Open - Unpanto AB 7
+ 1593 sprites/dutchtrainsw.pcx 146 1992 01 23 8 -3 -11
+ 1594 sprites/dutchtrainsw.pcx 162 1992 01 15 20 -9 -9
+ 1595 sprites/dutchtrainsw.pcx 194 1992 01 14 32 -16 -9
+ 1596 sprites/dutchtrainsw.pcx 242 1992 01 16 22 -10 -10
+ 1597 sprites/dutchtrainsw.pcx 274 1992 01 22 8 -3 -11
+ 1598 sprites/dutchtrainsw.pcx 290 1992 01 16 22 -11 -9
+ 1599 sprites/dutchtrainsw.pcx 322 1992 01 14 32 -16 -9
+ 1600 sprites/dutchtrainsw.pcx 370 1992 01 15 20 -10 -10
+
+// W H I T E
+// Engine  - normal Panto - B0 8
+ 1603 sprites/dutchtrainsw.pcx 434 1992 01 22 8 -3 -11
+ 1604 sprites/dutchtrainsw.pcx 450 1992 01 16 22 -11 -9
+ 1605 sprites/dutchtrainsw.pcx 482 1992 01 14 32 -16 -9
+ 1606 sprites/dutchtrainsw.pcx 530 1992 01 16 20 -10 -11
+ 1607 sprites/dutchtrainsw.pcx 562 1992 01 23 8 -3 -11
+ 1608 sprites/dutchtrainsw.pcx 578 1992 01 16 20 -9 -10
+ 1609 sprites/dutchtrainsw.pcx 610 1992 01 14 32 -16 -9
+ 1610 sprites/dutchtrainsw.pcx 658 1992 01 16 22 -10 -10
+// Engine  - Normal - Unpanto B1 9
+ 1623 sprites/dutchtrainsw.pcx 242 2040 01 23 8 -3 -11
+ 1624 sprites/dutchtrainsw.pcx 258 2040 01 15 20 -9 -9
+ 1625 sprites/dutchtrainsw.pcx 290 2040 01 14 32 -16 -9
+ 1626 sprites/dutchtrainsw.pcx 338 2040 01 16 22 -10 -10
+ 1627 sprites/dutchtrainsw.pcx 370 2040 01 22 8 -3 -11
+ 1628 sprites/dutchtrainsw.pcx 386 2040 01 16 22 -11 -9
+ 1629 sprites/dutchtrainsw.pcx 418 2040 01 14 32 -16 -9
+ 1630 sprites/dutchtrainsw.pcx 466 2040 01 15 20 -10 -10
+// Engine - Normal - Panto - Reverse - B2 10
+ 1557 sprites/mus/icmreverse.pcx 89 64 01 23 8 -3 -11
+ 1558 sprites/mus/icmreverse.pcx 98 64 01 16 20 -9 -10
+ 1559 sprites/mus/icmreverse.pcx 121 64 01 14 32 -16 -9
+ 1560 sprites/mus/icmreverse.pcx 154 64 01 16 22 -10 -10
+ 1553 sprites/mus/icmreverse.pcx 1 64 01 22 8 -3 -11
+ 1554 sprites/mus/icmreverse.pcx 10 64 01 16 22 -11 -9
+ 1555 sprites/mus/icmreverse.pcx 33 64 01 14 32 -16 -9
+ 1556 sprites/mus/icmreverse.pcx 66 64 01 16 20 -10 -11
+
+// Engine -  Normal - Unpanto - Reverse B3 11
+ 1577 sprites/mus/icmreverse.pcx 89 96 01 22 8 -3 -11
+ 1578 sprites/mus/icmreverse.pcx 98 96 01 16 22 -11 -9
+ 1579 sprites/mus/icmreverse.pcx 121 96 01 14 32 -16 -9
+ 1580 sprites/mus/icmreverse.pcx 154 96 01 15 20 -10 -10
+ 1573 sprites/mus/icmreverse.pcx 1 96 01 23 8 -3 -11
+ 1574 sprites/mus/icmreverse.pcx 10 96 01 15 20 -9 -9
+ 1575 sprites/mus/icmreverse.pcx 33 96 01 14 32 -16 -9
+ 1576 sprites/mus/icmreverse.pcx 66 96 01 16 22 -10 -10
+
+ 
+// Wagon  - B8 12
+ 1613 sprites/dutchtrainsw.pcx 722 1992 01 22 8 -3 -11
+ 1614 sprites/dutchtrainsw.pcx 738 1992 01 16 22 -11 -9
+ 1615 sprites/dutchtrainsw.pcx 2 2040 01 12 32 -16 -7
+ 1616 sprites/dutchtrainsw.pcx 50 2040 01 16 22 -10 -10
+ 1617 sprites/dutchtrainsw.pcx 82 2040 01 22 8 -3 -11
+ 1618 sprites/dutchtrainsw.pcx 98 2040 01 16 22 -11 -9
+ 1619 sprites/dutchtrainsw.pcx 130 2040 01 12 32 -16 -7
+ 1620 sprites/dutchtrainsw.pcx 178 2040 01 16 22 -10 -10
+
+// Engine  - Open - Panto - BA 13
+ 1633 sprites/dutchtrainsw.pcx 530 2040 01 22 8 -3 -11
+ 1634 sprites/dutchtrainsw.pcx 546 2040 01 16 22 -11 -9
+ 1635 sprites/dutchtrainsw.pcx 578 2040 01 14 32 -16 -9
+ 1636 sprites/dutchtrainsw.pcx 626 2040 01 16 20 -10 -11
+ 1637 sprites/dutchtrainsw.pcx 658 2040 01 23 8 -3 -11
+ 1638 sprites/dutchtrainsw.pcx 674 2040 01 16 20 -9 -10
+ 1639 sprites/dutchtrainsw.pcx 706 2040 01 14 32 -16 -9
+ 1640 sprites/dutchtrainsw.pcx 754 2040 01 16 22 -10 -10
+// Engine  - Open - UnPanto - BB 14
+ 1643 sprites/dutchtrainsw.pcx 18 2088 01 23 8 -3 -11
+ 1644 sprites/dutchtrainsw.pcx 34 2088 01 15 20 -9 -9
+ 1645 sprites/dutchtrainsw.pcx 66 2088 01 14 32 -16 -9
+ 1646 sprites/dutchtrainsw.pcx 114 2088 01 16 22 -10 -10
+ 1647 sprites/dutchtrainsw.pcx 146 2088 01 22 8 -3 -11
+ 1648 sprites/dutchtrainsw.pcx 162 2088 01 16 22 -11 -9
+ 1649 sprites/dutchtrainsw.pcx 194 2088 01 14 32 -16 -9
+ 1650 sprites/dutchtrainsw.pcx 242 2088 01 15 20 -10 -10
+
+
+// O L Y M P I C
+// Engine - Normal Panto - C0 14
+ 1653 sprites/dutchtrainsw.pcx 306 2088 01 22 8 -3 -11
+ 1654 sprites/dutchtrainsw.pcx 322 2088 01 16 22 -11 -9
+ 1655 sprites/dutchtrainsw.pcx 354 2088 01 14 32 -16 -9
+ 1656 sprites/dutchtrainsw.pcx 402 2088 01 16 20 -10 -11
+ 1657 sprites/dutchtrainsw.pcx 434 2088 01 23 8 -3 -11
+ 1658 sprites/dutchtrainsw.pcx 450 2088 01 16 20 -9 -10
+ 1659 sprites/dutchtrainsw.pcx 482 2088 01 14 32 -16 -9
+ 1660 sprites/dutchtrainsw.pcx 530 2088 01 16 22 -10 -10
+// Engine - Normal UnPanto - C1 15
+ 1673 sprites/dutchtrainsw.pcx 114 2136 01 23 8 -3 -11
+ 1674 sprites/dutchtrainsw.pcx 130 2136 01 15 20 -9 -9
+ 1675 sprites/dutchtrainsw.pcx 162 2136 01 14 32 -16 -9
+ 1676 sprites/dutchtrainsw.pcx 210 2136 01 16 22 -10 -10
+ 1677 sprites/dutchtrainsw.pcx 242 2136 01 22 8 -3 -11
+ 1678 sprites/dutchtrainsw.pcx 258 2136 01 16 22 -11 -9
+ 1679 sprites/dutchtrainsw.pcx 290 2136 01 14 32 -16 -9
+ 1680 sprites/dutchtrainsw.pcx 338 2136 01 15 20 -10 -10
+// Engine - Normal - Panto - Reverse - C2 16
+ 1557 sprites/mus/icmreverse.pcx 89 128 01 23 8 -3 -11
+ 1558 sprites/mus/icmreverse.pcx 98 128 01 16 20 -9 -10
+ 1559 sprites/mus/icmreverse.pcx 121 128 01 14 32 -16 -9
+ 1560 sprites/mus/icmreverse.pcx 154 128 01 16 22 -10 -10
+ 1553 sprites/mus/icmreverse.pcx 1 128 01 22 8 -3 -11
+ 1554 sprites/mus/icmreverse.pcx 10 128 01 16 22 -11 -9
+ 1555 sprites/mus/icmreverse.pcx 33 128 01 14 32 -16 -9
+ 1556 sprites/mus/icmreverse.pcx 66 128 01 16 20 -10 -11
+// Engine -  Normal - Unpanto - Reverse C3 17
+ 1577 sprites/mus/icmreverse.pcx 89 160 01 22 8 -3 -11
+ 1578 sprites/mus/icmreverse.pcx 98 160 01 16 22 -11 -9
+ 1579 sprites/mus/icmreverse.pcx 121 160 01 14 32 -16 -9
+ 1580 sprites/mus/icmreverse.pcx 154 160 01 15 20 -10 -10
+ 1573 sprites/mus/icmreverse.pcx 1 160 01 23 8 -3 -11
+ 1574 sprites/mus/icmreverse.pcx 10 160 01 15 20 -9 -9
+ 1575 sprites/mus/icmreverse.pcx 33 160 01 14 32 -16 -9
+ 1576 sprites/mus/icmreverse.pcx 66 160 01 16 22 -10 -10
+
+// Wagon - C8 18
+ 1663 sprites/dutchtrainsw.pcx 594 2088 01 22 8 -3 -11
+ 1664 sprites/dutchtrainsw.pcx 610 2088 01 16 22 -11 -9
+ 1665 sprites/dutchtrainsw.pcx 642 2088 01 12 32 -16 -7
+ 1666 sprites/dutchtrainsw.pcx 690 2088 01 16 22 -10 -10
+ 1667 sprites/dutchtrainsw.pcx 722 2088 01 22 8 -3 -11
+ 1668 sprites/dutchtrainsw.pcx 738 2088 01 16 22 -11 -9
+ 1669 sprites/dutchtrainsw.pcx 2 2136 01 12 32 -16 -7
+ 1670 sprites/dutchtrainsw.pcx 50 2136 01 16 22 -10 -10
+
+// Engine - Open - Panto - CC - REV 19
+ 1683 sprites/dutchtrainsw.pcx 402 2136 01 22 8 -3 -11
+ 1684 sprites/dutchtrainsw.pcx 418 2136 01 16 22 -11 -9
+ 1685 sprites/dutchtrainsw.pcx 450 2136 01 14 32 -16 -9
+ 1686 sprites/dutchtrainsw.pcx 498 2136 01 16 20 -10 -11
+ 1687 sprites/dutchtrainsw.pcx 530 2136 01 23 8 -3 -11
+ 1688 sprites/dutchtrainsw.pcx 546 2136 01 16 20 -9 -10
+ 1689 sprites/dutchtrainsw.pcx 578 2136 01 14 32 -16 -9
+ 1690 sprites/dutchtrainsw.pcx 626 2136 01 16 22 -10 -10
+// Engine - Open - Unpanto - CD - REV 20
+ 1693 sprites/dutchtrainsw.pcx 690 2136 01 23 8 -3 -11
+ 1694 sprites/dutchtrainsw.pcx 706 2136 01 15 20 -9 -9
+ 1695 sprites/dutchtrainsw.pcx 738 2136 01 14 32 -16 -9
+ 1696 sprites/dutchtrainsw.pcx 2 2184 01 16 22 -10 -10
+ 1697 sprites/dutchtrainsw.pcx 34 2184 01 22 8 -3 -11
+ 1698 sprites/dutchtrainsw.pcx 50 2184 01 16 22 -11 -9
+ 1699 sprites/dutchtrainsw.pcx 82 2184 01 14 32 -16 -9
+ 1700 sprites/dutchtrainsw.pcx 130 2184 01 15 20 -10 -10
+
+// I C M m
+// Engine - None-close - panto D0 22
+ 1706 sprites/dutchtrainsw.pcx 290 2184 01 22 8 -3 -11
+ 1707 sprites/dutchtrainsw.pcx 306 2184 01 16 22 -11 -9
+ 1708 sprites/dutchtrainsw.pcx 338 2184 01 14 32 -16 -9
+ 1709 sprites/dutchtrainsw.pcx 386 2184 01 16 20 -10 -11
+ 1710 sprites/dutchtrainsw.pcx 418 2184 01 23 8 -3 -11
+ 1711 sprites/dutchtrainsw.pcx 434 2184 01 16 20 -9 -10
+ 1712 sprites/dutchtrainsw.pcx 466 2184 01 14 32 -16 -9
+ 1713 sprites/dutchtrainsw.pcx 514 2184 01 16 22 -10 -10
+// Engine - None-close - unpanto D1 23
+ 1726 sprites/dutchtrainsw.pcx 66 2232 01 23 8 -3 -11
+ 1727 sprites/dutchtrainsw.pcx 82 2232 01 15 20 -9 -9
+ 1728 sprites/dutchtrainsw.pcx 114 2232 01 14 32 -16 -9
+ 1729 sprites/dutchtrainsw.pcx 162 2232 01 16 22 -10 -10
+ 1730 sprites/dutchtrainsw.pcx 194 2232 01 22 8 -3 -11
+ 1731 sprites/dutchtrainsw.pcx 210 2232 01 16 22 -11 -9
+ 1732 sprites/dutchtrainsw.pcx 242 2232 01 14 32 -16 -9
+ 1733 sprites/dutchtrainsw.pcx 290 2232 01 15 20 -10 -10
+// Engine - Noneclose - Panto - Reverse - D2 24
+ 1557 sprites/mus/icmreverse.pcx 89 192 01 23 8 -3 -11
+ 1558 sprites/mus/icmreverse.pcx 98 192 01 16 20 -9 -10
+ 1559 sprites/mus/icmreverse.pcx 121 192 01 14 32 -16 -9
+ 1560 sprites/mus/icmreverse.pcx 154 192 01 16 22 -10 -10
+ 1553 sprites/mus/icmreverse.pcx 1 192 01 22 8 -3 -11
+ 1554 sprites/mus/icmreverse.pcx 10 192 01 16 22 -11 -9
+ 1555 sprites/mus/icmreverse.pcx 33 192 01 14 32 -16 -9
+ 1556 sprites/mus/icmreverse.pcx 66 192 01 16 20 -10 -11
+
+// Engine -  Noneclose - Unpanto - Reverse D3 25
+ 1577 sprites/mus/icmreverse.pcx 89 224 01 22 8 -3 -11
+ 1578 sprites/mus/icmreverse.pcx 98 224 01 16 22 -11 -9
+ 1579 sprites/mus/icmreverse.pcx 121 224 01 14 32 -16 -9
+ 1580 sprites/mus/icmreverse.pcx 154 224 01 15 20 -10 -10
+ 1573 sprites/mus/icmreverse.pcx 1 224 01 23 8 -3 -11
+ 1574 sprites/mus/icmreverse.pcx 10 224 01 15 20 -9 -9
+ 1575 sprites/mus/icmreverse.pcx 33 224 01 14 32 -16 -9
+ 1576 sprites/mus/icmreverse.pcx 66 224 01 16 22 -10 -10
+
+
+// Reverse open sprites
+// ICM
+// Engine - ICM - Open - Panto AA - rev 25
+ 1587 sprites/dutchtrainsw.pcx 770 1944 01 23 8 -3 -11
+ 1588 sprites/dutchtrainsw.pcx 2 1992 01 16 20 -9 -10
+ 1589 sprites/dutchtrainsw.pcx 34 1992 01 14 32 -16 -9
+ 1590 sprites/dutchtrainsw.pcx 82 1992 01 16 22 -10 -10
+ 1583 sprites/dutchtrainsw.pcx 642 1944 01 22 8 -3 -11
+ 1584 sprites/dutchtrainsw.pcx 658 1944 01 16 22 -11 -9
+ 1585 sprites/dutchtrainsw.pcx 690 1944 01 14 32 -16 -9
+ 1586 sprites/dutchtrainsw.pcx 738 1944 01 16 20 -10 -11
+// Engine - ICM - Open - Unpanto AB - rev 26
+ 1597 sprites/dutchtrainsw.pcx 274 1992 01 22 8 -3 -11
+ 1598 sprites/dutchtrainsw.pcx 290 1992 01 16 22 -11 -9
+ 1599 sprites/dutchtrainsw.pcx 322 1992 01 14 32 -16 -9
+ 1600 sprites/dutchtrainsw.pcx 370 1992 01 15 20 -10 -10
+ 1593 sprites/dutchtrainsw.pcx 146 1992 01 23 8 -3 -11
+ 1594 sprites/dutchtrainsw.pcx 162 1992 01 15 20 -9 -9
+ 1595 sprites/dutchtrainsw.pcx 194 1992 01 14 32 -16 -9
+ 1596 sprites/dutchtrainsw.pcx 242 1992 01 16 22 -10 -10
+
+// White
+// Engine  - Open - Panto - BA 27
+ 1637 sprites/dutchtrainsw.pcx 658 2040 01 23 8 -3 -11
+ 1638 sprites/dutchtrainsw.pcx 674 2040 01 16 20 -9 -10
+ 1639 sprites/dutchtrainsw.pcx 706 2040 01 14 32 -16 -9
+ 1640 sprites/dutchtrainsw.pcx 754 2040 01 16 22 -10 -10
+ 1633 sprites/dutchtrainsw.pcx 530 2040 01 22 8 -3 -11
+ 1634 sprites/dutchtrainsw.pcx 546 2040 01 16 22 -11 -9
+ 1635 sprites/dutchtrainsw.pcx 578 2040 01 14 32 -16 -9
+ 1636 sprites/dutchtrainsw.pcx 626 2040 01 16 20 -10 -11
+// Engine  - Open - UnPanto - BB 28
+ 1647 sprites/dutchtrainsw.pcx 146 2088 01 22 8 -3 -11
+ 1648 sprites/dutchtrainsw.pcx 162 2088 01 16 22 -11 -9
+ 1649 sprites/dutchtrainsw.pcx 194 2088 01 14 32 -16 -9
+ 1650 sprites/dutchtrainsw.pcx 242 2088 01 15 20 -10 -10
+ 1643 sprites/dutchtrainsw.pcx 18 2088 01 23 8 -3 -11
+ 1644 sprites/dutchtrainsw.pcx 34 2088 01 15 20 -9 -9
+ 1645 sprites/dutchtrainsw.pcx 66 2088 01 14 32 -16 -9
+ 1646 sprites/dutchtrainsw.pcx 114 2088 01 16 22 -10 -10
+
+// OLYMPIC
+// Engine - Open - Panto - CA 29
+ 1687 sprites/dutchtrainsw.pcx 530 2136 01 23 8 -3 -11
+ 1688 sprites/dutchtrainsw.pcx 546 2136 01 16 20 -10 -10
+ 1689 sprites/dutchtrainsw.pcx 578 2136 01 14 32 -16 -9
+ 1690 sprites/dutchtrainsw.pcx 626 2136 01 16 22 -10 -10
+ 1683 sprites/dutchtrainsw.pcx 402 2136 01 22 8 -3 -11
+ 1684 sprites/dutchtrainsw.pcx 418 2136 01 16 22 -11 -9
+ 1685 sprites/dutchtrainsw.pcx 450 2136 01 14 32 -16 -9
+ 1686 sprites/dutchtrainsw.pcx 498 2136 01 16 20 -8 -10
+
+// Engine - Open - Unpanto - CB 30
+ 1697 sprites/dutchtrainsw.pcx 34 2184 01 22 8 -3 -11
+ 1698 sprites/dutchtrainsw.pcx 50 2184 01 16 22 -11 -9
+ 1699 sprites/dutchtrainsw.pcx 82 2184 01 14 32 -16 -9
+ 1700 sprites/dutchtrainsw.pcx 130 2184 01 15 20 -10 -10
+ 1693 sprites/dutchtrainsw.pcx 690 2136 01 23 8 -3 -11
+ 1694 sprites/dutchtrainsw.pcx 706 2136 01 15 20 -9 -9
+ 1695 sprites/dutchtrainsw.pcx 738 2136 01 14 32 -16 -9
+ 1696 sprites/dutchtrainsw.pcx 2 2184 01 16 22 -10 -10
+
+
+
+// Updated "more fresh" wagon 31
+ 1716 sprites/dutchtrainsw.pcx 578 2184 01 22 8 -3 -11
+ 1717 sprites/dutchtrainsw.pcx 594 2184 01 16 22 -11 -9
+ 1718 sprites/dutchtrainsw.pcx 626 2184 01 12 32 -16 -7
+ 1719 sprites/dutchtrainsw.pcx 674 2184 01 16 22 -10 -10
+ 1720 sprites/dutchtrainsw.pcx 706 2184 01 22 8 -3 -11
+ 1721 sprites/dutchtrainsw.pcx 722 2184 01 16 22 -11 -9
+ 1722 sprites/dutchtrainsw.pcx 754 2184 01 12 32 -16 -7
+ 1723 sprites/dutchtrainsw.pcx 2 2232 01 16 22 -10 -10
+
+// ICM-0
+ -1 * 0  02 00 A0 01 01 00 00 00 00 // A0 - Engine panto
+ -1 * 0  02 00 A1 01 01 01 00 01 00 // A1 - Engine unPanto
+ -1 * 0  02 00 A2 01 01 02 00 02 00 // A2 - Engine panto rev
+ -1 * 0  02 00 A3 01 01 03 00 03 00 // A3 - Egnine
+ -1 * 0  02 00 A8 01 01 04 00 04 00 // A8 - Normal Wagon
+ -1 * 0  02 00 AA 01 01 05 00 05 00 // AA - Engine open panto
+ -1 * 0  02 00 AB 01 01 06 00 06 00 // AB - engine open unpanto
+ -1 * 0  02 00 AC 01 01 19 00 19 00 // AC - Engine - open - panto - rev
+ -1 * 0  02 00 AD 01 01 1A 00 1A 00 // AD - Engine - open - unpanto - rev   
+ 
+// White 
+ -1 * 0  02 00 B0 01 01 07 00 07 00 // B0 - Engine panto
+ -1 * 0  02 00 B1 01 01 08 00 08 00 // B1 - Engine unpanto
+ -1 * 0  02 00 B2 01 01 09 00 09 00 // B2 - Engine panto rev
+ -1 * 0  02 00 B3 01 01 0a 00 0a 00 // B3 - Engine unpanto rev
+ -1 * 0  02 00 B8 01 01 0b 00 0b 00 // B8 - Wagon
+ -1 * 0  02 00 BA 01 01 0c 00 0c 00 // BA - Engine open panto
+ -1 * 0  02 00 BB 01 01 0d 00 0d 00 // BB - Engine open unpanto
+ -1 * 0  02 00 BC 01 01 1b 00 1b 00 // BC - Engine open panto - rev
+ -1 * 0  02 00 BD 01 01 1c 00 1c 00 // BD - Engine open unpanto - rev
+
+// Olympic
+ -1 * 0  02 00 C0 01 01 0E 00 0E 00 // C0 - Engine panto 13
+ -1 * 0  02 00 C1 01 01 0F 00 0F 00 // C1 - Engine UNpanto 14 
+ -1 * 0  02 00 C2 01 01 10 00 10 00 // C2 - Engine panto rev 15
+ -1 * 0  02 00 C3 01 01 11 00 11 00 // C3 - Engine UNpanto rev 16
+ -1 * 0  02 00 C8 01 01 12 00 12 00 // C8 - Wagon 17
+ -1 * 0  02 00 CA 01 01 13 00 13 00 // CA - Engine open panto 18
+ -1 * 0  02 00 CB 01 01 14 00 14 00 // CB - Engine open UNpanto 19
+ -1 * 0  02 00 CC 01 01 \b28 00 \b28 00 // CC - Engine open panto 28
+ -1 * 0  02 00 CD 01 01 \b29 00 \b29 00 // CD - Engine open UNpanto 29
+ 
+// without openings
+ -1 * 0  02 00 D0 01 01 15 00 15 00 // D0 - Engine panto
+ -1 * 0  02 00 D1 01 01 16 00 16 00 // D1 - Engine unpanto
+ -1 * 0  02 00 D3 01 01 17 00 17 00 // D2 - Engine panto rev
+ -1 * 0  02 00 D2 01 01 18 00 18 00 // D3 - Engine unpanto rev
+ -1 * 0  02 00 D8 01 01 \b31 00 \b31 00 // D8 - Normal Wagon
+
+// P-LIST
+-1 * 0  01 00 \b1  01
+sprites/mus/icmreverse.pcx 1 272 01 12 50 -25 -8 
+-1 * 0  02 00 50 01 01 00 00 00 00
+
+// 1977 - 1989
+// ---------------------
+// ----- 3part ICM -----
+// ---------------------
+// What where
+// Modulo 0-1-2 - Forward
+-1 * 0	02 00 A9 81 41 80 FF 00 03 02   AA 00 00 00   A8 00 01 01   AB 00 // Forward
+-1 * 0  02 00 A9 81 41 00 FF 01         A0 00 00 00   A9 00               // If first, use correct sprite
+-1 * 0  02 00 AE 81 41 08 FF 01         A1 00 00 00   A9 00               // If last, use correct sprite
+
+// Modulo 0-1-2 - Backwards
+-1 * 0	02 00 A9 81 41 80 FF 00 03 02   AD 00 00 00   A8 00 01 01   AC 00 // Forward
+-1 * 0  02 00 A5 81 41 00 FF 01         A3 00 00 00   A9 00               // If first, use correct sprite
+-1 * 0  02 00 AF 81 41 08 FF 01         A2 00 00 00   A5 00               // If last, use correct sprite
+// Flip
+-1 * 0  02 00 A7 82 FF 00 01 01 	AE 00 00 00 	AF 00
+
+// Moderized one
+// Modulo 0-1-2 - Forward
+-1 * 0	02 00 D9 81 41 80 FF 00 03 02   D0 00 00 00   D8 00 01 01   D1 00 // Forward
+// Modulo 0-1-2 - Backwards
+-1 * 0	02 00 DA 81 41 80 FF 00 03 02   D2 00 00 00   D8 00 01 01   D3 00 // Forward
+// Flip
+-1 * 0  02 00 D6 81 FF 00 01 01 	D9 00 00 00 	DA 00
+
+
+// Working code for years 
+//-1 * 0  02 00 75 85 C0 00 FF FF 01   A7 00 \w0 \w100   D6 00
+// Use this or that graphics for this or that age
+-1 * 0  02 00	75	86 C0 00 FF FF 01   A7 00	\w0	\w11315	D6 00
+-1 * 0  02 00	76	86 C0 00 FF FF 01   A7 00	\w0	\w10950	D6 00
+-1 * 0  02 00	77	86 C0 00 FF FF 01   A7 00	\w0	\w10585	D6 00
+-1 * 0  02 00	78	86 C0 00 FF FF 01   A7 00	\w0	\w10220	D6 00
+-1 * 0  02 00	79	86 C0 00 FF FF 01   A7 00	\w0	\w9855	D6 00
+-1 * 0  02 00	80	86 C0 00 FF FF 01   A7 00	\w0	\w9855	D6 00
+-1 * 0  02 00	81	86 C0 00 FF FF 01   A7 00	\w0	\w9490	D6 00
+-1 * 0  02 00	82	86 C0 00 FF FF 01   A7 00	\w0	\w9125	D6 00
+-1 * 0  02 00	83	86 C0 00 FF FF 01   A7 00	\w0	\w8760	D6 00
+-1 * 0  02 00	84	86 C0 00 FF FF 01   A7 00	\w0	\w8395	D6 00
+-1 * 0  02 00	85	86 C0 00 FF FF 01   A7 00	\w0	\w8395	D6 00
+-1 * 0  02 00	86	86 C0 00 FF FF 01   A7 00	\w0	\w8030	D6 00
+-1 * 0  02 00	87	86 C0 00 FF FF 01   A7 00	\w0	\w7665	D6 00
+-1 * 0  02 00	88	86 C0 00 FF FF 01   A7 00	\w0	\w7300	D6 00
+-1 * 0  02 00	89	86 C0 00 FF FF 01   A7 00	\w0	\w6935	D6 00
+
+// Change for year built
+-1 * 0  02 00 A7  82 C4 00 FF \b15    75 00 \b01 \b55   76 00 \b56 \b56   77 00 \b57 \b57   78 00 \b58 \b58   79 00 \b59 \b59
+                                      80 00 \b60 \b60   81 00 \b61 \b61   82 00 \b62 \b62   83 00 \b63 \b63   84 00 \b64 \b64
+                                      85 00 \b65 \b65   86 00 \b66 \b66   87 00 \b67 \b67   88 00 \b68 \b68   89 00 \b69 \b69
+                                      D6 00
+
+// IF length=1, USE P-LIST, IF NOT, USE ^^
+-1 * 0  02 00 A7 81 41 10 FF 01   50 00 00 01   A7 00
+// Max 5 in series
+-1 * 0  02 00 FA 81 10 00 FF 01   E1 80 00 FE   FE 80
+-1 * 0  02 00 FC 81 0C 00 FF 01   FA 00 1D 1D   A7 00
+-1 * 0  02 00 A7 82 41 10 FF 01   A7 00 00 \b14   FC 00
+
+ 
+// -----------------------
+// ----- 1990 - 2005 -----
+// -----------------------
+
+// 4part ICM
+// Modulo 0-1-2 - Forward
+-1 * 0	02 00 A9 81 41 80 FF 00 04 02   AA 00 00 00   A8 00 01 02   AB 00 // Forward
+-1 * 0  02 00 A9 81 41 00 FF 01         A0 00 00 00   A9 00               // If first, use correct sprite
+-1 * 0  02 00 AE 81 41 08 FF 01         A1 00 00 00   A9 00               // If last, use correct sprite
+
+// Modulo 0-1-2 - Backwards
+-1 * 0	02 00 A9 81 41 80 FF 00 04 02   AD 00 00 00   A8 00 01 02   AC 00 // Forward
+-1 * 0  02 00 AC 81 41 00 FF 01         A3 00 00 00   A9 00               // If first, use correct sprite
+-1 * 0  02 00 AF 81 41 08 FF 01         A2 00 00 00   AC 00               // If last, use correct sprite
+// Flip
+-1 * 0  02 00 AF 82 FF 00 01 01 	AE 00 00 00 	AF 00 // Flip
+
+// 4part white
+// What where
+// Modulo 0-1-2 - Forward
+-1 * 0	02 00 B9 81 41 80 FF 00 04 02   BA 00 00 00   B8 00 01 02   BB 00 // Forward
+-1 * 0  02 00 B9 81 41 00 FF 01         B0 00 00 00   B9 00               // If first, use correct sprite
+-1 * 0  02 00 BE 81 41 08 FF 01         B1 00 00 00   B9 00               // If last, use correct sprite
+
+// Modulo 0-1-2 - Backwards
+-1 * 0	02 00 B9 81 41 80 FF 00 04 02   BD 00 00 00   B8 00 01 02   BC 00 // Forward
+-1 * 0  02 00 BC 81 41 00 FF 01         B3 00 00 00   B9 00               // If first, use correct sprite
+-1 * 0  02 00 BF 81 41 08 FF 01         B2 00 00 00   BC 00               // If last, use correct sprite
+// Flip
+-1 * 0  02 00 BF 82 FF 00 01 01 	BE 00 00 00 	BF 00 // Flip
+
+// 4part OLYMPIC
+// What where
+// Modulo 0-1-2 - Forward
+-1 * 0	02 00 C9 81 41 80 FF 00 04 02   CA 00 00 00   C8 00 01 02   CB 00 // Forward
+-1 * 0  02 00 C9 81 41 00 FF 01         C0 00 00 00   C9 00               // If first, use correct sprite
+-1 * 0  02 00 CF 81 41 08 FF 01         C1 00 00 00   C9 00               // If last, use correct sprite
+
+// Modulo 0-1-2 - Backwards
+//-1 * 0	02 00 C9 81 41 80 FF 00 04 02   CD 00 00 00   C8 00 01 02   CC 00 // Forward
+//-1 * 0  02 00 CC 81 41 00 FF 01         C3 00 00 00   C9 00               // If first, use correct sprite
+//-1 * 0  02 00 CF 81 41 08 FF 01         C2 00 00 00   CC 00               // If last, use correct sprite
+// Flip - Known bug here!
+-1 * 0  02 00 CF 81 FF 00 01 01 	CF 00 00 00 	CF 00 // Flip
+
+
+
+// Livary Override
+-1 * 0  02 00 E0 81 F2 00 FF 03   F4 FF 00 00   F2 FF 01 01   F3 FF 02 02   FF FF // text
+-1 * 0  02 00 E1 81 F2 00 FF 03   AF 00 00 00   BF 00 01 01   CF 00 02 02   FF FF // Grapichs
+
+// CB's + Attach grapichs
+-1 * 0  02 00 EA 81 0C 00 FF 01   E0 00 19 19   E1 00  //    E2 00 16 16    
+
+// Moderized one
+// Modulo 0-1-2 - Forward
+-1 * 0	02 00 D9 81 41 80 FF 00 04 02   D0 00 00 00   D8 00 01 02   D1 00 // Forward
+// Modulo 0-1-2 - Backwards
+-1 * 0	02 00 DA 81 41 80 FF 00 04 02   D2 00 00 00   D8 00 01 02   D3 00 // Forward
+// Flip
+-1 * 0  02 00 D6 81 FF 00 01 01 	D9 00 00 00 	DA 00 
+
+// Upgrade according to age 
+-1 * 0  02 00	90	86 C0 00 FF FF 01   EA 00	\w0	\w6935	D6 00
+-1 * 0  02 00	91	86 C0 00 FF FF 01   EA 00	\w0	\w6570	D6 00
+-1 * 0  02 00	92	86 C0 00 FF FF 01   EA 00	\w0	\w6205	D6 00
+-1 * 0  02 00	93	86 C0 00 FF FF 01   EA 00	\w0	\w5840	D6 00
+-1 * 0  02 00	94	86 C0 00 FF FF 01   EA 00	\w0	\w5475	D6 00
+-1 * 0  02 00	95	86 C0 00 FF FF 01   EA 00	\w0	\w5475	D6 00
+-1 * 0  02 00	96	86 C0 00 FF FF 01   EA 00	\w0	\w5110	D6 00
+-1 * 0  02 00	97	86 C0 00 FF FF 01   EA 00	\w0	\w4745	D6 00
+-1 * 0  02 00	88	86 C0 00 FF FF 01   EA 00	\w0	\w4380	D6 00
+-1 * 0  02 00	89	86 C0 00 FF FF 01   EA 00	\w0	\w4015	D6 00
+-1 * 0  02 00	00	86 C0 00 FF FF 01   EA 00	\w0	\w4015	D6 00
+-1 * 0  02 00	01	86 C0 00 FF FF 01   EA 00	\w0	\w3650	D6 00
+-1 * 0  02 00	02	86 C0 00 FF FF 01   EA 00	\w0	\w3285	D6 00
+-1 * 0  02 00	03	86 C0 00 FF FF 01   EA 00	\w0	\w2920	D6 00
+-1 * 0  02 00	04	86 C0 00 FF FF 01   EA 00	\w0	\w2555	D6 00
+-1 * 0  02 00	05	86 C0 00 FF FF 01   EA 00	\w0	\w2190	D6 00
+-1 * 0  02 00 EA  81 C4 00 FF \b16     90 00 \b70 \b70   91 00 \b71 \b71   92 00 \b72 \b72   93 00 \b73 \b73   94 00 \b74 \b74   
+                                       95 00 \b75 \b75   96 00 \b76 \b76   97 00 \b77 \b77   88 00 \b78 \b78   89 00 \b79 \b79
+                                       00 00 \b80 \b80   01 00 \b81 \b81   02 00 \b82 \b82   03 00 \b83 \b83   04 00 \b84 \b84   
+                                       05 00 \b85 \b85   
+                                       D6 00 
+
+// IF length=1, USE P-LIST, IF NOT, USE ^^
+-1 * 0  02 00 EA 81 41 10 FF 01   50 00 00 01   EA 00
+ 
+// CB36 - more power +weight on 4parter
+-1 * 0  02 00 E3 81 10 00 FF 02   EE 89 0B 0B   \b192 80 16 16 A0 00
+-1 * 0  02 00 EA 81 0C 00 FF 01   E3 00 36 36   EA 00
+// Max 5 in series
+-1 * 0  02 00 CB 81 10 00 FF 01   E1 80 00 FE   FE 80
+-1 * 0  02 00 CC 81 0C 00 FF 01   CB 00 1D 1D   EA 00
+-1 * 0  02 00 EA 82 41 10 FF 01   EA 00 00 \b19   CC 00
+
+// Build a 3part
+-1 * 0  02 00 CA 81 10 00 FF 01   37 80 01 02   FF 80
+-1 * 0  02 00 CE 81 0C 00 FF 01   CA 00 16 16   A7 00
+// Build a 4part
+-1 * 0  02 00 CA 81 10 00 FF 01   37 80 01 03   FF 80
+-1 * 0  02 00 CF 81 0C 00 FF 01   CA 00 16 16   EA 00
+// Switch between ICM-3 and ICM-4
+-1 * 0  02 00 CF 81 C4 00 FF 01   CE 00 \b01 \b69   CF 00
+-1 * 0  02 00 CF 81 0C 00 FF 01   37 80 23 23   CF 00
+// ^^ U S E   CF 00 IN ACTION3
+
+
+-1 * 0  03 00 01  37  00 CF 00
+
+//-1 * 0  04 00 FF 01 \wxd0F2 " Mendini" 00
+//-1 * 0  04 00 FF 01 \wxd0F3 " Olympic" 00
+//-1 * 0  04 00 FF 01 \wxd0F4 " NS" 00
