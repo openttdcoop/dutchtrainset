@@ -3,10 +3,10 @@
 // ----------------------------------
  
 -1 * 0  04 00 7F 01 3B "IRM 'Regiorunner' (Electric) - DJ" 00
- 2135 * 60	 00 00 18 01 3B 00 82 69 03 19 04 32 06 0F 05 00 08 01 09 A0 00 0B 2F 0B 0D 3F 0E 3C 4C 00 00 13
-	 00 14 5B 15 00 16 3A 24 00 17 29 19 30 1C 00 1D 00 00 00 00 21 00 28 01 00   1B \w708   1E 3F   12 FD
+ 2135 * 60	 00 00 17 01 3B 00 82 69 03 19 04 32 06 0F 05 00 08 01 09 A0 00 0B 2F 0B 0D 3F 0E 3C 4C 00 00 13
+	 00    14 \b90    15 00 16 3A 24 00 17 29 19 30 1C 00 1D 00 00 00 00 21 04 28 01 00   1E 3F   12 FD
 
--1 * 0  01 00 07  08
+-1 * 0  01 00 08  08
 // One head - 00
  2137 sprites/dutchtrainsw.pcx 370 2696 01 24 8 -3 -12
  2138 sprites/dutchtrainsw.pcx 386 2696 01 17 22 -11 -10
@@ -70,119 +70,122 @@ sprites/dutchtrainsw.pcx 722 2744 01 1 1 -0 -0
 -1 * 0  0
 sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  0
+// Blank
+ 2137 sprites/dutchtrainsw.pcx 370 2696 01 1 1 1 1
+ 2137 sprites/dutchtrainsw.pcx 370 2696 01 1 1 1 1
+ 2137 sprites/dutchtrainsw.pcx 370 2696 01 1 1 1 1
+ 2137 sprites/dutchtrainsw.pcx 370 2696 01 1 1 1 1
+ 2137 sprites/dutchtrainsw.pcx 370 2696 01 1 1 1 1
+ 2137 sprites/dutchtrainsw.pcx 370 2696 01 1 1 1 1
+ 2137 sprites/dutchtrainsw.pcx 370 2696 01 1 1 1 1
+ 2137 sprites/dutchtrainsw.pcx 370 2696 01 1 1 1 1
 
 // Action 2:
--1 * 0  02 00 A0 01 01 00 00 00 00 // <-- Front
--1 * 0  02 00 A1 01 01 01 00 01 00 // <-- End
+-1 * 0  02 00 A0 01 01 00 00 00 00 // <-- Front Engine panto up
+-1 * 0  02 00 A1 01 01 01 00 01 00 // <-- End   Engine panto down
 -1 * 0  02 00 C0 01 01 02 00 02 00 // <-- Unpanto
 -1 * 0  02 00 C1 01 01 04 00 04 00 // <-- Unpanto rev
 -1 * 0  02 00 D0 01 01 03 00 03 00 // <-- Panto
 -1 * 0  02 00 D1 01 01 05 00 05 00 // <-- Panto rev
 -1 * 9	02 00 05 01 01 06 00 06 00 // <-- P-list 
+-1 * 0  02 00 B0 01 01 07 00 07 00 // <-- Blank
 
-
-
-// ---------------------------
-// ---------- P-LIST ---------
-// ---------------------------
-
-// IRM III
-// Articulated
--1 * 0  02 00 04 81 10 00 FF 01   3B 80 01 02   FF FF
--1 * 0  02 00 03 81 0C 00 FF 02   04 00 16 16   3B 80 23 23   05 00
-
-// vIRM IV
--1 * 0  02 00 02 81 10 00 FF 01   3B 80 01 03   FF FF
--1 * 0  02 00 01 81 0C 00 FF 02   02 00 16 16   8B 80 23 23   05 00
-
-// Change between years
--1 * 0  02 00 05 81 C4 00 FF 01   03 00 \b72 \b81   01 00  
-
-
-
-// ---------------------------
-// ---------- ENGINE ---------
-// ---------------------------
-
-// Max length 3x4
-//                                                                      vv fail, not enough heads
-1 * 1     02 00 1E 82 40 70 FF 01 01 \2/ 60 3B 00 FF 01   FF FF 00 03   E0 80 // disallow 1E ((length+1)/3) > (# of 3B)
-//                                                   vv fail, too many heads
-1 * 1     02 00 3B 82 60 3B 00 FF 01   FF FF 00 02   E1 80 // allow 3B if count < 6
-//                                                              vv fail, other wagon not allowed
-1 * 1     02 00 11 81 C6 00 FF 02   3B 00 3B 3B   1E 00 1E 1E   E2 80  // get vehicle ID
-
-
-// Max length 2x6
-//                                                                      vv fail, not enough heads
-1 * 1     02 00 1E 82 40 70 FF 01 01 \2/ 60 3B 00 FF 01   FF FF 00 05   E0 80 // disallow 1E ((length+1)/3) > (# of 3B)
-//                                                   vv fail, too many heads
-1 * 1     02 00 3B 82 60 3B 00 FF 01   FF FF 00 01   E1 80 // allow 3B if count < 6
-//                                                              vv fail, other wagon not allowed
-1 * 1     02 00 12 81 C6 00 FF 02   3B 00 3B 3B   1E 00 1E 1E   E2 80  // get vehicle ID
-
-
-// Build a 3part
--1 * 0  02 00 E0 81 41 00 FF 01   A0 00 00 00   C0 00                // Proper Grapics if first engine
--1 * 0  02 00 CA 81 10 00 FF 02   3B 80 00 00   1E 80 01 02   FF 80 // Articulaion, what ID where
--1 * 0  02 00 CE 81 0C 00 FF 02   11 00 1D 1D   CA 00 16 16   E0 00 // Callbacks
-// Build a 4part
--1 * 0  02 00 E6 81 41 00 FF 01   A0 00 00 00   C0 00               // Proper Grapics if first engine
--1 * 0  02 00 CA 81 10 00 FF 01   1E 80 01 03   FF 80               // Articulaion, what ID where
--1 * 0  02 00 CF 81 0C 00 FF 02   12 00 1D 1D   CA 00 16 16   E6 00 // Callbacks
-// Switch between IRM and VIRM - Engine, years from 1920 (Use CE from 1920+72 to 1920+81, use CF everywhere else, i.e. from 2001 onward)
--1 * 0  02 00 CF 81 C4 00 FF 01   CE 00 \b72 \b81   CF 00
+// CB36'em to be sure
+-1 * 0  02 00 19 81 10 00 FF 01   \b90 80 14 14   00 00
+-1 * 0  02 00 10 81 10 00 FF 01   \b00 80 14 14   00 00
+-1 * 0  02 00 A0 81 0C 00 FF 02     19 00 36 36   \b90 80 15 15   A0 00
+-1 * 0  02 00 A1 81 0C 00 FF 02     19 00 36 36   \b90 80 15 15   A1 00
+-1 * 0  02 00 C0 81 0C 00 FF 02     19 00 36 36   \b90 80 15 15   C0 00
+-1 * 0  02 00 C1 81 0C 00 FF 02     19 00 36 36   \b90 80 15 15   C1 00
+-1 * 0  02 00 D0 81 0C 00 FF 02     19 00 36 36   \b90 80 15 15   D0 00
+-1 * 0  02 00 D1 81 0C 00 FF 02     19 00 36 36   \b90 80 15 15   D1 00
+-1 * 0  02 00 B0 81 0C 00 FF 02     10 00 36 36   \b00 80 15 15   B0 00
 
  
+
+// Make things longer
+-1 * 0  02 00 A2 81 0C 00 FF 01   00 80 11 11   A0 00
+-1 * 0  02 00 A3 81 0C 00 FF 01   00 80 11 11   A1 00
+-1 * 0  02 00 C2 81 0C 00 FF 01   00 80 11 11   C0 00
+-1 * 0  02 00 C3 81 0C 00 FF 01   00 80 11 11   C1 00
+-1 * 0  02 00 D2 81 0C 00 FF 01   00 80 11 11   D0 00
+-1 * 0  02 00 D3 81 0C 00 FF 01   00 80 11 11   D1 00
+
+
+
+// Modulo 3/6 parts
+-1 * 0  02 00 30 81 41 80 FF 00 06 03   A0 00 00 00   C0 00 02 02   A1 00 04 04   B0 00
+-1 * 0  02 00 31 81 41 80 FF 00 06 03   A0 00 00 00   C1 00 02 02   A1 00 04 04   B0 00
+-1 * 0  02 00 3F 82 FF 00 01 01         30 00 00 00   31 00 // Flip
+
+// Modulo 4/6 Parts
+-1 * 0  02 00 40 81 41 80 FF 00 06 04   A0 00 00 00   C0 00 02 02   C2 00 04 04   A3 00 05 05   B0 00
+-1 * 0  02 00 41 81 41 80 FF 00 06 04   A0 00 00 00   C1 00 02 02   C3 00 04 04   A3 00 05 05   B0 00
+-1 * 0  02 00 4F 82 FF 00 01 01         40 00 00 00   41 00 // Flip
+
+// Modulo 6/6 Parts
+-1 * 0  02 00 60 81 41 80 FF 00 06 04   A2 00 00 00   C2 00 01 02   D2 00 03 03   C2 00 04 04   A3 00
+-1 * 0  02 00 61 81 41 80 FF 00 06 04   A2 00 00 00   C3 00 01 01   D3 00 02 02   C3 00 03 04   A3 00
+-1 * 0  02 00 6F 82 FF 00 01 01         60 00 00 00   61 00          
+
+// --------
+// PRE 2001
+// --------
+// TEXTS
+-1 * 0  02 00 10 81 F2 00 FF 02   F7 80 00 00   F8 80 01 01   FF FF
+// Graphical selection
+-1 * 0  02 00 11 81 F2 00 FF 02   3F 00 00 00   4F 00 01 01   FF FF
+// CB's
+-1 * 0  02 00 1F 81 0C 00 FF 01   10 00 19 19   11 00
+
+
+// ---------
+// POST 2001
+// ---------
+// TEXTS
+-1 * 0  02 00 20 81 F2 00 FF 02   F9 80 00 00   FA 80 01 01   FF FF
+// Graphical selection
+-1 * 0  02 00 21 81 F2 00 FF 02   4F 00 00 00   6F 00 01 01   FF FF
+// CB's
+-1 * 0  02 00 2F 81 0C 00 FF 01   20 00 19 19   21 00
+
 // --------------------------
-// --------- Wagon ----------
+// Shift between IRM and VIRM
 // --------------------------
+// Balance out on year built
+-1 * 0  02 00 2F 81 C4 00 FF 01   1F 00 \b70 \b81   2F 00
 
-// IRM III + IV
--1 * 0  02 00 F0 81 41 08 FF 01   A1 00 00 00   C0 00 // 1E
--1 * 0  02 00 FA 81 41 00 FF 01   98 00 00 65   C0 00
--1 * 0  02 00 F0 81 41 10 FF 01   F0 00 01 03   FA 00
+// Make it articulated
+-1 * 0  02 00 70 81 10 00 FF 01   3B 80 01 05   FF FF
+-1 * 0  02 00 7F 81 0C 00 FF 01   70 00 16 16   2F 00
 
-// VIRM IV + VI
+// ------
+// P-list
+// ------
+// IRM-III
+-1 * 0  02 00 00 81 10 00 FF 01   3B 80 01 02   FF FF
+-1 * 0  02 00 01 81 0C 00 FF 01   00 00 16 16   05 00
 
-// 3  Wagons                      Head if last - Pax if not
--1 * 0  02 00 F6 81 41 08 FF 01   A1 00 00 00   C0 00
--1 * 0  02 00 F5 81 41 08 FF 01   A1 00 00 00   C1 00
--1 * 0  02 00 F6 82 FF 00 01 01 	F5 00 00 00 	F6 00 // Flip (when train reverse)
+// VIRM-IV
+-1 * 0  02 00 0A 81 10 00 FF 01   3B 80 01 03   FF FF
+-1 * 0  02 00 0B 81 0C 00 FF 01   0A 00 16 16   05 00
 
-// 4 wagons                       MORE!         unused default                             
--1 * 0  02 00 F7 81 41 00 FF 01   99 00 00 65   C0 00 // the wagon despotsprite is "more" if it's 4 wagons        
+// Balance out on year built
+-1 * 0  02 00 0F 81 C4 00 FF 01   01 00 \b70 \b81   0B 00
 
-// 5 wagons                      head            panto          pax                             
--1 * 0  02 00 F8 81 41 08 FF 02   A1 00 00 00   D0 00 02 02   C0 00        
--1 * 0  02 00 F9 81 41 08 FF 02   A1 00 00 00   D1 00 03 03   C1 00
--1 * 0  02 00 F8 82 FF 00 01 01   F8 00 00 00   F9 00 // Flip
+// --------------------
+// Max 3 units together
+// --------------------
 
-// 6 or more wagons
--1 * 0  02 00 FA 81 41 00 FF 01   98 00 00 65   C0 00 // The wagon despotsprite is "stop" if it's 7 or more wagons
-
-// Count the number of wagons in a row (81 41 10 FF <number of cases>)
-// What where - Numbers        if 1-3 wagons    if 4 wagons   if 5 wagons   Everything else, I.e. if more then 6 wagons
-                                  use F6        use F7        use F8     
--1 * 0  02 00 F6 81 41 10 FF 03   F6 00 01 03   F7 00 04 04   F8 00 05 05   FA 00
-
-
-// ---------------------
-// B O T H   M O D E L S
-// ---------------------
-// Switch between IRM and VIRM - Wagons on a year basis (se above)
--1 * 0  02 00 F6 81 C4 00 FF 01   F0 00 \b72 \b81   F6 00
-
-// A few callbacks
-// Disable Power                  Enable if wagon 5   Disable if not
--1 * 0  02 00 CA 81 41 00 FF 01   34 80 04 04         C0 80
-// Change capacity (14) and tonnage (16) on the DD-AR
--1 * 0  02 00 CB 81 10 00 FF 02   \b91 80 14 14   \b51 80 16 16  A0 00
-// Callbacks
--1 * 0  02 00 F6 81 0C 00 FF 02   CA 00 10 10   CB 00 36 36   F6 00
+-1 * 0  02 00 50 81 10 00 FF 01   E1 80 00 FE   FD 80
+-1 * 0  02 00 51 81 0C 00 FF 01   50 00 1D 1D   7F 00
+-1 * 0  02 00 5F 82 41 10 FF 01   7F 00 00 17   51 00   
 
 
--1 * 0   03 00 01  3B  01 FF 05 00 CF 00
--1 * 0   03 00 81  1E  00 F6 00
+// --------------
+// Final Action 3
+// --------------
+-1 * 0   03 00 01  3B  01   FF 0F 00   5F 00
+
  
  

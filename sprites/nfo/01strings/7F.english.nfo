@@ -35,4 +35,7 @@
 -1 * 0  04 00 FF 01 \wxd0F4 " NS" 00
 -1 * 0  04 00 FF 01 \wxd0F5 " Plan V" 00
 -1 * 0  04 00 FF 01 \wxd0F6 " Plan T" 00
-
+-1 * 0  04 00 FF 01 \wxd0F7 " IRM-III" 00
+-1 * 0  04 00 FF 01 \wxd0F8 " IRM-IV" 00
+-1 * 0  04 00 FF 01 \wxd0F9 " VIRM-IV" 00
+-1 * 0  04 00 FF 01 \wxd0FA " VIRM-VI" 00

@@ -472,7 +472,7 @@ sprites/mus/icmreverse.pcx 1 272 01 12 50 -25 -8
 //-1 * 0  02 00 CC 81 41 00 FF 01         C3 00 00 00   C9 00               // If first, use correct sprite
 //-1 * 0  02 00 CF 81 41 08 FF 01         C2 00 00 00   CC 00               // If last, use correct sprite
 // Flip - Known bug here!
--1 * 0  02 00 CF 81 FF 00 01 01 	CF 00 00 00 	CF 00 // Flip
+//-1 * 0  02 00 CF 81 FF 00 01 01 	CF 00 00 00 	CF 00 // Flip
 
 
 

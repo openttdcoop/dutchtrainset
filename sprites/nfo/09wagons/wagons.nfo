@@ -1,0 +1,42 @@
+// ----------------------------------
+// ------------ Wagons --------------
+// ----------------------------------
+
+// 47 pax wagon
+-1 * 0  04 00 7F 01 7F "Thalys Wagon" 00
+-1 * 0  00 00 \b19 01      7F 00 \w1970-01-01 04 \b80 05 00 06 00 07 07 09 \w350  0B \w0      12 FD 14 \b47 15 \b00 16 \b40       17 \b175 1C 00 27 02 28 \w1 29 \w1018 0D \b0 0E \dx4c30 1E 01
+
+// Vogna
+-1 * 0  04 00 7F 01 1E "DD-AR - DJ" 00
+-1 * 0  00 00 \b19 01      1E 00 \w1970-01-01 04 \b80 05 00 06 07 07 07 09 \w350  0B \w0      12 FD 14 \b60 15 \b00 16 \b40       17 \b175 1C 00 27 02 28 \w1 29 \w1018 0D \b0 0E \dx4c30 1E 3F
+
+
+// DDAR 
+ 2936 * 6	 01 00 01 FF 08 00
+ 2937 sprites/dutchtrainsw.pcx 50 3832 01 27 8 -3 -13
+ 2938 sprites/dutchtrainsw.pcx 66 3832 01 17 22 -11 -11
+ 2939 sprites/dutchtrainsw.pcx 98 3832 01 14 32 -15 -9
+ 2940 sprites/dutchtrainsw.pcx 146 3832 01 17 22 -11 -11
+ 2941 sprites/dutchtrainsw.pcx 178 3832 01 25 8 -3 -12
+ 2942 sprites/dutchtrainsw.pcx 194 3832 01 17 22 -11 -10
+ 2943 sprites/dutchtrainsw.pcx 226 3832 01 14 32 -16 -9
+ 2944 sprites/dutchtrainsw.pcx 274 3832 01 17 22 -11 -11
+ 2945 * 9	 02 00 01 01 01 00 00 00 00
+ 2946 * 6	 01 00 01 FF 08 00
+ 2947 sprites/dutchtrainsw.pcx 338 3832 01 26 8 -3 -13
+ 2948 sprites/dutchtrainsw.pcx 354 3832 01 18 22 -11 -11
+ 2949 sprites/dutchtrainsw.pcx 386 3832 01 14 33 -16 -9
+ 2950 sprites/dutchtrainsw.pcx 434 3832 01 18 22 -11 -11
+ 2951 sprites/dutchtrainsw.pcx 466 3832 01 26 8 -3 -13
+ 2952 sprites/dutchtrainsw.pcx 482 3832 01 18 22 -11 -11
+ 2953 sprites/dutchtrainsw.pcx 514 3832 01 14 33 -16 -9
+ 2954 sprites/dutchtrainsw.pcx 562 3832 01 18 22 -11 -11
+ 2955 * 9	 02 00 02 01 01 00 00 00 00
+ 2956 * 6	 01 00 01 FF 01 00
+ 2957 sprites/dutchtrainsw.pcx 626 3832 01 14 50 -25 -8
+ 2958 * 9	 02 00 03 01 01 00 00 00 00
+ 2959 * 14	 02 00 04 81 40 08 FF 01 01 00 00 00 02 00
+ 2960 * 14	 02 00 05 81 01 00 FF 01 02 00 00 4C 04 00
+ 2961 * 7	 00 00 01 01 1E 12 FD
+ 2962 * 10	 03 00 01 1E 01 FF 03 00 05 00	 
+ 

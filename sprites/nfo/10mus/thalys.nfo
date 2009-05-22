@@ -63,23 +63,23 @@
  2250 sprites/dutchtrainsw.pcx 66 2872 01 11 32 -16 -7
  2251 sprites/dutchtrainsw.pcx 114 2872 01 16 22 -10 -10
 // Dining car - 06
- 2248 sprites/thaldin.pcx 18 1 01 21 8 -3 -10
- 2249 sprites/thaldin.pcx 34 1 01 16 22 -11 -9
- 2250 sprites/thaldin.pcx 66 1 01 11 32 -16 -7
- 2251 sprites/thaldin.pcx 114 1 01 16 22 -10 -10
- 2252 sprites/thaldin.pcx 146 1 01 21 8 -3 -10
- 2253 sprites/thaldin.pcx 162 1 01 16 22 -11 -9
- 2254 sprites/thaldin.pcx 194 1 01 11 32 -16 -7
- 2255 sprites/thaldin.pcx 242 1 01 16 22 -10 -10
+ 2248 sprites/mus/thaldin.pcx 18 1 01 21 8 -3 -10
+ 2249 sprites/mus/thaldin.pcx 34 1 01 16 22 -11 -9
+ 2250 sprites/mus/thaldin.pcx 66 1 01 11 32 -16 -7
+ 2251 sprites/mus/thaldin.pcx 114 1 01 16 22 -10 -10
+ 2252 sprites/mus/thaldin.pcx 146 1 01 21 8 -3 -10
+ 2253 sprites/mus/thaldin.pcx 162 1 01 16 22 -11 -9
+ 2254 sprites/mus/thaldin.pcx 194 1 01 11 32 -16 -7
+ 2255 sprites/mus/thaldin.pcx 242 1 01 16 22 -10 -10
 // Dining car - Reverse - 07
- 2252 sprites/thaldin.pcx 146 1 01 21 8 -3 -10
- 2253 sprites/thaldin.pcx 162 1 01 16 22 -11 -9
- 2254 sprites/thaldin.pcx 194 1 01 11 32 -16 -7
- 2255 sprites/thaldin.pcx 242 1 01 16 22 -10 -10
- 2248 sprites/thaldin.pcx 18 1 01 21 8 -3 -10
- 2249 sprites/thaldin.pcx 34 1 01 16 22 -11 -9
- 2250 sprites/thaldin.pcx 66 1 01 11 32 -16 -7
- 2251 sprites/thaldin.pcx 114 1 01 16 22 -10 -10
+ 2252 sprites/mus/thaldin.pcx 146 1 01 21 8 -3 -10
+ 2253 sprites/mus/thaldin.pcx 162 1 01 16 22 -11 -9
+ 2254 sprites/mus/thaldin.pcx 194 1 01 11 32 -16 -7
+ 2255 sprites/mus/thaldin.pcx 242 1 01 16 22 -10 -10
+ 2248 sprites/mus/thaldin.pcx 18 1 01 21 8 -3 -10
+ 2249 sprites/mus/thaldin.pcx 34 1 01 16 22 -11 -9
+ 2250 sprites/mus/thaldin.pcx 66 1 01 11 32 -16 -7
+ 2251 sprites/mus/thaldin.pcx 114 1 01 16 22 -10 -10
 // P-list sprite - 08
 -1 * 0  0
 -1 * 0  0
@@ -127,4 +127,3 @@ sprites/dutchtrainsw.pcx 722 2744 01 1 1 -0 -0
  
 -1 * 0  03 00 01  3C  01 FF 05 00 02 00
 -1 * 0  03 00 81  7F  00 02 00
- 
