@@ -151,32 +151,41 @@
                            98 "Usage:" 8A "Regional Expresstrain" "\n" 
                            98 "Composition: " 8A "Max 3 Sets"     "\n" 
                            98 "Types: " 8A "IRM-III / IRM-IV" 00
--1 * 0  04 00 FF 01 \wxd08B                                       "\n"
-                           98 "Usage:" 8A "Regional Expresstrain" "\n"
-                           98 "Composition: " 8A "Max 3 sets"     "\n" 
-                           98 "Types: " 8A "VIRM-IV / VIRM-VI"    "\n"
+-1 * 0  04 00 FF 01 \wxd08B                                          "\n"
+                           98 "Usage:" 8A "Regional Expresstrain"    "\n"
+                           98 "Composition: " 8A "Max 3 sets"        "\n" 
+                           98 "Types: " 8A "VIRM-IV / VIRM-VI"       "\n"
                            98 "Info: " 8A "VIRM-VI is extra powered" 00
 
 // Thalys / ICE3
 -1 * 0  04 00 FF 01 \wxd03C                                                   "\n" 
                            98 "Usage:" 8A "Long haul high speed Expresstrain" "\n"
-                           98 "Composition: " 8A "Max 1 ten-part unit" 00
+                           98 "Composition: " 8A "Max 1 ten-part unit"        00
 
 
 // GTW
--1 * 0  04 00 FF 01 \wxd040 "\n" 98 "Usage:" 8A "Local Commutertrain (??)\n" 98 "Composition: " 8A "Max 3 four-part units" "\n" 98 "Livery info:" 8A "Spurt (Arriva) / Velios (Veolia)" 00
+-1 * 0  04 00 FF 01 \wxd040                                             "\n" 
+                          98 "Usage:" 8A "Local Commutertrain (??)"     "\n"
+                          98 "Composition: " 8A "Max 3 four-part units" "\n"
+                          98 "Livery info:" 8A "Spurt (Arriva) / Velios (Veolia)" 00
+
 // ICM
--1 * 0  04 00 FF 01 \wxd037 "\n" 98 "Usage:" 8A "Short-Medium haul InterCityTrain\n" 98 "Composition: " 8A "Max 5 units\n" 98 "Livery info:" 8A "1990-2005: NS/Mendini/Olympic" 00
+-1 * 0  04 00 FF 01 \wxd037                                                  "\n" 
+                           98 "Usage:" 8A "Short-Medium haul InterCityTrain" "\n"
+                           98 "Composition: " 8A "Max 5 units"               "\n" 
+                           98 "Livery info: " 8A "1990-2005: NS/Mendini/Olympic" 00
 // Mat64
--1 * 0  04 00 FF 01 \wxd035      98 "Usage:" 8A "Regional Expresstrain\n" 98 "Livery Info: " 8A "Plan V (2car)/Plan T(4car)" 00
+-1 * 0  04 00 FF 01 \wxd035 "\n"     
+                           98 "Usage:" 8A "Regional Expresstrain" "\n" 
+                           98 "Livery Info: " 8A "Plan V (2car)/Plan T(4car)" 00
 
 // --------------------------------------
 // ----------- Error Messages -----------
 // --------------------------------------
 
--1 * 0  04 00 FF 01 \wxd0E0 "Max number of Wagons, try adding more engines" 00
+
 -1 * 0  04 00 FF 01 \wxd0E1 "Already at max number of engines" 00
--1 * 0  04 00 FF 01 \wxd0E2 "Use only Doubledecker coaches" 00
+
 
 
 // ------------------------------------
@@ -1217,11 +1226,6 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
  
  
 
-
-
-
-
-
 // ----------------------------------- 
 // ------------- Mat 64 --------------
 // ----------------------------------- 
@@ -1253,8 +1257,6 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
  1351 sprites/dutchtrainsw.pcx 98 1656 01 16 22 -11 -9
  1352 sprites/dutchtrainsw.pcx 130 1656 01 12 33 -16 -7
  1353 sprites/dutchtrainsw.pcx 178 1656 01 17 22 -10 -11
-
-
 
 // Head Panto - yellow  02
  1336 sprites/dutchtrainsw.pcx 450 1624 01 21 8 -3 -12
@@ -1314,13 +1316,94 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  02 00 C1 01 01 \w5 \w5 // wagon panto
 -1 * 0  02 00 D0 01 01 \w6 \w6 // blank
 
+
+-1 * 0  01 00 \b6  08
+// Head unpanto yellow 00
+ 1369 sprites/dutchtrainsw.pcx 626 1656 01 21 8 -3 -10
+ 1370 sprites/dutchtrainsw.pcx 642 1656 01 16 22 -11 -9
+ 1371 sprites/dutchtrainsw.pcx 674 1656 01 12 33 -16 -7
+ 1372 sprites/dutchtrainsw.pcx 722 1656 01 17 22 -10 -11
+ 1373 sprites/dutchtrainsw.pcx 754 1656 01 21 8 -3 -10
+ 1374 sprites/dutchtrainsw.pcx 770 1656 01 17 22 -11 -10
+ 1375 sprites/dutchtrainsw.pcx 2 1688 01 12 33 -16 -7
+ 1376 sprites/dutchtrainsw.pcx 50 1688 01 16 22 -10 -10
+
+// Head unpanto red 01
+ 1399 sprites/dutchtrainsw.pcx 690 1688 01 21 8 -3 -13
+ 1400 sprites/dutchtrainsw.pcx 706 1688 01 17 22 -11 -10
+ 1401 sprites/dutchtrainsw.pcx 738 1688 01 12 33 -16 -7
+ 1402 sprites/dutchtrainsw.pcx 2 1720 01 16 22 -10 -10
+ 1403 sprites/dutchtrainsw.pcx 34 1720 01 21 8 -3 -7
+ 1404 sprites/dutchtrainsw.pcx 50 1720 01 16 22 -11 -9
+ 1405 sprites/dutchtrainsw.pcx 82 1720 01 12 33 -16 -7
+ 1406 sprites/dutchtrainsw.pcx 130 1720 01 17 22 -10 -11
+
+// Head panto yellow 02
+ 1389 sprites/dutchtrainsw.pcx 402 1688 01 21 8 -3 -12
+ 1390 sprites/dutchtrainsw.pcx 418 1688 01 16 22 -11 -9
+ 1391 sprites/dutchtrainsw.pcx 450 1688 01 15 33 -16 -10
+ 1392 sprites/dutchtrainsw.pcx 498 1688 01 20 22 -10 -14
+ 1393 sprites/dutchtrainsw.pcx 530 1688 01 22 8 -3 -9
+ 1394 sprites/dutchtrainsw.pcx 546 1688 01 20 22 -11 -13
+ 1395 sprites/dutchtrainsw.pcx 578 1688 01 15 33 -16 -10
+ 1396 sprites/dutchtrainsw.pcx 626 1688 01 16 22 -10 -10
+
+// Head Panto red  03
+ 1340 sprites/mus/mat64.pcx 90 1 01 22 8 -3 -9
+ 1341 sprites/mus/mat64.pcx 99 1 01 20 22 -11 -13
+ 1342 sprites/mus/mat64.pcx 122 1 01 15 33 -16 -10
+ 1343 sprites/mus/mat64.pcx 156 1 01 16 22 -10 -10
+ 1336 sprites/mus/mat64.pcx 1 1 01 21 8 -3 -12
+ 1337 sprites/mus/mat64.pcx 10 1 01 16 22 -11 -9
+ 1338 sprites/mus/mat64.pcx 33 1 01 15 33 -16 -10
+ 1339 sprites/mus/mat64.pcx 67 1 01 20 22 -10 -14
+
+// Wagon unpanto 04 
+ 1359 sprites/dutchtrainsw.pcx 338 1656 01 21 8 -3 -12
+ 1360 sprites/dutchtrainsw.pcx 354 1656 01 17 22 -11 -10
+ 1361 sprites/dutchtrainsw.pcx 386 1656 01 12 33 -16 -7
+ 1362 sprites/dutchtrainsw.pcx 434 1656 01 17 22 -10 -11
+ 1363 sprites/dutchtrainsw.pcx 466 1656 01 21 8 -3 -8
+ 1364 sprites/dutchtrainsw.pcx 482 1656 01 17 22 -11 -10
+ 1365 sprites/dutchtrainsw.pcx 514 1656 01 12 33 -16 -7
+ 1366 sprites/dutchtrainsw.pcx 562 1656 01 17 22 -10 -11
+
+// Wagon panto 05
+ 1379 sprites/dutchtrainsw.pcx 114 1688 01 22 8 -3 -12
+ 1380 sprites/dutchtrainsw.pcx 130 1688 01 20 22 -11 -13
+ 1381 sprites/dutchtrainsw.pcx 162 1688 01 15 33 -16 -10
+ 1382 sprites/dutchtrainsw.pcx 210 1688 01 17 22 -10 -11
+ 1383 sprites/dutchtrainsw.pcx 242 1688 01 21 8 -3 -9
+ 1384 sprites/dutchtrainsw.pcx 258 1688 01 17 22 -11 -10
+ 1385 sprites/dutchtrainsw.pcx 290 1688 01 15 33 -16 -10
+ 1386 sprites/dutchtrainsw.pcx 338 1688 01 20 22 -10 -14
+
+-1 * 0  02 00 00 01 01 \w0 \w0 // head unpanto yellow
+-1 * 0  02 00 01 01 01 \w1 \w1 // head unpanto red
+-1 * 0  02 00 10 01 01 \w2 \w2 // head panto yellow
+-1 * 0  02 00 11 01 01 \w3 \w3 // head panto red
+-1 * 0  02 00 20 01 01 \w4 \w4 // wagon unpanto
+-1 * 0  02 00 21 01 01 \w5 \w5 // wagon panto
+
+// Change livery based on year
+-1 * 0  02 00 A0 81 01 00 FF 01   00 00 01 \b60   A0 00
+-1 * 0  02 00 A1 81 01 00 FF 01   01 00 01 \b60   A1 00
+-1 * 0  02 00 B0 81 01 00 FF 01   10 00 01 \b60   B0 00
+-1 * 0  02 00 B1 81 01 00 FF 01   11 00 01 \b60   B1 00
+-1 * 0  02 00 C0 81 01 00 FF 01   20 00 01 \b60   C0 00
+-1 * 0  02 00 C1 81 01 00 FF 01   21 00 01 \b60   C1 00
+
+// Set real capacities on the blank wagon
 -1 * 0  02 00 D1 81 F2 00 FF 01   \b0 80 00 00   FF FF
 -1 * 0  02 00 D0 81 0C 00 FF 01    D1 00 15 15   D0 00  
 
 // P-list
--1 * 0  01 00 \b1  01
+-1 * 0  01 00 \b2  01
 1356 sprites/dutchtrainsw.pcx 242 1656 01 15 50 -25 -9
--1 * 0  02 00 11 01 01 \w0 \w0 // P-list
+1409 sprites/dutchtrainsw.pcx 194 1720 01 15 50 -25 -9
+-1 * 0  02 00 11 01 01 \w0 \w0 // P-list new
+-1 * 0  02 00 12 01 01 \w1 \w1 // P-list old
+-1 * 0  02 00 11 81 01 00 FF 01   12 00 01 \b60   11 00
 
 // Set real capacity
 -1 * 0  02 00 10 81 10 00 FF 01   \b33 80 14 14    99 00
@@ -1336,6 +1419,7 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 // Plan V 
 // What where
 -1 * 0  02 00 3F 81 41 00 03 02   B0 00 00 00   A1 00 02 02   D0 00
+
 
 // Plan T
 // What where + Make things normal size
@@ -1358,7 +1442,7 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  02 00 5D 81 10 00 FF 01   E1 80 00 FE   FD 80
 -1 * 0  02 00 5E 81 0C 00 FF 01   5D 00 1D 1D   5C 00
 // Use different sprites          P-list        Cannot attach  Default
--1 * 0  02 00 5F 82 41 10 FF 02   11 00 00 00   5C 00 0 \b11    5E 00
+-1 * 0  02 00 5F 82 41 10 FF 02   11 00 00 00   5C 00 01 \b11    5E 00
 
 // 10's
 -1 * 0  02 00 20 81 10 00 FF 01   35 80 01 03   FF 80

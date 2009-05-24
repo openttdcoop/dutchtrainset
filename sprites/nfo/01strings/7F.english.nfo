@@ -7,32 +7,41 @@
                            98 "Usage:" 8A "Regional Expresstrain" "\n" 
                            98 "Composition: " 8A "Max 3 Sets"     "\n" 
                            98 "Types: " 8A "IRM-III / IRM-IV" 00
--1 * 0  04 00 FF 01 \wxd08B                                       "\n"
-                           98 "Usage:" 8A "Regional Expresstrain" "\n"
-                           98 "Composition: " 8A "Max 3 sets"     "\n" 
-                           98 "Types: " 8A "VIRM-IV / VIRM-VI"    "\n"
+-1 * 0  04 00 FF 01 \wxd08B                                          "\n"
+                           98 "Usage:" 8A "Regional Expresstrain"    "\n"
+                           98 "Composition: " 8A "Max 3 sets"        "\n" 
+                           98 "Types: " 8A "VIRM-IV / VIRM-VI"       "\n"
                            98 "Info: " 8A "VIRM-VI is extra powered" 00
 
 // Thalys / ICE3
 -1 * 0  04 00 FF 01 \wxd03C                                                   "\n" 
                            98 "Usage:" 8A "Long haul high speed Expresstrain" "\n"
-                           98 "Composition: " 8A "Max 1 ten-part unit" 00
+                           98 "Composition: " 8A "Max 1 ten-part unit"        00
 
 
 // GTW
--1 * 0  04 00 FF 01 \wxd040 "\n" 98 "Usage:" 8A "Local Commutertrain (??)\n" 98 "Composition: " 8A "Max 3 four-part units" "\n" 98 "Livery info:" 8A "Spurt (Arriva) / Velios (Veolia)" 00
+-1 * 0  04 00 FF 01 \wxd040                                             "\n" 
+                          98 "Usage:" 8A "Local Commutertrain (??)"     "\n"
+                          98 "Composition: " 8A "Max 3 four-part units" "\n"
+                          98 "Livery info:" 8A "Spurt (Arriva) / Velios (Veolia)" 00
+
 // ICM
--1 * 0  04 00 FF 01 \wxd037 "\n" 98 "Usage:" 8A "Short-Medium haul InterCityTrain\n" 98 "Composition: " 8A "Max 5 units\n" 98 "Livery info:" 8A "1990-2005: NS/Mendini/Olympic" 00
+-1 * 0  04 00 FF 01 \wxd037                                                  "\n" 
+                           98 "Usage:" 8A "Short-Medium haul InterCityTrain" "\n"
+                           98 "Composition: " 8A "Max 5 units"               "\n" 
+                           98 "Livery info: " 8A "1990-2005: NS/Mendini/Olympic" 00
 // Mat64
--1 * 0  04 00 FF 01 \wxd035      98 "Usage:" 8A "Regional Expresstrain\n" 98 "Livery Info: " 8A "Plan V (2car)/Plan T(4car)" 00
+-1 * 0  04 00 FF 01 \wxd035 "\n"     
+                           98 "Usage:" 8A "Regional Expresstrain" "\n" 
+                           98 "Livery Info: " 8A "Plan V (2car)/Plan T(4car)" 00
 
 // --------------------------------------
 // ----------- Error Messages -----------
 // --------------------------------------
 
--1 * 0  04 00 FF 01 \wxd0E0 "Max number of Wagons, try adding more engines" 00
+
 -1 * 0  04 00 FF 01 \wxd0E1 "Already at max number of engines" 00
--1 * 0  04 00 FF 01 \wxd0E2 "Use only Doubledecker coaches" 00
+
 
 
 // ------------------------------------
