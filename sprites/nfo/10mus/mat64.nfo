@@ -207,14 +207,13 @@
 
 // Refitted names - CB 19 
 -1 * 0  02 00 59 81 F2 00 FF 02   F5 80 00 00   F6 80 01 01   FF FF   
-// Graphical Selection
 -1 * 0  02 00 50 81 F2 00 FF 02   3F 00 00 00   4F 00 01 01   FF FF
-// Refitted CB's
 -1 * 0  02 00 5C 81 0C 00 FF 01   59 00 19 19   50 00
 
+// Max length
 -1 * 0  02 00 5D 81 10 00 FF 01   E1 80 00 FE   FD 80
 -1 * 0  02 00 5E 81 0C 00 FF 01   5D 00 1D 1D   5C 00
-// Use different sprites          P-list        Cannot attach  Default
+// Use different sprites          P-list        Can attach       Default
 -1 * 0  02 00 5F 82 41 10 FF 02   11 00 00 00   5C 00 01 \b11    5E 00
 
 // 10's

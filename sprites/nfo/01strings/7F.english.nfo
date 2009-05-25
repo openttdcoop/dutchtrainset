@@ -28,12 +28,20 @@
 // ICM
 -1 * 0  04 00 FF 01 \wxd037                                                  "\n" 
                            98 "Usage:" 8A "Short-Medium haul InterCityTrain" "\n"
-                           98 "Composition: " 8A "Max 5 units"               "\n" 
+                           98 "Composition: " 8A "Max 5 sets"                "\n" 
                            98 "Livery info: " 8A "1990-2005: NS/Mendini/Olympic" 00
 // Mat64
 -1 * 0  04 00 FF 01 \wxd035 "\n"     
                            98 "Usage:" 8A "Regional Expresstrain" "\n" 
                            98 "Livery Info: " 8A "Plan V (2car)/Plan T(4car)" 00
+
+// ZHSEM
+-1 * 0  04 00 FF 01 \wxd060                                            "\n"
+                           98 "Usage:" 8A "Regional Expresstrain"      "\n" 
+                           98 "Composition: " 8A "Max 2 sets"          "\n"
+                           98 "Livery Info: " 8A "1 to 4 cars per set" 00
+                                                      
+
 
 // --------------------------------------
 // ----------- Error Messages -----------
@@ -59,3 +67,7 @@
 -1 * 0  04 00 FF 01 \wxd0F8 " IRM-IV" 00
 -1 * 0  04 00 FF 01 \wxd0F9 " VIRM-IV" 00
 -1 * 0  04 00 FF 01 \wxd0FA " VIRM-VI" 00
+-1 * 0  04 00 FF 01 \wxd001 "1 car" 00
+-1 * 0  04 00 FF 01 \wxd002 "2 car" 00
+-1 * 0  04 00 FF 01 \wxd003 "3 car" 00
+-1 * 0  04 00 FF 01 \wxd004 "4 car" 00
