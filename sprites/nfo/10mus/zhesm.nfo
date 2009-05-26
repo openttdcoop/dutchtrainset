@@ -44,9 +44,6 @@
 -1 * 0  02 00 B0 01 01 \w1 \w1 // wagon
 -1 * 0  02 00 C0 01 01 \w2 \w2 // blank
 
-
-
-
 // Modify sizes + capacities
 -1 * 0  02 00 CC 81 10 00 FF 01   00 80 14 14   C0 00 // cb 36' 10'
 -1 * 0  02 00 A8 81 0C 00 FF 01   00 80 11 11   A0 00 // Fullsize front
@@ -63,36 +60,51 @@
 -1 * 0  02 00 11 81 0C 00 FF 01     10 00 36 36   11 00 
 
 // Graphical compositions and weight callbacks
-// 1 part
--1 * 0  02 00 51 81 41 80 FF 00 04 02   A0 00 00 00   C2 00 02 02   C1 00
+// --- 1 part ---                       first         2nd           else
+-1 * 0  02 00 51 81 41 80 FF 00 04 02   A0 00 00 00   C2 00 01 01   C1 00
 
-// 2 parts
--1 * 0  02 00 42 81 10 00 FF 01      \b120 80 16 16   51 00
+// --- 2 parts ---                      first         3rd           else
 -1 * 0  02 00 52 81 41 80 FF 00 04 02   A0 00 00 00   B0 00 02 02   C0 00
+-1 * 0  02 00 42 81 10 00 FF 01      \b120 80 16 16 // More weight
+                                        51 00       // GFX
 -1 * 0  02 00 52 81 0C 00 FF 01         42 00 36 36   52 00
 
-// 3 parts
--1 * 0  02 00 43 81 10 00 FF 01      \b178 80 16 16   51 00
+// --- 3 parts ---                      first         2nd           3rd           4th
 -1 * 0  02 00 53 81 41 80 FF 00 04 03   A8 00 00 00   B8 00 01 01   B0 00 02 02   C0 00
+-1 * 0  02 00 43 81 10 00 FF 01      \b178 80 16 16 // More weight
+                                        53 00       // GFX
 -1 * 0  02 00 53 81 0C 00 FF 01         43 00 36 36   53 00
 
-// 4 parts
--1 * 0  02 00 44 81 10 00 FF 01      \b236 80 16 16   51 00
+// --- 4 parts ---                         First         Else
 -1 * 0  02 00 54 81 41 80 FF 00 04 01   A8 00 00 00   B8 00
+-1 * 0  02 00 44 81 10 00 FF 01      \b236 80 16 16 // More weight
+                                        51 00       // GFX
 -1 * 0  02 00 54 81 0C 00 FF 01         44 00 36 36   54 00
 
 // Refit length options
--1 * 0  02 00 5A 81 F2 00 FF 04   51 00 00 00   52 00 01 01   53 00 02 02   54 00 03 03   FF FF  // Grahpical selection
--1 * 0  02 00 5B 81 F2 00 FF 04   01 80 00 00   02 80 01 01   03 80 02 02   04 80 03 03   FF FF  // Text selection
--1 * 0  02 00 5C 81 0C 00 FF 01   5B 00 19 19   5A 00
+-1 * 0  02 00 5A 81 F2 00 FF 04   51 00 00 00 // 1 car gfx
+                                  52 00 01 01 // 2 car gfx
+                                  53 00 02 02 // 3 car gfx 
+                                  54 00 03 03 // 4 car gfx
+                                  FF FF       // Grahpical selection
+-1 * 0  02 00 5B 82 41 10 FF 01   11 00 00 00 // Use P-list sprite
+                                  5A 00       // Apply proper grafics
 
 // Max length + cannot attach + articulation
--1 * 0  02 00 50 81 C6 00 FF 01   E1 80 60 60    E0 80                              // Cannot attach self, cannot attach other
--1 * 0  02 00 52 81 C6 00 FF 01   FF 80 60 60    E0 80                              // attaches self, cannot attach other
--1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b8   50 00                              // this or that if this or that range
--1 * 0  02 00 54 81 10 00 FF 01   60 80 01 03    FF FF                              // articulation '10
--1 * 0  02 00 5F 81 0C 00 FF 03   54 00 16 16    53 00 1D 1D    60 80 23 23   5C 00 // callback ^^ and apply graphics
--1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    5F 00                              // add in p-list sprite in this
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 60 60    E0 80 // Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 60 60    E0 80 // attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b8   50 00 // this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   60 80 01 03    FF FF // articulation '10
+-1 * 0  02 00 55 81 F2 00 FF 04   01 80 00 00          // 1 car text
+                                  02 80 01 01          // 2 car text
+                                  03 80 02 02          // 3 car text
+                                  04 80 03 03          // 4 car text
+                                  FF FF                // Text selection
+-1 * 0  02 00 5F 81 0C 00 FF 04   54 00 16 16          // articulation
+                                  55 00 19 19          // Text
+                                  53 00 1D 1D          // cannot attach
+                                  60 80 23 23          // p-list text
+                                  5B 00                // attach graphics
 
-
+// Action 3
 -1 * 0  03 00 01 60 00 5F 00
