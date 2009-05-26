@@ -72,30 +72,21 @@
  2350 sprites/dutchtrainsw.pcx 370 3000 01 11 50 -25 -7
  2351 * 9	 02 00 11 01 01 00 00 00 00
 
-// Max length
--1 * 0  02 00 5D 81 10 00 FF 01   E1 80 00 FE   FD 80
--1 * 0  02 00 5E 81 0C 00 FF 01   5D 00 1D 1D   5D 00
-// Use different sprites          P-list        Can attach       Default
--1 * 0  02 00 5F 82 41 10 FF 02   11 00 00 00   AF 00 01 \b16    5E 00 
+// P-list vs normal gfx
+-1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    AF 00 // P-list if 0
 
+// Generic
+// Callbacks
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 3D 3D    E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 3D 3D    E0 80  // CB 1D stuff: attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b15  50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   3D 80 01 07    FF FF  // articulation '10
+-1 * 0  02 00 5F 81 0C 00 FF 03   54 00 16 16          // articulate
+                                  53 00 1D 1D          // cannot attach
+                                  3C 80 23 23          // p-list callback
+                                  5F 00                // attach graphics 
 
+-1 * 0  03 00 01 3D 00 5F 00
 
-
-
--1 * 0  03 00 01 3D 00 AF 00
-
-
-// Articulation '10'
-//-1 * 0	02 00 CA 81 10 00 FF 02   3D 80 01 06   3D 80 07 07   FF 80  // Use 8 wagons, and a head 
-// Cannot attach '10'
-//-1 * 0  02 00 CB 81 10 00 FF 01   E1 80 00 FE   FE 80
-// Callbacks + attach grapics
-
-//-1 * 0	02 00 AF 81 0C 00 FF 02   CB 00 1D 1D   CA 00 16 16   AF 00  // cannot attach + artic
-
-// P-list CB's
-//-1 * 0  02 00 05 81 0C 00 FF 02   3D 80 23 23   CA 00 16 16   05 00  // extra p-list + artic
-
-//  2353 * 10	 03 00 01 3D 01 FF 05 00 AF 00
  
  

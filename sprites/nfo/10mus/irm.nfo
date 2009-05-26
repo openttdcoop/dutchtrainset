@@ -87,12 +87,12 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  02 00 C1 01 01 04 00 04 00 // <-- Unpanto rev
 -1 * 0  02 00 D0 01 01 03 00 03 00 // <-- Panto
 -1 * 0  02 00 D1 01 01 05 00 05 00 // <-- Panto rev
--1 * 9	02 00 05 01 01 06 00 06 00 // <-- P-list 
--1 * 0  02 00 B0 01 01 07 00 07 00 // <-- Blank
+-1 * 9	02 00 11 01 01 06 00 06 00 // <-- P-list 
+-1 * 0  02 00 B2 01 01 07 00 07 00 // <-- Blank
 
 // CB36'em to be sure
 -1 * 0  02 00 10 81 10 00 FF 01   \b00 80 14 14   00 00
--1 * 0  02 00 B0 81 0C 00 FF 02     10 00 36 36   \b00 80 15 15   B0 00
+-1 * 0  02 00 B0 81 0C 00 FF 02     10 00 36 36   \b00 80 15 15   B2 00
 
 
 
@@ -104,12 +104,59 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  02 00 D2 81 0C 00 FF 01   00 80 11 11   D0 00
 -1 * 0  02 00 D3 81 0C 00 FF 01   00 80 11 11   D1 00
 
-// Modulo 3/6 parts
--1 * 0  02 00 30 81 41 80 FF 00 06 03   A0 00 00 00   C0 00 02 02   A1 00 04 04   B0 00
--1 * 0  02 00 31 81 41 80 FF 00 06 03   A0 00 00 00   C1 00 02 02   A1 00 04 04   B0 00
+
+// ###############
+// ##### IRM #####
+// ###############
+// Modulo 3/4 parts                     first         2nd           3rd           else/4th
+-1 * 0  02 00 30 81 41 80 FF 00 04 03   A2 00 00 00   C2 00 01 01   A1 00 02 02   B0 00
+-1 * 0  02 00 31 81 41 80 FF 00 04 03   A2 00 00 00   C3 00 01 01   A1 00 02 02   B0 00
 -1 * 0  02 00 3F 82 FF 00 01 01         30 00 00 00   31 00 // Flip
 
-// Modulo 4/6 Parts
+
+// Modulo 4/4 parts                     first         last          else
+-1 * 0  02 00 40 81 41 80 FF 00 04 02   A2 00 00 00   A3 00 03 03   C2 00
+-1 * 0  02 00 41 81 41 80 FF 00 04 02   A2 00 00 00   A3 00 03 03   C3 00
+-1 * 0  02 00 4F 82 FF 00 01 01         40 00 00 00   41 00 // Flip
+// Change some stats                    Weight        Power
+-1 * 0  02 00 43 81 10 00 FF 01      \b235 80 16 16   00 00
+-1 * 0  02 00 4F 81 0C 00 FF 01         43 00 36 36   4F 00
+
+// Switch spritesets based on livery
+// ---- Both ----
+// What graphics on what livery
+-1 * 0  02 00 5E 81 F2 00 FF 02   3F 00 00 00          // Livary 0 gfx
+                                  4F 00 01 01          // Livary 1 gfx
+                                  FF FF 
+
+// Add P-list for IRM
+-1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    5E 00 // P-list if 0
+
+
+// Generic
+// Callbacks
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 3B 3B   E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 3B 3B   E0 80  // CB 1D stuff: attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b11  50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   3B 80 01 03   FF FF  // articulation '10
+-1 * 0  02 00 59 81 F2 00 FF 02   F7 80 00 00          // Livery 0 - Plan V
+                                  F8 80 01 01          // Livery 1 - Plan T
+                                  FF FF                // Names for CB19 
+
+-1 * 0  02 00 0F 81 0C 00 FF 04   54 00 16 16          // articulate
+                                  59 00 19 19          // Names
+                                  53 00 1D 1D          // cannot attach
+                                  3B 80 23 23          // p-list callback
+                                  5F 00                // attach graphics 
+
+// ################
+// ##### VIRM #####
+// ################
+
+
+
+// VIRM
+// Modulo 4/6 Parts                     first part    3rd part      5th part      6th part      2-4th part     
 -1 * 0  02 00 40 81 41 80 FF 00 06 04   A0 00 00 00   C0 00 02 02   C2 00 04 04   A3 00 05 05   B0 00
 -1 * 0  02 00 41 81 41 80 FF 00 06 04   A0 00 00 00   C1 00 02 02   C3 00 04 04   A3 00 05 05   B0 00
 -1 * 0  02 00 42 82 FF 00 01 01         40 00 00 00   41 00 // Flip
@@ -127,65 +174,101 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  02 00 6F 81 0C 00 FF 01         63 00 36 36   62 00
 
 
+// Switch spritesets based on livery
+// ---- Both ----
+// What graphics on what livery
+-1 * 0  02 00 5E 81 F2 00 FF 02   6F 00 00 00          // Livary 0 gfx
+                                  4F 00 01 01          // Livary 1 gfx
+                                  FF FF 
+
+// Add P-list for IRM
+-1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    5E 00 // P-list if 0
+
+
+// Generic
+// Callbacks
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 3B 3B   E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 3B 3B   E0 80  // CB 1D stuff: attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b17  50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   3B 80 01 05   FF FF  // articulation '10
+-1 * 0  02 00 59 81 F2 00 FF 02   FA 80 00 00          // Livery 0 - Plan V
+                                  F9 80 01 01          // Livery 1 - Plan T
+                                  FF FF                // Names for CB19 
+
+-1 * 0  02 00 5F 81 0C 00 FF 04   54 00 16 16          // articulate
+                                  59 00 19 19          // Names
+                                  53 00 1D 1D          // cannot attach
+                                  8B 80 23 23          // p-list callback
+                                  5F 00                // attach graphics 
+
+-1 * 0   03 00 01  3B   00   5F 00
+
+
+
+
+
+
+
+
 // --------
 // PRE 2001
 // --------
 // TEXTS
--1 * 0  02 00 10 81 F2 00 FF 02   F7 80 00 00   F8 80 01 01   FF FF
+//-1 * 0  02 00 10 81 F2 00 FF 02   F7 80 00 00   F8 80 01 01   FF FF
 // Graphical selection            3 parts       4 parts 
--1 * 0  02 00 11 81 F2 00 FF 02   3F 00 00 00   4F 00 01 01   FF FF
+//-1 * 0  02 00 11 81 F2 00 FF 02   3F 00 00 00   4F 00 01 01   FF FF
 // CB's
--1 * 0  02 00 1F 81 0C 00 FF 01   10 00 19 19   11 00
+//-1 * 0  02 00 1F 81 0C 00 FF 01   10 00 19 19   11 00
 
 
 // ---------
 // POST 2001
 // ---------
 // TEXTS
--1 * 0  02 00 20 81 F2 00 FF 02   FA 80 00 00   F9 80 01 01   FF FF
+//-1 * 0  02 00 20 81 F2 00 FF 02   FA 80 00 00   F9 80 01 01   FF FF
 // Graphical selection -          4parts        6 parts
--1 * 0  02 00 21 81 F2 00 FF 02   6F 00 00 00   4F 00 01 01   FF FF
+//-1 * 0  02 00 21 81 F2 00 FF 02   6F 00 00 00   4F 00 01 01   FF FF
 // CB's
--1 * 0  02 00 2F 81 0C 00 FF 01   20 00 19 19   21 00
+//-1 * 0  02 00 2F 81 0C 00 FF 01   20 00 19 19   21 00
 
 
 // --------------------------
 // Shift between IRM and VIRM
 // --------------------------
 // Balance out on year built
--1 * 0  02 00 2F 81 C4 00 FF 01   1F 00 \b70 \b81   2F 00
+//-1 * 0  02 00 2F 81 C4 00 FF 01   1F 00 \b70 \b81   2F 00
 
 // Make it articulated
--1 * 0  02 00 70 81 10 00 FF 01   3B 80 01 05   FF FF
--1 * 0  02 00 7F 81 0C 00 FF 01   70 00 16 16   2F 00
+//-1 * 0  02 00 70 81 10 00 FF 01   3B 80 01 05   FF FF
+//-1 * 0  02 00 7F 81 0C 00 FF 01   70 00 16 16   2F 00
 
 // ------
 // P-list
 // ------
 // IRM-III
--1 * 0  02 00 00 81 10 00 FF 01   3B 80 01 02   FF FF
--1 * 0  02 00 01 81 0C 00 FF 02                 3B 80 23 23   00 00 16 16   05 00
+//-1 * 0  02 00 00 81 10 00 FF 01   3B 80 01 02   FF FF
+//-1 * 0  02 00 01 81 0C 00 FF 02                 3B 80 23 23   00 00 16 16   05 00
 
 // VIRM-IV
--1 * 0  02 00 0A 81 10 00 FF 01   3B 80 01 05   FF FF
--1 * 0  02 00 0B 81 0C 00 FF 03   63 00 36 36   8B 80 23 23   0A 00 16 16   05 00
+//-1 * 0  02 00 0A 81 10 00 FF 01   3B 80 01 05   FF FF
+//-1 * 0  02 00 0B 81 0C 00 FF 03   63 00 36 36   8B 80 23 23   0A 00 16 16   05 00
 
 // Balance out on year built
--1 * 0  02 00 0F 81 C4 00 FF 01   01 00 \b70 \b81   0B 00
+//-1 * 0  02 00 0F 81 C4 00 FF 01   01 00 \b70 \b81   0B 00
 
 // --------------------
 // Max 3 units together
 // --------------------
 
--1 * 0  02 00 50 81 10 00 FF 01   E1 80 00 FE    FD 80
--1 * 0  02 00 51 81 0C 00 FF 01   50 00 1D 1D    7F 00
--1 * 0  02 00 5F 82 41 10 FF 01   7F 00 00 \b17  51 00   
+//-1 * 0  02 00 50 81 10 00 FF 01   E1 80 00 FE    FD 80
+//-1 * 0  02 00 51 81 0C 00 FF 01   50 00 1D 1D    7F 00
+//-1 * 0  02 00 5F 82 41 10 FF 01   7F 00 00 \b17  51 00   
 
 
 // --------------
 // Final Action 3
 // --------------
--1 * 0   03 00 01  3B  01   FF 0F 00   5F 00
+//-1 * 0   03 00 01  3B  01   FF 0F 00   5F 00
 
  
  

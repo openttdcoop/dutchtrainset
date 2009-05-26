@@ -98,7 +98,7 @@ sprites/dutchtrainsw.pcx 722 2744 01 1 1 -0 -0
 -1 * 0  02 00 C1 01 01 05 00 05 00 // <-- C1 pax reverse
 -1 * 0  02 00 D0 01 01 06 00 06 00 // <-- D0 dining
 -1 * 0  02 00 D1 01 01 07 00 07 00 // <-- D1 dining reverse
--1 * 0  02 00 05 01 01 08 00 08 00 // <-- 05 P-list
+-1 * 0  02 00 11 01 01 08 00 08 00 // <-- 05 P-list
 
 // CB 36ish
 //-1 * 0  02 00 CA 81 10 00 FF 01   \b47 80 14 14  00 FF // Normal Wagon
@@ -115,15 +115,19 @@ sprites/dutchtrainsw.pcx 722 2744 01 1 1 -0 -0
 // Flip
 -1 * 0  02 00 AF 82 FF 00 01 01 	AA 00 00 00 	AB 00
 
-// Articulation '10'
--1 * 0	02 00 CA 81 10 00 FF 02   7F 80 01 08   3C 80 09 09   FF 80  // Use 8 wagons, and a head 
-// Cannot attach '10'
--1 * 0  02 00 CB 81 10 00 FF 01   E1 80 00 FE   FE 80
-// Callbacks + attach grapics
--1 * 0	02 00 02 81 0C 00 FF 02   CB 00 1D 1D   CA 00 16 16   AF 00
+// P-list vs normal gfx
+-1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    AF 00 // P-list if 0
 
+// Generic
+// Callbacks
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 3C 3C   E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 3C 3C   E0 80  // CB 1D stuff: attaches self, cannot attach other
+-1 * 0  02 00 53 82 40 10 FF 01   52 00 01 09   50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   7F 80 01 09   FF FF  // articulation '10
+-1 * 0  02 00 5F 81 0C 00 FF 03   54 00 16 16          // articulate
+                                  53 00 1D 1D          // cannot attach
+                                  3C 80 23 23          // p-list callback
+                                  5F 00                // attach graphics 
 
--1 * 0	02 00 05 81 0C 00 FF 02   3C 80 23 23   CA 00 16 16   05 00 // Articulation for P-list
- 
--1 * 0  03 00 01  3C  01 FF 05 00 02 00
--1 * 0  03 00 81  7F  00 02 00
+-1 * 0  03 00 01 3C 00 5F 00
+-1 * 0  03 00 81 7F 00 AF 00
