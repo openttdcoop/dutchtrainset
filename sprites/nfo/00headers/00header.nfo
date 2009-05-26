@@ -4,7 +4,7 @@
 -1 * 0  00 00 00 00
 
 // Action 8: define GRF version (07), GRFID (number), Name and Description.
--1 * 0	 08 07 05 "ML" 06 "Dutch - Trainset (DJ Nekkid remix) r5" 00 "Coded by DJ Nekkid" 00
+-1 * 0	 08 07 05 "ML" 06 "Dutch - Trainset (DJ Nekkid remix) r7" 00 "Coded by DJ Nekkid" 00
 
 
 //  Misc

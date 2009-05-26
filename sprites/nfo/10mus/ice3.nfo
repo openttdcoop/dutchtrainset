@@ -65,23 +65,37 @@
  // -1 * 0  02 00 B3 81 41 00 01 01 B8 00 00 00 B7 00 <-- some bogus shit
 
 // What where 
- -1 * 0	 02 00 AA 81 40 00 01 01   C0 00 00 00   C1 00  // Every 2nd wagon is this, every 1st wagon is that
+ -1 * 0	 02 00 AA 81 40 00 01 01         C0 00 00 00   C1 00  // Every 2nd wagon is this, every 1st wagon is that
  -1 * 0	 02 00 AF 81 40 80 FF 00 08 03   A0 00 00 00   B0 00 01 01   AA 00 02 06   A1 00 // Modulo
 
  2349 * 6	 01 00 01 FF 01 00
  2350 sprites/dutchtrainsw.pcx 370 3000 01 11 50 -25 -7
- 2351 * 9	 02 00 05 01 01 00 00 00 00
+ 2351 * 9	 02 00 11 01 01 00 00 00 00
+
+// Max length
+-1 * 0  02 00 5D 81 10 00 FF 01   E1 80 00 FE   FD 80
+-1 * 0  02 00 5E 81 0C 00 FF 01   5D 00 1D 1D   5D 00
+// Use different sprites          P-list        Can attach       Default
+-1 * 0  02 00 5F 82 41 10 FF 02   11 00 00 00   AF 00 01 \b16    5E 00 
+
+
+
+
+
+-1 * 0  03 00 01 3D 00 AF 00
+
 
 // Articulation '10'
--1 * 0	02 00 CA 81 10 00 FF 02   3D 80 01 06   3D 80 07 07   FF 80  // Use 8 wagons, and a head 
+//-1 * 0	02 00 CA 81 10 00 FF 02   3D 80 01 06   3D 80 07 07   FF 80  // Use 8 wagons, and a head 
 // Cannot attach '10'
--1 * 0  02 00 CB 81 10 00 FF 01   E1 80 00 FE   FE 80
+//-1 * 0  02 00 CB 81 10 00 FF 01   E1 80 00 FE   FE 80
 // Callbacks + attach grapics
--1 * 0	02 00 AF 81 0C 00 FF 02   CB 00 1D 1D   CA 00 16 16   AF 00  // cannot attach + artic
+
+//-1 * 0	02 00 AF 81 0C 00 FF 02   CB 00 1D 1D   CA 00 16 16   AF 00  // cannot attach + artic
 
 // P-list CB's
--1 * 0  02 00 05 81 0C 00 FF 02   3C 80 23 23   CA 00 16 16   05 00  // extra p-list + artic
+//-1 * 0  02 00 05 81 0C 00 FF 02   3D 80 23 23   CA 00 16 16   05 00  // extra p-list + artic
 
-  2353 * 10	 03 00 01 3D 01 FF 05 00 AF 00
+//  2353 * 10	 03 00 01 3D 01 FF 05 00 AF 00
  
  

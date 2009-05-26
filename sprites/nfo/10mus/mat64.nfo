@@ -189,38 +189,51 @@
 // CB36
 -1 * 0  02 00 D0 81 0C 00 FF 01   23 00 36 36   D0 00
 
-// Plan V 
-// What where
+
+// ---- Plan V ---- 
+// What where                     1st           3rd           else
 -1 * 0  02 00 3F 81 41 00 03 02   B0 00 00 00   A1 00 02 02   D0 00
 
-
-// Plan T
-// What where + Make things normal size
+// ---- Plan T ----
+// What where                     1st           2nd           3rd           4th
 -1 * 0  02 00 40 81 41 00 03 03   A0 00 00 00   C1 00 01 01   C0 00 02 02   A1 00
 -1 * 0  02 00 41 81 41 00 03 03   A0 00 00 00   C0 00 01 01   C1 00 02 02   A1 00
 // Flip
 -1 * 0  02 00 4F 82 FF 00 01 01 	40 00 00 00 	41 00 // Flip (when train reverse)
-// CB 36s 10 on 4unit, more tons and more power
--1 * 0  02 00 4A 81 10 00 FF 02   53 87 0B 0B   \b163 80 16 16   99 00
-// CB 11 (length) and 36 (^^)
--1 * 0  02 00 4F 81 0C 00 FF 02   00 80 11 11   4A 00 36 36      4F 00
 
-// Refitted names - CB 19 
--1 * 0  02 00 59 81 F2 00 FF 02   F5 80 00 00   F6 80 01 01   FF FF   
--1 * 0  02 00 50 81 F2 00 FF 02   3F 00 00 00   4F 00 01 01   FF FF
--1 * 0  02 00 5C 81 0C 00 FF 01   59 00 19 19   50 00
-
-// Max length
--1 * 0  02 00 5D 81 10 00 FF 01   E1 80 00 FE   FD 80
--1 * 0  02 00 5E 81 0C 00 FF 01   5D 00 1D 1D   5C 00
-// Use different sprites          P-list        Can attach       Default
--1 * 0  02 00 5F 82 41 10 FF 02   11 00 00 00   5C 00 01 \b11    5E 00
-
-// 10's
--1 * 0  02 00 20 81 10 00 FF 01   35 80 01 03   FF 80
-// CB
--1 * 0  02 00 2F 81 0C 00 FF 02   20 00 16 16   35 80 23 23   5F 00
+// 10' for CB36
+-1 * 0  02 00 4A 81 10 00 FF 02     53 87 0B 0B // More power   
+                                 \b163 80 16 16 // More weight
+                                    99 00       // dont matter crap
+// Callbacks
+-1 * 0  02 00 4F 81 0C 00 FF 02   00 80 11 11   // CB 11 - Make _not_ shorter :)  
+                                  4A 00 36 36   // CB 36 - More power and tons
+                                  4F 00         // Graphics
 
 
+// ---- Both ----
+// What graphics on what livery
+-1 * 0  02 00 5E 81 F2 00 FF 02   3F 00 00 00          // Livary 0 gfx
+                                  4F 00 01 01          // Livary 1 gfx
+                                  FF FF        
+-1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    5E 00 // P-list if 0
 
--1 * 0  03 00 01 35 00 2F 00
+
+// Generic
+// Callbacks
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 35 35   E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 35 35   E0 80  // CB 1D stuff: attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b8  50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   35 80 01 03   FF FF  // articulation '10
+-1 * 0  02 00 59 81 F2 00 FF 02   F5 80 00 00          // Livery 0 - Plan V
+                                  F6 80 01 01          // Livery 1 - Plan T
+                                  FF FF                // Names for CB19 
+
+-1 * 0  02 00 5F 81 0C 00 FF 04   54 00 16 16          // articulate
+                                  59 00 19 19          // Names
+                                  53 00 1D 1D          // cannot attach
+                                  60 80 23 23          // p-list callback
+                                  5F 00                // attach graphics 
+
+// Action 3
+-1 * 0  03 00 01 35 00 5F 00

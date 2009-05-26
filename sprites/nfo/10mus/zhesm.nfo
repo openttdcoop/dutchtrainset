@@ -86,16 +86,13 @@
 -1 * 0  02 00 5B 81 F2 00 FF 04   01 80 00 00   02 80 01 01   03 80 02 02   04 80 03 03   FF FF  // Text selection
 -1 * 0  02 00 5C 81 0C 00 FF 01   5B 00 19 19   5A 00
 
-// Cannot attach '10' for max number
--1 * 0  02 00 5D 81 10 00 FF 01   E1 80 00 FE   FD 80
--1 * 0  02 00 5E 81 0C 00 FF 01   5D 00 1D 1D   5C 00
-// Use different sprites          P-list        Can attach      Default - cannot attach
--1 * 0  02 00 5F 82 41 10 FF 02   11 00 00 00   5C 00 01 \b7    5E 00
+// Max length + cannot attach + articulation
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 60 60    E0 80                              // Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 60 60    E0 80                              // attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b8   50 00                              // this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   60 80 01 03    FF FF                              // articulation '10
+-1 * 0  02 00 5F 81 0C 00 FF 03   54 00 16 16    53 00 1D 1D    60 80 23 23   5C 00 // callback ^^ and apply graphics
+-1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    5F 00                              // add in p-list sprite in this
 
 
-// Articulation + Cannot attach other then self + P-list names
--1 * 0  02 00 60 81 10 00 FF 01   60 80 01 03   FF FF
--1 * 0  02 00 61 81 C6 00 FF 01   FF 80 60 60   FD 80               // Cannot attach other then itself
--1 * 0  02 00 50 81 0C 00 FF 03   60 00 16 16   61 00 1D 1D   60 80 23 23   5F 00
-
--1 * 0  03 00 01 60 00 50 00
+-1 * 0  03 00 01 60 00 5F 00
