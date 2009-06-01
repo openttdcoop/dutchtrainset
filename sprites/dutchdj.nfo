@@ -11,6 +11,13 @@
 -1 * 9	 0D 9E 08 9E FF 08 00 00 00 // Draw all 32 px in the depot view
 -1 * 9	 0D 8E \D= FF 00 02 00 00 00 // Drop 2px in depot view
 
+
+// Economy
+-1 * 7	 00 08 01 01 0F 08 08 // Engine purchase price
+-1 * 7	 00 08 01 01 10 08 0A // Waggon purchase price
+-1 * 7	 00 08 01 01 2A 08 09 // Steam running
+-1 * 7	 00 08 01 01 2C 08 0D // Electro Running
+
 //Disable original trains
 -1 * 0  00 00 \b1 01 \b0	06 00
 -1 * 0  00 00 \b1 01 \b1	06 00
@@ -142,7 +149,8 @@
  2572 sprites/mus/more.pcx 1 16 01 10 32 -16 -7
  2573 * 9	 02 00 98 01 01 00 00 00 00
  
- // ------------------------------------------------
+ 
+// ------------------------------------------------
 // ----------- P-list info - ID 00 - 7F -----------
 // ------------------------------------------------
 
@@ -150,12 +158,12 @@
 -1 * 0  04 00 FF 01 \wxd03B                                       "\n"
                            98 "Usage:" 8A "Intercity Train"       "\n" 
                            98 "Composition: " 8A "Max 3 Sets"     "\n" 
-                           98 "Types: " 8A "IRM-III / IRM-IV"     00
--1 * 0  04 00 FF 01 \wxd08B                                          "\n"
-                           98 "Usage:" 8A "Intercity Train"          "\n"
-                           98 "Composition: " 8A "Max 3 sets"        "\n" 
-                           98 "Types: " 8A "VIRM-IV / VIRM-VI"       "\n"
-                           98 "Info: " 8A "VIRM-VI is extra powered" 00
+                           98 "Types: " 8A "(default) IRM-III / IRM-IV"     00
+-1 * 0  04 00 FF 01 \wxd08B                                              "\n"
+                           98 "Usage:" 8A "Intercity Train"              "\n"
+                           98 "Composition: " 8A "Max 3 Sets"            "\n" 
+                           98 "Types: " 8A "VIRM-IV / VIRM-VI (default)" "\n"
+                           98 "Info: " 8A "VIRM-IV is lower powered" 00
 
 // ICE3 + Thalys
 -1 * 0  04 00 FF 01 \wxd03C                                                   "\n" 
@@ -171,7 +179,7 @@
 // ICM
 -1 * 0  04 00 FF 01 \wxd037                                                      "\n" 
                            98 "Usage:" 8A "InterCity"                            "\n"
-                           98 "Composition: " 8A "Max 5 sets"                    "\n" 
+                           98 "Composition: " 8A "Max 5 Sets"                    "\n" 
                            98 "Livery info: " 8A "1990-2005: NS/Mendini/Olympic" 00
 // Mat64
 -1 * 0  04 00 FF 01 \wxd035                                                   "\n"     
@@ -181,7 +189,7 @@
 // ZHSEM
 -1 * 0  04 00 FF 01 \wxd060                                            "\n"
                            98 "Usage:" 8A "Regional Expresstrain"      "\n" 
-                           98 "Composition: " 8A "Max 2 sets"          "\n"
+                           98 "Composition: " 8A "Max 2 Sets"          "\n"
                            98 "Livery Info: " 8A "1 to 4 cars per set" 00
                                                       
 
@@ -422,8 +430,8 @@
  
  
 -1 * 0  04 00 7F 01 3D "ICE-3 (Electric) - DJ " 00
- 2307 * 60	 00 00 18 01 3D 00 10 72 03 19 04 32 06 0F 05 00 08 01 09 DC 00 0B 35 1E 0D C1 0E 3C 4C 00 00 13
-	 00 14 \b56 15 00 16 \b179 24 01 17 73 19 30 1B 00 00 1C 00 1D 00 00 00 00 21 00 28 01 00   12 FD   1E 11
+ 2307 * 60	 00 00 19 01 3D 00 10 72 03 19 04 32 06 0F 05 00 08 01 09 DC 00 0B 35 1E 0D C1 0E 3C 4C 00 00 13
+	 00 14 \b56 15 00 16 \b179 24 01 17 73 19 30 1B 00 00 1C 00 1D 00 00 00 00 1F \b18 21 00 28 01 00   12 FD   1E 11
 
 -1 * 0  01 00 05 08
 // Front
@@ -1055,8 +1063,8 @@ sprites/mus/icmreverse.pcx 1 272 01 12 50 -25 -8
 // ----------------------------------
  
 -1 * 0  04 00 7F 01 3B "IRM 'Regiorunner' (Electric) - DJ" 00
- 2135 * 60	 00 00 17 01 3B 00 82 69 03 19 04 32 06 0F 05 00 08 01 09 A0 00   0B \w2150   0D 3F 0E 3C 4C 00 00 13
-	 00    14 \b91    15 00 16 \b183   24 00 17 29 19 30 1C 00 1D 00 00 00 00 21 04 28 01 00   1E 3F   12 FD
+ 2135 * 60	 00 00 18 01 3B 00 82 69 03 19 04 32 06 0F 05 00 08 01 09 A0 00   0B \w2150   0D \b19   0E 3C 4C 00 00 13
+	 00    14 \b91    15 00 16 \b183   24 00 17 \b35   19 30 1C 00 1D 00 00 00 00   1F \b28   21 04 28 01 00   1E 3F   12 FD
 
 -1 * 0  01 00 08  08
 // One head - 00
@@ -1146,8 +1154,6 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  02 00 10 81 10 00 FF 01   \b00 80 14 14   00 00
 -1 * 0  02 00 B0 81 0C 00 FF 02     10 00 36 36   \b00 80 15 15   B2 00
 
-
-
 // Make things longer
 -1 * 0  02 00 A2 81 0C 00 FF 01   00 80 11 11   A0 00
 -1 * 0  02 00 A3 81 0C 00 FF 01   00 80 11 11   A1 00
@@ -1170,8 +1176,8 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  02 00 40 81 41 80 FF 00 04 02   A2 00 00 00   A3 00 03 03   C2 00
 -1 * 0  02 00 41 81 41 80 FF 00 04 02   A2 00 00 00   A3 00 03 03   C3 00
 -1 * 0  02 00 4F 82 FF 00 01 01         40 00 00 00   41 00 // Flip
-// Change some stats                    Weight        Power
--1 * 0  02 00 43 81 10 00 FF 01      \b235 80 16 16   00 00
+// Change some stats                  Running         Weight          TE
+-1 * 0  02 00 43 81 10 00 FF 03       \b21 80 0D 0D  \b235 80 16 16   \b22 80 1F 1F   00 00
 -1 * 0  02 00 4F 81 0C 00 FF 01         43 00 36 36   4F 00
 
 // Switch spritesets based on livery
@@ -1190,7 +1196,7 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 // Callbacks
 -1 * 0  02 00 50 81 C6 00 FF 01   E1 80 3B 3B   E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
 -1 * 0  02 00 52 81 C6 00 FF 01   FF 80 3B 3B   E0 80  // CB 1D stuff: attaches self, cannot attach other
--1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b11  50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b11 50 00  // CB 1D stuff: this or that if this or that range
 -1 * 0  02 00 54 81 10 00 FF 01   3B 80 01 03   FF FF  // articulation '10
 -1 * 0  02 00 59 81 F2 00 FF 02   F7 80 00 00          // Livery 0 - Plan V
                                   F8 80 01 01          // Livery 1 - Plan T
@@ -1213,8 +1219,8 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  02 00 40 81 41 80 FF 00 06 04   A0 00 00 00   C0 00 02 02   C2 00 04 04   A3 00 05 05   B0 00
 -1 * 0  02 00 41 81 41 80 FF 00 06 04   A0 00 00 00   C1 00 02 02   C3 00 04 04   A3 00 05 05   B0 00
 -1 * 0  02 00 42 82 FF 00 01 01         40 00 00 00   41 00 // Flip
-// Change some stats                    Weight        Power
--1 * 0  02 00 43 81 10 00 FF 01      \b235 80 16 16   00 00
+// Change some stats                    Running       Weight           TE
+-1 * 0  02 00 43 81 10 00 FF 03       \b21 80 0D 0D   \b235 80 16 16   \b22 80 1F 1F   00 00
 -1 * 0  02 00 4F 81 0C 00 FF 01         43 00 36 36   42 00
 
 
@@ -1222,8 +1228,8 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 -1 * 0  02 00 60 81 41 80 FF 00 06 04   A2 00 00 00   C2 00 01 02   D2 00 03 03   C2 00 04 04   A3 00
 -1 * 0  02 00 61 81 41 80 FF 00 06 04   A2 00 00 00   C3 00 01 01   D3 00 02 02   C3 00 03 04   A3 00
 -1 * 0  02 00 62 82 FF 00 01 01         60 00 00 00   61 00 // Flip  
-// Change some stats                    Weight        Power
--1 * 0  02 00 63 81 10 00 FF 02         60 81 16 16   1C 8C 0B 0B   00 00
+// Change some stats                    running       Power         weight           TE              P-cost
+-1 * 0  02 00 63 81 10 00 FF 05       \b38 80 0D 0D   60 81 16 16   1C 8C 0B 0B      \b22 80 1F 1F   \b255 80 17 17    00 00
 -1 * 0  02 00 6F 81 0C 00 FF 01         63 00 36 36   62 00
 
 
@@ -1235,6 +1241,7 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
                                   FF FF 
 
 // Add P-list for IRM
+-1 * 0  02 00 11 81 0C 00 FF 01   63 00 36 36    11 00 // Update stats in p-list
 -1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    5E 00 // P-list if 0
 
 
@@ -1269,8 +1276,8 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
  
  -1 * 0  04 00 7F 01 35 "Mat '64 (Electric)" 00
  
- 1304 * 60	 00 00 18 01 35   00 BC 3E 03 19   04 32   06 0F   05 00   08 01   09 8C 00   0B \w935   0D 1E   0E 3C 4C 00 00   12 FD   13
-	 00   14 \b66 15 00   16 \b86   24 00   17 16   19 30   1B 00 00   1C 50   1D 00 00 00 00   21 04   28 01 00   1E 3E
+ 1304 * 60	 00 00 19 01 35   00 BC 3E 03 19   04 32   06 0F   05 00   08 01   09 8C 00   0B \w935   0D 1E   0E 3C 4C 00 00   12 FD   13
+	 00   14 \b66 15 00   16 \b86   24 00   17 16   19 30   1B 00 00   1C 50   1D 00 00 00 00   1F \b28   21 04   28 01 00   1E 3E
 
 
 
@@ -1506,8 +1513,8 @@ sprites/dutchtrainsw.pcx 722 2748 01 12 50 -25 -8
 // ----------------------------------
 
 -1 * 0  04 00 7F 01 3C "Thalys - DJ" 00
- 2206 * 60	 00 00 18 01 3C 00 5C 6C 03 19 04 32 06 0F 05 00 08 01 09 2C 01 0B \w11800 0D FF 0E 3C 4C 00 00 13
-	 00 14 00 15 00 16 \b130 24 01 17 BC 19 30 1B 00 00 1C 00 1D 00 00 00 00 21 00 28 01 00   1E 10   12 FD
+ 2206 * 60	 00 00 19 01 3C 00 5C 6C 03 19 04 32 06 0F 05 00 08 01 09 2C 01 0B \w11800 0D FF 0E 3C 4C 00 00 13
+	 00 14 00 15 00 16 \b130 24 01 17 BC 19 30 1B 00 00 1C 00 1D 00 00 00 00 1F \b20 21 00 28 01 00   1E 10   12 FD
 	 
 -1 * 0  01 00 09  08
 // Front Engine - 00
@@ -1639,8 +1646,8 @@ sprites/dutchtrainsw.pcx 722 2744 01 1 1 -0 -0
  
  -1 * 0  04 00 7F 01 60 "ZHESM (Electric)" 00
  
- 1551 * 60	 00 00 19 01 60 00 \w0 03 19 04 32 06 0F 05 00 08 01 09 \w80   0B \w360   0D \b12   0E 3C 4C 00 00   13
-	 00   14 \b76   15 00   16 \b62   24 00    17 \b15   19 30   1B \w0   1C 00   1D 00 00 00 00   21 04   28 01 00   12 FD   1E 3F   2A \d696878
+ 1551 * 60	 00 00 1A 01 60 00 \w0 03 19 04 32 06 0F 05 00 08 01 09 \w80   0B \w360   0D \b12   0E 3C 4C 00 00   13 00
+   14 \b76   15 00   16 \b62   24 00    17 \b15   19 30   1B \w0   1C 00   1D 00 00 00 00   1F \b64   21 04   28 01 00   12 FD   1E 3F   2A \d696878
 
 
 
@@ -1699,19 +1706,22 @@ sprites/dutchtrainsw.pcx 722 2744 01 1 1 -0 -0
 
 // --- 2 parts ---                      first         3rd           else
 -1 * 0  02 00 52 81 41 80 FF 00 04 02   A0 00 00 00   B0 00 02 02   C0 00
--1 * 0  02 00 42 81 10 00 FF 01      \b120 80 16 16 // More weight
+-1 * 0  02 00 42 81 10 00 FF 02      \b120 80 16 16 // More weight
+                                     \b033 80 1F 1F // Change TE
                                         51 00       // GFX
 -1 * 0  02 00 52 81 0C 00 FF 01         42 00 36 36   52 00
 
 // --- 3 parts ---                      first         2nd           3rd           4th
 -1 * 0  02 00 53 81 41 80 FF 00 04 03   A8 00 00 00   B8 00 01 01   B0 00 02 02   C0 00
--1 * 0  02 00 43 81 10 00 FF 01      \b178 80 16 16 // More weight
+-1 * 0  02 00 43 81 10 00 FF 02      \b178 80 16 16 // More weight
+                                     \b022 80 1F 1F // Change TE
                                         53 00       // GFX
 -1 * 0  02 00 53 81 0C 00 FF 01         43 00 36 36   53 00
 
 // --- 4 parts ---                         First         Else
 -1 * 0  02 00 54 81 41 80 FF 00 04 01   A8 00 00 00   B8 00
--1 * 0  02 00 44 81 10 00 FF 01      \b236 80 16 16 // More weight
+-1 * 0  02 00 44 81 10 00 FF 02      \b236 80 16 16 // More weight
+                                     \b017 80 1F 1F // Change TE
                                         51 00       // GFX
 -1 * 0  02 00 54 81 0C 00 FF 01         44 00 36 36   54 00
 
