@@ -65,22 +65,25 @@
 
 // --- 2 parts ---                      first         3rd           else
 -1 * 0  02 00 52 81 41 80 FF 00 04 02   A0 00 00 00   B0 00 02 02   C0 00
--1 * 0  02 00 42 81 10 00 FF 02      \b120 80 16 16 // More weight
+-1 * 0  02 00 42 81 10 00 FF 03      \b120 80 16 16 // More weight
                                      \b033 80 1F 1F // Change TE
+                                     \b087 80 0D 0D // Running cost
                                         51 00       // GFX
 -1 * 0  02 00 52 81 0C 00 FF 01         42 00 36 36   52 00
 
 // --- 3 parts ---                      first         2nd           3rd           4th
 -1 * 0  02 00 53 81 41 80 FF 00 04 03   A8 00 00 00   B8 00 01 01   B0 00 02 02   C0 00
--1 * 0  02 00 43 81 10 00 FF 02      \b178 80 16 16 // More weight
+-1 * 0  02 00 43 81 10 00 FF 03      \b178 80 16 16 // More weight
                                      \b022 80 1F 1F // Change TE
+                                     \b131 80 0D 0D // Running cost
                                         53 00       // GFX
 -1 * 0  02 00 53 81 0C 00 FF 01         43 00 36 36   53 00
 
-// --- 4 parts ---                         First         Else
+// --- 4 parts ---                      First         Else
 -1 * 0  02 00 54 81 41 80 FF 00 04 01   A8 00 00 00   B8 00
--1 * 0  02 00 44 81 10 00 FF 02      \b236 80 16 16 // More weight
+-1 * 0  02 00 44 81 10 00 FF 03      \b236 80 16 16 // More weight
                                      \b017 80 1F 1F // Change TE
+                                     \b179 80 0D 0D // Running cost
                                         51 00       // GFX
 -1 * 0  02 00 54 81 0C 00 FF 01         44 00 36 36   54 00
 

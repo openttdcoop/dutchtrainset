@@ -3,6 +3,13 @@
 // ----------- P-list info - ID 00 - 7F -----------
 // ------------------------------------------------
 
+
+
+// mDDm
+-1 * 0  04 00 FF 01 \wxd015                                       "\n"
+                           98 "Usage:" 8A "Intercity Train"       "\n" 
+                           98 "Composition: " 8A "Max 4 Sets"     "\n" 00
+
 // IRM / vIRM
 -1 * 0  04 00 FF 01 \wxd03B                                       "\n"
                            98 "Usage:" 8A "Intercity Train"       "\n" 
