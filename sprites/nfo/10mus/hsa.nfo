@@ -1,0 +1,85 @@
+-1 * 0  04 00 7F 01 15 "mDDm (Electric)" 00
+-1 * 0  04 00 7F 01 41 "HSA (Electric)" 00
+-1 * 0  00 00 19 01 41 00 73 87 03 19 06 0F 05 00 08 01 09 C2 01 0B 20 4E 0D FF 0E 3C 4C 00 00 13 00 14
+	 28 15 00 16 \b104 24 00 17 FF 19 30 1B 00 00 1C 00 1D 00 00 00 00 21 00 28 01 00   24 01   1E 3F   12 FD   1F 20
+
+-1 * 0  01 00 05 08
+// Front
+ 2588 sprites/dutchtrainsw.pcx 658 3256 01 22 8 -3 -10
+ 2589 sprites/dutchtrainsw.pcx 674 3256 01 12 21 -11 -5
+ 2590 sprites/dutchtrainsw.pcx 706 3256 01 12 30 -16 -7
+ 2591 sprites/dutchtrainsw.pcx 754 3256 01 15 19 -11 -10
+ 2592 sprites/dutchtrainsw.pcx 786 3256 01 23 8 -3 -11
+ 2593 sprites/dutchtrainsw.pcx 2 3304 01 15 19 -8 -9
+ 2594 sprites/dutchtrainsw.pcx 34 3304 01 12 31 -15 -7
+ 2595 sprites/dutchtrainsw.pcx 82 3304 01 12 21 -10 -6
+// End
+ 2628 sprites/dutchtrainsw.pcx 242 3352 01 23 8 -3 -11
+ 2629 sprites/dutchtrainsw.pcx 258 3352 01 15 19 -8 -9
+ 2630 sprites/dutchtrainsw.pcx 290 3352 01 12 31 -15 -7
+ 2631 sprites/dutchtrainsw.pcx 338 3352 01 12 21 -10 -6
+ 2632 sprites/dutchtrainsw.pcx 370 3352 01 22 8 -3 -10
+ 2633 sprites/dutchtrainsw.pcx 386 3352 01 12 21 -11 -5
+ 2634 sprites/dutchtrainsw.pcx 418 3352 01 12 30 -16 -7
+ 2635 sprites/dutchtrainsw.pcx 466 3352 01 15 19 -11 -10
+// Pax 
+ 2598 sprites/dutchtrainsw.pcx 146 3304 01 23 8 -3 -11
+ 2599 sprites/dutchtrainsw.pcx 162 3304 01 16 22 -11 -9
+ 2600 sprites/dutchtrainsw.pcx 194 3304 01 12 32 -16 -7
+ 2601 sprites/dutchtrainsw.pcx 242 3304 01 16 22 -11 -10
+ 2602 sprites/dutchtrainsw.pcx 274 3304 01 23 8 -3 -11
+ 2603 sprites/dutchtrainsw.pcx 290 3304 01 16 22 -11 -9
+ 2604 sprites/dutchtrainsw.pcx 322 3304 01 12 32 -16 -7
+ 2605 sprites/dutchtrainsw.pcx 370 3304 01 16 22 -11 -10
+// Pax panto
+ 2608 sprites/dutchtrainsw.pcx 434 3304 01 23 8 -3 -11
+ 2609 sprites/dutchtrainsw.pcx 450 3304 01 16 22 -11 -9
+ 2610 sprites/dutchtrainsw.pcx 482 3304 01 14 31 -16 -9
+ 2611 sprites/dutchtrainsw.pcx 530 3304 01 17 22 -11 -11
+ 2612 sprites/dutchtrainsw.pcx 562 3304 01 23 8 -3 -11
+ 2613 sprites/dutchtrainsw.pcx 578 3304 01 17 22 -11 -10
+ 2614 sprites/dutchtrainsw.pcx 610 3304 01 14 32 -16 -9
+ 2615 sprites/dutchtrainsw.pcx 658 3304 01 16 22 -11 -10
+// Pax panto rev
+ 2618 sprites/dutchtrainsw.pcx 722 3304 01 23 8 -3 -11
+ 2619 sprites/dutchtrainsw.pcx 738 3304 01 17 22 -11 -10
+ 2620 sprites/dutchtrainsw.pcx 2 3352 01 14 32 -16 -9
+ 2621 sprites/dutchtrainsw.pcx 50 3352 01 16 22 -11 -10
+ 2622 sprites/dutchtrainsw.pcx 82 3352 01 23 8 -3 -11
+ 2623 sprites/dutchtrainsw.pcx 98 3352 01 16 22 -11 -9
+ 2624 sprites/dutchtrainsw.pcx 130 3352 01 14 31 -16 -9
+ 2625 sprites/dutchtrainsw.pcx 178 3352 01 17 22 -11 -11
+
+ 2347 * 9	 02 00 A0 01 01 00 00 00 00 // <--
+ 2347 * 9	 02 00 A1 01 01 01 00 01 00 // -->
+ 2347 * 9	 02 00 B0 01 01 02 00 02 00 // pax
+ 2347 * 9	 02 00 C0 01 01 03 00 03 00 // panto pax
+ 2347 * 9  02 00 C1 01 01 04 00 04 00 // panto pax rev
+
+ 2637 * 6	 01 00 01 01
+ 2638 sprites/dutchtrainsw.pcx 530 3352 01 12 50 -25 -6
+ 2639 * 9	 02 00 11 01 01 00 00 00 00
+
+
+// What where:
+-1 * 0  02 00 30 81 41 80 FF 00 09 03   A0 00 00 00   C0 00 04 04   A1 00 08 08   B0 00
+-1 * 0  02 00 31 81 41 80 FF 00 09 03   A0 00 00 00   C1 00 04 04   A1 00 08 08   B0 00
+-1 * 0  02 00 32 82 FF 00 01 01   30 00 00 00   31 00 //
+// Add P-list
+-1 * 0  02 00 3F 82 41 10 FF 01   11 00 00 00   32 00
+
+// Generic
+// Callbacks - Info
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 41 41   E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 41 41   E0 80  // CB 1D stuff: attaches self, cannot attach other
+-1 * 0  02 00 53 82 40 10 FF 01   52 00 01 \b5 50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   41 80 01 08   FF FF  // articulation '10
+// CB's
+-1 * 0  02 00 5F 81 0C 00 FF 03   54 00 16 16          // articulate
+                                  53 00 1D 1D          // cannot attach
+                                  3C 80 23 23          // p-list callback
+                                  3F 00                // attach graphics   
+
+-1 * 0  03 00 01 41 00  5F 00
+ 
+ 

@@ -21,7 +21,7 @@
                            98 "Types: " 8A "VIRM-IV / VIRM-VI (default)" "\n"
                            98 "Info: " 8A "VIRM-IV is lower powered" 00
 
-// ICE3 + Thalys
+// ICE3 + Thalys + HSA
 -1 * 0  04 00 FF 01 \wxd03C                                                   "\n" 
                            98 "Usage:" 8A "Long haul high speed Expresstrain" "\n"
                            98 "Composition: " 8A "Max two sets"     00
