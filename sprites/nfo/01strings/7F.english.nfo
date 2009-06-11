@@ -26,12 +26,6 @@
                            98 "Usage:" 8A "Long haul high speed Expresstrain" "\n"
                            98 "Composition: " 8A "Max two sets"     00
                            
-// GTW
--1 * 0  04 00 FF 01 \wxd040                                                       "\n" 
-                          98 "Usage:" 8A "Local Train"                            "\n"
-                          98 "Composition: " 8A "Max 3 four-part units"           "\n"
-                          98 "Livery info:" 8A "Spurt (Arriva) / Velios (Veolia)" 00
-
 // ICM
 -1 * 0  04 00 FF 01 \wxd037                                                      "\n" 
                            98 "Usage:" 8A "InterCity"                            "\n"
@@ -41,6 +35,18 @@
 -1 * 0  04 00 FF 01 \wxd035                                                   "\n"     
                            98 "Usage:" 8A "Local train"                       "\n" 
                            98 "Livery Info: " 8A "Plan V (2car)/Plan T(4car)" 00
+
+// Mat64
+-1 * 0  04 00 FF 01 \wxd03F                                                   "\n"     
+                           98 "Usage:" 8A "Local train"                       "\n" 
+                           98 "Composition: " 8A "Max three sets" 00
+                           
+
+// GTW
+-1 * 0  04 00 FF 01 \wxd040                                                       "\n" 
+                          98 "Usage:" 8A "Local Train"                            "\n"
+                          98 "Composition: " 8A "Max 3 four-part units"           "\n"
+                          98 "Livery info:" 8A "Spurt (Arriva) / Velios (Veolia)" 00
 
 // ZHSEM
 -1 * 0  04 00 FF 01 \wxd060                                            "\n"
