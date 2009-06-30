@@ -1,0 +1,36 @@
+
+-1 * 0  04 00 7F 01 12 "NS 1600 (Electric)" 00
+
+-1 * 59	 00 00 18 01 12 00 8C 55 03 19 04 32 06 0F 05 00 08 00 09 B4 00 0B BB 11 0D 6C 0E 3C 4C 00 00 13
+	 00 14 04 15 00 16 54 24 00 17 43 19 08 1B 00 00 1C 00 1D FF FF FF 0F 1F 4E 21 00   1E 3F   12 FD
+
+-1 * 0  01 00 02 08
+// Yellow
+-1 sprites/engines/ns1600.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines/ns1600.pcx 	10	1	1	18	22	-11	-11
+-1 sprites/engines/ns1600.pcx 	33	1	1	14	32	-16	-10
+-1 sprites/engines/ns1600.pcx 	66	1	1	18	22	-11	-11
+-1 sprites/engines/ns1600.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/engines/ns1600.pcx 	98	1	1	18	22	-11	-11
+-1 sprites/engines/ns1600.pcx 	121	1	1	14	32	-16	-10
+-1 sprites/engines/ns1600.pcx 	154	1	1	18	22	-11 -11
+// Red
+-1 sprites/engines/ns1600.pcx 	1	32	1	24	8	-3	-12
+-1 sprites/engines/ns1600.pcx 	10	32	1	18	22	-11	-11
+-1 sprites/engines/ns1600.pcx 	33	32	1	14	32	-16	-10
+-1 sprites/engines/ns1600.pcx 	66	32	1	18	22	-11	-11
+-1 sprites/engines/ns1600.pcx 	89	32	1	24	8	-3	-12
+-1 sprites/engines/ns1600.pcx 	98	32	1	18	22	-11	-11
+-1 sprites/engines/ns1600.pcx 	121	32	1	14	32	-16	-10
+-1 sprites/engines/ns1600.pcx 	154	32	1	18	22	-11 -11
+
+
+-1 * 9  02 00 A0 01 01 \w0 \w0
+-1 * 0  02 00 B0 01 01 \w1 \w1
+
+-1 * 6  01 00 01 FF 01 00
+-1 sprites/dutchtrainsw.pcx 66 4504 01 14 50 -25 -8
+-1 * 0  02 00 11 01 01 \w0 \w0
+
+-1 * 0  03 00 01 12 01   FF 11 00   A0 00
+ 

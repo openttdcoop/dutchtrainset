@@ -4,7 +4,7 @@
 -1 * 0  00 00 00 00
 
 // Action 8: define GRF version (07), GRFID (number), Name and Description.
--1 * 0	 08 07 05 "ML" 06 "Dutch - Trainset (DJ Nekkid remix) r7" 00 "Coded by DJ Nekkid" 00
+-1 * 0	 08 07 05 "ML" 06 "Dutch - Trainset (DJ Nekkid remix) r19" 00 "Coded by DJ Nekkid" 00
 
 
 //  Misc
@@ -13,10 +13,10 @@
 
 
 // Economy
-//-1 * 7	 00 08 01 01 0F 08 08 // Engine purchase price
-//-1 * 7	 00 08 01 01 10 08 0A // Waggon purchase price
-//-1 * 7	 00 08 01 01 2A 08 09 // Steam running
-//-1 * 7	 00 08 01 01 2C 08 0D // Electro Running
+-1 * 7	 00 08 01 01 0F 08 08 // Engine purchase price
+-1 * 7	 00 08 01 01 10 08 0A // Waggon purchase price
+-1 * 7	 00 08 01 01 2A 08 09 // Steam running
+-1 * 7	 00 08 01 01 2C 08 0D // Electro Running
 
 //Disable original trains
 -1 * 0  00 00 \b1 01 \b0	06 00
