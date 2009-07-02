@@ -1,0 +1,113 @@
+2733 * 29	 04 00 1F 01 1B "Express passenger coach" 00
+ 2734 * 55	 00 00 15 01 1B   00 \w0   03 20   06 0F   07 04   05 00   09 C8 00   0B 00 00   0D 00   0E 00 00 00 00   14 08   15
+	 00   16 2D   24 00   17 C3   1B 00 00   1C 00   1D 00 00 00 00   1E 02   21 00   23 00   12 FD   
+
+ 2735 * 6	 01 00 07 08
+// Green old wagon
+ 2736 sprites/dutchtrainsw.pcx 18 3528 01 23 8 -3 -11
+ 2737 sprites/dutchtrainsw.pcx 34 3528 01 17 22 -11 -10
+ 2738 sprites/dutchtrainsw.pcx 66 3528 01 13 32 -16 -8
+ 2739 sprites/dutchtrainsw.pcx 114 3528 01 17 22 -10 -11
+ 2740 sprites/dutchtrainsw.pcx 146 3528 01 23 8 -3 -11
+ 2741 sprites/dutchtrainsw.pcx 162 3528 01 17 22 -11 -10
+ 2742 sprites/dutchtrainsw.pcx 194 3528 01 13 32 -16 -8
+ 2743 sprites/dutchtrainsw.pcx 242 3528 01 17 22 -10 -11
+// Blue/white
+ 2746 sprites/dutchtrainsw.pcx 306 3528 01 23 8 -3 -10
+ 2747 sprites/dutchtrainsw.pcx 322 3528 01 18 22 -11 -11
+ 2748 sprites/dutchtrainsw.pcx 354 3528 01 12 33 -16 -8
+ 2749 sprites/dutchtrainsw.pcx 402 3528 01 18 22 -10 -12
+ 2750 sprites/dutchtrainsw.pcx 434 3528 01 23 8 -3 -12
+ 2751 sprites/dutchtrainsw.pcx 450 3528 01 18 22 -11 -11
+ 2752 sprites/dutchtrainsw.pcx 482 3528 01 12 33 -16 -8
+ 2753 sprites/dutchtrainsw.pcx 530 3528 01 18 22 -10 -12
+// Blue/yellow
+ 2756 sprites/dutchtrainsw.pcx 594 3528 01 21 8 -3 -10
+ 2757 sprites/dutchtrainsw.pcx 610 3528 01 17 22 -11 -10
+ 2758 sprites/dutchtrainsw.pcx 642 3528 01 12 33 -16 -8
+ 2759 sprites/dutchtrainsw.pcx 690 3528 01 17 22 -10 -11
+ 2760 sprites/dutchtrainsw.pcx 722 3528 01 21 8 -3 -10
+ 2761 sprites/dutchtrainsw.pcx 738 3528 01 17 22 -11 -10
+ 2762 sprites/dutchtrainsw.pcx 2 3576 01 12 33 -16 -8
+ 2763 sprites/dutchtrainsw.pcx 50 3576 01 17 22 -10 -11
+// Blue/yellow with ICM end
+ 2766 sprites/dutchtrainsw.pcx 114 3576 01 23 8 -3 -10
+ 2767 sprites/dutchtrainsw.pcx 130 3576 01 16 20 -9 -10
+ 2768 sprites/dutchtrainsw.pcx 162 3576 01 14 32 -15 -10
+ 2769 sprites/dutchtrainsw.pcx 210 3576 01 17 22 -10 -11
+ 2770 sprites/dutchtrainsw.pcx 242 3576 01 22 8 -3 -11
+ 2771 sprites/dutchtrainsw.pcx 258 3576 01 17 22 -11 -10
+ 2772 sprites/dutchtrainsw.pcx 290 3576 01 14 32 -16 -10
+ 2773 sprites/dutchtrainsw.pcx 338 3576 01 16 20 -10 -11
+// Yellow/blue rather bright
+ 2777 sprites/dutchtrainsw.pcx 418 3576 01 21 8 -3 -10
+ 2778 sprites/dutchtrainsw.pcx 434 3576 01 17 22 -11 -10
+ 2779 sprites/dutchtrainsw.pcx 466 3576 01 12 33 -16 -8
+ 2780 sprites/dutchtrainsw.pcx 514 3576 01 17 22 -10 -11
+ 2781 sprites/dutchtrainsw.pcx 546 3576 01 21 8 -3 -10
+ 2782 sprites/dutchtrainsw.pcx 562 3576 01 17 22 -11 -10
+ 2783 sprites/dutchtrainsw.pcx 594 3576 01 12 33 -16 -8
+ 2784 sprites/dutchtrainsw.pcx 642 3576 01 17 22 -10 -11
+// Yellow/blue a bit older
+ 2787 sprites/dutchtrainsw.pcx 706 3576 01 25 8 -3 -12
+ 2788 sprites/dutchtrainsw.pcx 722 3576 01 17 22 -11 -10
+ 2789 sprites/dutchtrainsw.pcx 754 3576 01 13 33 -16 -8
+ 2790 sprites/dutchtrainsw.pcx 2 3624 01 17 22 -10 -11
+ 2791 sprites/dutchtrainsw.pcx 34 3624 01 25 8 -3 -12
+ 2792 sprites/dutchtrainsw.pcx 50 3624 01 17 22 -11 -10
+ 2793 sprites/dutchtrainsw.pcx 82 3624 01 13 33 -16 -8
+ 2794 sprites/dutchtrainsw.pcx 130 3624 01 17 22 -10 -11
+// Yellow/blue endcoach
+ 2797 sprites/dutchtrainsw.pcx 194 3624 01 25 8 -3 -12
+ 2798 sprites/dutchtrainsw.pcx 210 3624 01 17 22 -11 -10
+ 2799 sprites/dutchtrainsw.pcx 242 3624 01 13 32 -15 -8
+ 2800 sprites/dutchtrainsw.pcx 290 3624 01 17 22 -10 -11
+ 2801 sprites/dutchtrainsw.pcx 322 3624 01 24 8 -3 -11
+ 2802 sprites/dutchtrainsw.pcx 338 3624 01 17 22 -11 -10
+ 2803 sprites/dutchtrainsw.pcx 370 3624 01 13 32 -16 -8
+ 2804 sprites/dutchtrainsw.pcx 418 3624 01 17 22 -10 -11
+ 2744 * 9	 02 00 B1 01 01 \w0 \w0 // Green
+ 2754 * 9	 02 00 B2 01 01 \w1 \w1 // blue/white
+ 2764 * 9	 02 00 B7 01 01 \w2 \w2 // blue/yellow
+ 2774 * 9	 02 00 04 01 01 \w3 \w3 // blue/yellow icm
+ 2785 * 9	 02 00 B4 01 01 \w4 \w4 // bright y/b
+ 2795 * 9	 02 00 B5 01 01 \w5 \w5 // pale y/b
+ 2805 * 9	 02 00 08 01 01 \w6 \w6 // endcoach y/b
+ 
+// P-list sprites
+ 2807 * 6	 01 00 06 01
+ 2808 sprites/dutchtrainsw.pcx 498 3624 01 13 50 -25 -9
+ 2811 sprites/dutchtrainsw.pcx 594 3624 01 12 50 -25 -8
+ 2814 sprites/dutchtrainsw.pcx 690 3624 01 14 50 -25 -10
+ 2817 sprites/dutchtrainsw.pcx 2 3672 01 12 50 -25 -8
+ 2820 sprites/dutchtrainsw.pcx 98 3672 01 13 50 -25 -9
+ 2823 sprites/dutchtrainsw.pcx 194 3672 01 13 50 -25 -9
+ 2809 * 9	 02 00 10 01 01 \w0 \w0
+ 2812 * 9	 02 00 11 01 01 \w1 \w1
+ 2815 * 9	 02 00 12 01 01 \w2 \w2
+ 2818 * 9	 02 00 13 01 01 \w3 \w3
+ 2821 * 9	 02 00 14 01 01 \w4 \w4
+ 2824 * 9	 02 00 15 01 01 \w5 \w5
+ 2826 * 30	 02 00 17 81 01 00 FF 05       // change depending on year, 5 cases   
+                               10 00 00 1D // 1920 - 1929
+                               11 00 1E 2D // 1930 - 1945
+                               12 00 2E 35 // 1946 - 1953
+                               13 00 36 3B // 1954 - 1960
+                               14 00 3C 52 // 1961 - 1982
+                               15 00       // 1982 - ---> (and pre 1920 for that matter)
+
+// "Game wagon"
+// Change gfx depending on position
+ 2775 * 14	 02 00 B3 81 40 08 FF 01   04 00 00 00   B7 00 // what where b/y (04 if last)
+ 2806 * 14	 02 00 B6 81 40 08 FF 01   08 00 00 00   B5 00 // what where y/b (08 if last)
+
+// Change gfx depending on year
+ 2825 * 30	 02 00 16 81 01 00 FF 05
+                               B1 00 00 1D // -> 1929   
+                               B2 00 1E 2D // -> 1945
+                               B3 00 2E 35 // -> 1953
+                               B4 00 36 3B // -> 1960
+                               B5 00 3C 52 // -> 1982
+                               B6 00       // 1982 ->
+// Action 3
+ 2828 * 10	 03 00 01 1B 01 FF 17 00 16 00
