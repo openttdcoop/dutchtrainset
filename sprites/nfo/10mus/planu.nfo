@@ -85,8 +85,8 @@
                              15 00       // 1981 ->
 
 -1 * 0  01 00 02 01
- 1258 sprites/dutchtrainsw.pcx 738 1528 01 12 50 -25 -6
- 1292 sprites/dutchtrainsw.pcx 114 1592 01 12 50 -25 -6
+ 1258 sprites/dutchtrainsw.pcx 738 1528 01 12 50 -25 -8
+ 1292 sprites/dutchtrainsw.pcx 114 1592 01 12 50 -25 -8
 -1 * 0  02 00 08 01 01 \w0 \w0
 -1 * 0  02 00 09 01 01 \w1 \w1
 // Change p-list depending on year
