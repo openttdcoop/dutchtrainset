@@ -1,0 +1,114 @@
+-1 * 0	04 00 7F 01 34 "4Plan U 'Diesel Drie' (Diesel)" 00
+
+ 1226 * 60	 00 00 18 01 34 00 08 39 03 19 04 32 06 0F 05 00 08 01 09 82 00 0B DB 03 0D 17 0E 36 4C 00 00 13
+	 00 14 40 15 00 16 \b136 24 00 17 11 19 10 1B 00 00 1C 00 1D 00 00 00 00 21 00 28 01 00   12 FD   1E 3F
+
+// Head
+ 1227 * 6	 01 00 02 08
+ 1228 sprites/dutchtrainsw.pcx 674 1480 01 21 8 -3 -9
+ 1229 sprites/dutchtrainsw.pcx 690 1480 01 16 22 -13 -8
+ 1230 sprites/dutchtrainsw.pcx 722 1480 01 12 33 -16 -7
+ 1231 sprites/dutchtrainsw.pcx 770 1480 01 17 22 -10 -11
+ 1232 sprites/dutchtrainsw.pcx 2 1528 01 21 8 -3 -11
+ 1233 sprites/dutchtrainsw.pcx 18 1528 01 17 22 -11 -10
+ 1234 sprites/dutchtrainsw.pcx 50 1528 01 12 33 -16 -7
+ 1235 sprites/dutchtrainsw.pcx 98 1528 01 16 22 -10 -10
+
+ 1262 sprites/dutchtrainsw.pcx 50 1560 01 21 8 -3 -10
+ 1263 sprites/dutchtrainsw.pcx 66 1560 01 16 22 -11 -9
+ 1264 sprites/dutchtrainsw.pcx 98 1560 01 12 33 -16 -7
+ 1265 sprites/dutchtrainsw.pcx 146 1560 01 17 22 -10 -11
+ 1266 sprites/dutchtrainsw.pcx 178 1560 01 21 8 -3 -10
+ 1267 sprites/dutchtrainsw.pcx 194 1560 01 17 22 -11 -10
+ 1268 sprites/dutchtrainsw.pcx 226 1560 01 12 33 -16 -7
+ 1269 sprites/dutchtrainsw.pcx 274 1560 01 16 22 -10 -10
+-1 * 0  02 00 10 01 01 \w0 \w0
+-1 * 0  02 00 11 01 01 \w1 \w1
+
+
+// Wagon
+-1 * 0  01 00 02 08
+ 1238 sprites/dutchtrainsw.pcx 162 1528 01 21 8 -3 -10
+ 1239 sprites/dutchtrainsw.pcx 178 1528 01 17 22 -11 -10
+ 1240 sprites/dutchtrainsw.pcx 210 1528 01 12 33 -16 -7
+ 1241 sprites/dutchtrainsw.pcx 258 1528 01 17 22 -10 -11
+ 1242 sprites/dutchtrainsw.pcx 290 1528 01 21 8 -3 -10
+ 1243 sprites/dutchtrainsw.pcx 306 1528 01 17 22 -11 -10
+ 1244 sprites/dutchtrainsw.pcx 338 1528 01 12 33 -16 -7
+ 1245 sprites/dutchtrainsw.pcx 386 1528 01 17 22 -10 -11
+
+ 1272 sprites/dutchtrainsw.pcx 338 1560 01 21 8 -3 -11
+ 1273 sprites/dutchtrainsw.pcx 354 1560 01 17 22 -11 -10
+ 1274 sprites/dutchtrainsw.pcx 386 1560 01 12 33 -16 -7
+ 1275 sprites/dutchtrainsw.pcx 434 1560 01 17 22 -10 -11
+ 1276 sprites/dutchtrainsw.pcx 466 1560 01 21 8 -3 -9
+ 1277 sprites/dutchtrainsw.pcx 482 1560 01 17 22 -11 -10
+ 1278 sprites/dutchtrainsw.pcx 514 1560 01 12 33 -16 -7
+ 1279 sprites/dutchtrainsw.pcx 562 1560 01 17 22 -10 -11
+-1 * 0  02 00 12 01 01 \w0 \w0
+-1 * 0  02 00 13 01 01 \w1 \w1
+ 
+
+// End
+-1 * 0  01 00 02 08 
+ 1248 sprites/dutchtrainsw.pcx 450 1528 01 21 8 -3 -11
+ 1249 sprites/dutchtrainsw.pcx 466 1528 01 17 22 -11 -10
+ 1250 sprites/dutchtrainsw.pcx 498 1528 01 12 33 -16 -7
+ 1251 sprites/dutchtrainsw.pcx 546 1528 01 16 22 -10 -10
+ 1252 sprites/dutchtrainsw.pcx 578 1528 01 21 8 -3 -9
+ 1253 sprites/dutchtrainsw.pcx 594 1528 01 16 22 -11 -9
+ 1254 sprites/dutchtrainsw.pcx 626 1528 01 12 33 -16 -7
+ 1255 sprites/dutchtrainsw.pcx 674 1528 01 17 22 -10 -11
+
+ 1282 sprites/dutchtrainsw.pcx 626 1560 01 21 8 -3 -12
+ 1283 sprites/dutchtrainsw.pcx 642 1560 01 17 22 -11 -10
+ 1284 sprites/dutchtrainsw.pcx 674 1560 01 12 33 -16 -7
+ 1285 sprites/dutchtrainsw.pcx 722 1560 01 16 22 -10 -10
+ 1286 sprites/dutchtrainsw.pcx 754 1560 01 21 8 -3 -8
+ 1287 sprites/dutchtrainsw.pcx 770 1560 01 16 22 -11 -9
+ 1288 sprites/dutchtrainsw.pcx 2 1592 01 12 33 -16 -7
+ 1289 sprites/dutchtrainsw.pcx 50 1592 01 17 22 -10 -11
+-1 * 0  02 00 14 01 01 \w0 \w0
+-1 * 0  02 00 15 01 01 \w1 \w1
+
+// Change head depending on year
+-1 * 0  02 00 A0 81 01 00 FF 01
+                             10 00 00 3C // -> 1980
+                             11 00       // 1981 ->
+// Change wagon depending on year
+-1 * 0  02 00 B0 81 01 00 FF 01
+                             12 00 00 3C // -> 1980
+                             13 00       // 1981 ->
+// Change end depending on year
+-1 * 0  02 00 A1 81 01 00 FF 01
+                             14 00 00 3C // -> 1980
+                             15 00       // 1981 ->
+
+-1 * 0  01 00 02 01
+ 1258 sprites/dutchtrainsw.pcx 738 1528 01 12 50 -25 -6
+ 1292 sprites/dutchtrainsw.pcx 114 1592 01 12 50 -25 -6
+-1 * 0  02 00 08 01 01 \w0 \w0
+-1 * 0  02 00 09 01 01 \w1 \w1
+// Change p-list depending on year
+-1 * 0  02 00 11 81 01 00 FF 01
+                             08 00 00 3C // -> 1980
+                             09 00       // 1981 ->
+
+// What where 
+ -1 * 0	 02 00 AF 81 40 80 FF 00 03 02   A0 00 00 00   B0 00 01 01   A1 00 // Modulo
+
+// P-list vs normal gfx
+-1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    AF 00 // P-list if 0
+
+// Generic
+// Callbacks
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 34 34    E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 34 34    E0 80  // CB 1D stuff: attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b8  50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   34 80 01 02    FF FF  // articulation '10
+-1 * 0  02 00 5F 81 0C 00 FF 03   54 00 16 16          // articulate
+                                  53 00 1D 1D          // cannot attach
+                                  34 80 23 23          // p-list callback
+                                  5F 00                // attach graphics 	 
+ 
+ 1298 * 10	 03 00 01 34 00 5F 00

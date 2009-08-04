@@ -20,6 +20,12 @@
                            98 "Composition: " 8A "Max 3 Sets"            "\n" 
                            98 "Types: " 8A "VIRM-IV / VIRM-VI (default)" "\n"
                            98 "Info: " 8A "VIRM-IV is lower powered" 00
+// ICE3 + Thalys + HSA
+-1 * 0  04 00 FF 01 \wxd034                                                   "\n" 
+                           98 "Usage:" 8A "" "I have no idea\n"
+                           98 "Composition: " 8A "Max three sets"     00
+
+
 
 // ICE3 + Thalys + HSA
 -1 * 0  04 00 FF 01 \wxd03C                                                   "\n" 
