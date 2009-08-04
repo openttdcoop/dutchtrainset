@@ -1,0 +1,265 @@
+
+
+-1 * 0  04 00 7F 01 2D "Mat 24 'Blokkedoos' (Electric)" 00
+  264 * 60	 00 00 18 01 2D 00 B4 05 03 19 04 32 06 0F 05 00 08 01 09 64 00 0B C5 02 0D 0F 0E 3C 4C 00 00 13
+	 00 14 1E 15 00 16 19 24 00 17 0C 19 30 1B 00 00 1C 00 1D 00 00 00 00 21 00 28 01 00     12 FD   1E 3F
+
+-1 * 0  01 00 03 08
+// Head - white
+  266 sprites/dutchtrainsw.pcx 498 104 01 25 8 -3 -12
+  267 sprites/dutchtrainsw.pcx 514 104 01 17 22 -11 -10
+  268 sprites/dutchtrainsw.pcx 546 104 01 14 33 -16 -10
+  269 sprites/dutchtrainsw.pcx 594 104 01 17 22 -10 -10
+  270 sprites/dutchtrainsw.pcx 626 104 01 25 8 -3 -12
+  271 sprites/dutchtrainsw.pcx 642 104 01 17 22 -11 -10
+  272 sprites/dutchtrainsw.pcx 674 104 01 14 33 -16 -10
+  273 sprites/dutchtrainsw.pcx 722 104 01 17 22 -10 -10
+
+// Pax - White
+  276 sprites/dutchtrainsw.pcx 786 104 01 25 8 -3 -12
+  277 sprites/dutchtrainsw.pcx 2 152 01 17 22 -12 -10
+  278 sprites/dutchtrainsw.pcx 34 152 01 12 33 -16 -8
+  279 sprites/dutchtrainsw.pcx 82 152 01 17 22 -10 -10
+  280 sprites/dutchtrainsw.pcx 114 152 01 25 8 -3 -12
+  281 sprites/dutchtrainsw.pcx 130 152 01 17 22 -12 -10
+  282 sprites/dutchtrainsw.pcx 162 152 01 12 33 -16 -8
+  283 sprites/dutchtrainsw.pcx 210 152 01 17 22 -10 -10
+
+// End - White
+  286 sprites/dutchtrainsw.pcx 274 152 01 25 8 -3 -12
+  287 sprites/dutchtrainsw.pcx 290 152 01 17 22 -12 -10
+  288 sprites/dutchtrainsw.pcx 322 152 01 12 33 -16 -8
+  289 sprites/dutchtrainsw.pcx 370 152 01 17 22 -10 -10
+  290 sprites/dutchtrainsw.pcx 402 152 01 25 8 -3 -12
+  291 sprites/dutchtrainsw.pcx 418 152 01 17 22 -12 -10
+  292 sprites/dutchtrainsw.pcx 450 152 01 12 33 -16 -8
+  293 sprites/dutchtrainsw.pcx 498 152 01 17 22 -10 -10
+-1 * 0  02 00 A0 01 01 \w0 \w0
+-1 * 0  02 00 B0 01 01 \w1 \w1
+-1 * 0  02 00 A1 01 01 \w2 \w2
+
+-1 * 0  01 00 05 08
+// Head - Green 
+  296 sprites/dutchtrainsw.pcx 562 152 01 25 8 -3 -12
+  297 sprites/dutchtrainsw.pcx 578 152 01 17 22 -12 -10
+  298 sprites/dutchtrainsw.pcx 610 152 01 14 33 -16 -10
+  299 sprites/dutchtrainsw.pcx 658 152 01 17 22 -10 -10
+  300 sprites/dutchtrainsw.pcx 690 152 01 25 8 -3 -12
+  301 sprites/dutchtrainsw.pcx 706 152 01 17 22 -12 -10
+  302 sprites/dutchtrainsw.pcx 738 152 01 14 33 -16 -10
+  303 sprites/dutchtrainsw.pcx 2 200 01 17 22 -10 -10
+
+// pax 
+  306 sprites/dutchtrainsw.pcx 66 200 01 25 8 -3 -12
+  307 sprites/dutchtrainsw.pcx 82 200 01 17 22 -12 -10
+  308 sprites/dutchtrainsw.pcx 114 200 01 12 33 -16 -8
+  309 sprites/dutchtrainsw.pcx 162 200 01 17 22 -10 -10
+  310 sprites/dutchtrainsw.pcx 194 200 01 25 8 -3 -12
+  311 sprites/dutchtrainsw.pcx 210 200 01 17 22 -12 -10
+  312 sprites/dutchtrainsw.pcx 242 200 01 12 33 -16 -8
+  313 sprites/dutchtrainsw.pcx 290 200 01 17 22 -10 -10
+
+// end - unpanto
+  316 sprites/dutchtrainsw.pcx 354 200 01 25 8 -3 -12
+  317 sprites/dutchtrainsw.pcx 370 200 01 17 22 -12 -10
+  318 sprites/dutchtrainsw.pcx 402 200 01 12 33 -16 -8
+  319 sprites/dutchtrainsw.pcx 450 200 01 17 22 -10 -10
+  320 sprites/dutchtrainsw.pcx 482 200 01 25 8 -3 -12
+  321 sprites/dutchtrainsw.pcx 498 200 01 17 22 -12 -10
+  322 sprites/dutchtrainsw.pcx 530 200 01 12 33 -16 -8
+  323 sprites/dutchtrainsw.pcx 578 200 01 17 22 -10 -10
+
+// end - panto
+  326 sprites/dutchtrainsw.pcx 642 200 01 25 8 -3 -12
+  327 sprites/dutchtrainsw.pcx 658 200 01 17 22 -12 -10
+  328 sprites/dutchtrainsw.pcx 690 200 01 14 33 -16 -10
+  329 sprites/dutchtrainsw.pcx 738 200 01 17 22 -10 -10
+  330 sprites/dutchtrainsw.pcx 770 200 01 25 8 -3 -12
+  331 sprites/dutchtrainsw.pcx 2 248 01 17 22 -12 -10
+  332 sprites/dutchtrainsw.pcx 34 248 01 14 33 -16 -10
+  333 sprites/dutchtrainsw.pcx 82 248 01 17 22 -10 -10
+
+// pax - panto
+  336 sprites/dutchtrainsw.pcx 146 248 01 25 8 -3 -12
+  337 sprites/dutchtrainsw.pcx 162 248 01 17 22 -12 -10
+  338 sprites/dutchtrainsw.pcx 194 248 01 14 33 -16 -10
+  339 sprites/dutchtrainsw.pcx 242 248 01 17 22 -10 -10
+  340 sprites/dutchtrainsw.pcx 274 248 01 25 8 -3 -12
+  341 sprites/dutchtrainsw.pcx 290 248 01 17 22 -12 -10
+  342 sprites/dutchtrainsw.pcx 322 248 01 14 33 -16 -10
+  343 sprites/dutchtrainsw.pcx 370 248 01 17 22 -10 -10
+-1 * 0  02 00 C0 01 01 \w0 \w0 // head
+-1 * 0  02 00 D0 01 01 \w1 \w1 // pax
+-1 * 0  02 00 D1 01 01 \w3 \w3 // pax panto
+-1 * 0  02 00 E0 01 01 \w2 \w2 // end unpanto
+-1 * 0  02 00 E1 01 01 \w4 \w4 // end panto
+
+// Empty tile
+-1 * 0  01 00 01 04
+  123 sprites/dutchtrainsw.pcx 146 248 01 1 1 0 0
+  123 sprites/dutchtrainsw.pcx 146 248 01 1 1 0 0
+  123 sprites/dutchtrainsw.pcx 146 248 01 1 1 0 0
+  123 sprites/dutchtrainsw.pcx 146 248 01 1 1 0 0
+-1 * 0  02 00 F0 01 01 \w0 \w0
+//  0 capacity and make shorter
+-1 * 0  02 00 F1 81 10 00 FF 01   00 80 14 14   F0 00
+-1 * 0  02 00 F4 81 0C 00 FF 03   F1 00 36 36   00 80 15 15   04 80 11 11   F0 00
+-1 * 0  02 00 F7 81 0C 00 FF 03   F1 00 36 36   00 80 15 15   07 80 11 11   F0 00 
+
+// P-list
+  345 * 6	 01 00 02 01
+  346 sprites/dutchtrainsw.pcx 434 248 01 14 50 -25 -8
+  349 sprites/dutchtrainsw.pcx 530 248 01 14 50 -25 -8
+-1 * 0  02 00 09 01 01 \w0 \w0
+-1 * 0  02 00 10 01 01 \w0 \w0
+
+
+
+
+// --------------------
+// -- White / Yellow --
+// --------------------
+
+// Make the white/yellow parts shorter
+// Head half length
+-1 * 0  02 00 A4 81 0C 00 FF 01   04 80 11 11   A0 00
+// End half length
+-1 * 0  02 00 A5 81 0C 00 FF 01   04 80 11 11   A1 00
+
+
+// What where white/yellow
+//2 part                                 1/2 1st       1/2 last      empty else
+-1 * 0	 02 00 40 81 40 80 FF 00 04 02   A4 00 00 00   A5 00 02 02   F4 00
+// Change some stats                    running       weight        power            TE              
+-1 * 0  02 00 41 81 10 00 FF 04       \b43 80 0D 0D   3D 80 16 16   C2 82 0B 0B      \b34 80 1F 1F    00 00
+-1 * 0  02 00 42 81 0C 00 FF 01         41 00 36 36   40 00
+
+// 3part                                 1/1 first     1/1 2nd       1/2 3rd       1/2 empty
+-1 * 0	 02 00 40 81 40 80 FF 00 04 03   A0 00 00 00   B0 00 01 01   A5 00 02 02   F4 00
+// Change some stats                    running       weight        power            TE              
+-1 * 0  02 00 41 81 10 00 FF 04       \b43 80 0D 0D   52 80 16 16   C2 82 0B 0B      \b25 80 1F 1F    00 00
+-1 * 0  02 00 43 81 0C 00 FF 01         41 00 36 36   40 00
+
+// 4part
+-1 * 0	 02 00 40 81 40 80 FF 00 04 02   A0 00 00 00   B0 00 01 02   A1 00 // Modulo
+// Change some stats                    running       weight        power            TE              
+-1 * 0  02 00 41 81 10 00 FF 04       \b43 80 0D 0D   67 80 16 16   C2 82 0B 0B      \b20 80 1F 1F    00 00
+-1 * 0  02 00 44 81 0C 00 FF 01         41 00 36 36   40 00
+
+
+// Refit length options
+-1 * 0  02 00 4A 81 F2 00 FF 03   
+                                  42 00 00 00 // 2 car gfx
+                                  43 00 01 01 // 3 car gfx 
+                                  44 00 02 02 // 4 car gfx
+                                  FF FF       // Grahpical selection
+
+-1 * 0  02 00 4B 82 41 10 FF 01   09 00 00 00 // Use P-list sprite
+                                  4A 00       // Apply proper grafics
+
+// Max length + cannot attach + articulation
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 2D 2D    E0 80 // Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 2D 2D    E0 80 // attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b2   50 00 // this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   2D 80 01 03    FF FF // articulation '10
+-1 * 0  02 00 55 81 F2 00 FF 03                        // Refit texts
+                                  02 80 00 00          // 2 car text
+                                  03 80 01 01          // 3 car text
+                                  04 80 02 02          // 4 car text
+                                  FF FF                // Text selection
+-1 * 0  02 00 4F 81 0C 00 FF 04   54 00 16 16          // articulation
+                                  55 00 19 19          // Text
+                                  53 00 1D 1D          // cannot attach
+                                  34 80 23 23          // p-list text
+                                  4B 00                // attach graphics
+
+// -------------
+// --- GREEN ---
+// -------------
+// C0 head
+// D0 pax
+// D1 pax panto
+// E0 end unpanto
+// E1 end panto
+
+// Head half length
+-1 * 0  02 00 C4 81 0C 00 FF 01   04 80 11 11   C0 00
+// Pax half length
+-1 * 0  02 00 D4 81 0C 00 FF 01   04 80 11 11   D0 00
+// End unpanto half length
+-1 * 0  02 00 E4 81 0C 00 FF 01   04 80 11 11   E0 00
+// End panto half length
+-1 * 0  02 00 E5 81 0C 00 FF 01   04 80 11 11   E1 00
+
+// 3part                                 1/2 first     1/2 3rd pax   1/2 5th end   1/2 empty else
+-1 * 0	 02 00 60 81 40 80 FF 00 06 03   C4 00 00 00   D4 00 02 02   E4 00 04 04   F4 00
+// Change some stats                    running       weight        power            TE              
+-1 * 0  02 00 61 81 10 00 FF 04       \b43 80 0D 0D   52 80 16 16   C2 82 0B 0B      \b25 80 1F 1F    00 00
+-1 * 0  02 00 63 81 0C 00 FF 01         61 00 36 36   60 00
+
+// 4part                                 1/1 first     1/1 2nd pax   1/2 4th pax   1/2 5th ep    1/2 empty else
+-1 * 0	 02 00 60 81 40 80 FF 00 06 04   C0 00 00 00   D0 00 01 01   D4 00 02 02   E5 00 04 04   F4 00
+// Change some stats                    running       weight        power            TE              
+-1 * 0  02 00 61 81 10 00 FF 04       \b43 80 0D 0D   72 80 16 16   85 85 0B 0B      \b34 80 1F 1F    00 00
+-1 * 0  02 00 64 81 0C 00 FF 01         61 00 36 36   60 00
+
+// 5 part                                1/1 first     1/1 2+3+4 pax 1/2 end       1/2 empty else
+-1 * 0   02 00 60 81 40 80 FF 00 06 03   C0 00 00 00   D0 00 01 03   E5 00 04 04   F4 00
+// Change some stats                    running       weight        power            TE              
+-1 * 0  02 00 61 81 10 00 FF 04       \b43 80 0D 0D   8F 80 16 16   85 85 0B 0B      \b29 80 1F 1F    00 00
+-1 * 0  02 00 65 81 0C 00 FF 01         61 00 36 36   60 00
+
+// 6part                                 head          panto pax     panto end     unpanto pax else
+-1 * 0   02 00 66 81 40 80 FF 00 06 03   C0 00 00 00   D1 00 03 03   E1 00 05 05   D0 00
+-1 * 0   02 00 67 81 40 80 FF 00 06 03   C0 00 00 00   D1 00 02 02   E1 00 05 05   D0 00
+-1 * 0   02 00 60 82 FF 00 01 01         66 00 00 00   67 00 // Flip
+// Change some stats                    running       weight        power            TE              
+-1 * 0  02 00 61 81 10 00 FF 04       \b43 80 0D 0D   B7 80 16 16   72 88 0B 0B      \b34 80 1F 1F    00 00
+-1 * 0  02 00 66 81 0C 00 FF 01         61 00 36 36   60 00
+
+
+// Refit length options
+-1 * 0  02 00 6A 81 F2 00 FF 04   
+                                  63 00 00 00 // 3 car gfx 
+                                  64 00 01 01 // 4 car gfx
+                                  65 00 02 02 // 5 car gfx
+                                  66 00 03 03 // 6 car gfx
+                                  FF FF       // Grahpical selection
+
+-1 * 0  02 00 6B 82 41 10 FF 01   10 00 00 00 // Use P-list sprite
+                                  6A 00       // Apply proper grafics
+
+// Max length + cannot attach + articulation
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 2D 2D    E0 80 // Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 2D 2D    E0 80 // attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b2   50 00 // this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   2D 80 01 05    FF FF // articulation '10
+-1 * 0  02 00 55 81 F2 00 FF 04
+                                  03 80 00 00 // 3 car text
+                                  04 80 01 01 // 4 car text
+                                  05 80 02 02 // 5 car text
+                                  06 80 03 03 // 6 car text
+                                  FF FF       // Text selection
+
+-1 * 0  02 00 6F 81 0C 00 FF 04   54 00 16 16          // articulation
+                                  55 00 19 19          // Text
+                                  53 00 1D 1D          // cannot attach
+                                  34 80 23 23          // p-list text
+                                  6B 00                // attach graphics
+
+
+
+
+// Switch betweeen the white and green one
+-1 * 0  02 00 5F 81 C4 00 FF 01   4F 00 00 0D // GFX depending on year built - pre 1934
+                                  6F 00       // 1933 ->
+
+// Action 3
+-1 * 0  03 00 01 2D 00 5F 00
+
+
+
+
+//  360 * 14	 02 00 20 81 01 00 FF 01   11 00 00 0D   19 00 // 1933
+
+

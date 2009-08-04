@@ -86,7 +86,9 @@
 -1 * 0  04 00 FF 01 \wxd0F8 " IRM-IV" 00
 -1 * 0  04 00 FF 01 \wxd0F9 " VIRM-IV" 00
 -1 * 0  04 00 FF 01 \wxd0FA " VIRM-VI" 00
--1 * 0  04 00 FF 01 \wxd001 "1 car" 00
--1 * 0  04 00 FF 01 \wxd002 "2 car" 00
--1 * 0  04 00 FF 01 \wxd003 "3 car" 00
--1 * 0  04 00 FF 01 \wxd004 "4 car" 00
+-1 * 0  04 00 FF 01 \wxd001 " 1 car" 00
+-1 * 0  04 00 FF 01 \wxd002 " 2 car" 00
+-1 * 0  04 00 FF 01 \wxd003 " 3 car" 00
+-1 * 0  04 00 FF 01 \wxd004 " 4 car" 00
+-1 * 0  04 00 FF 01 \wxd005 " 5 car" 00
+-1 * 0  04 00 FF 01 \wxd006 " 6 car" 00
