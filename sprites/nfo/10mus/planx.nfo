@@ -102,9 +102,9 @@
 -1 * 0  02 00 C2 01 01 \w2 \w2
 
 -1 * 0  01 00 03 01
-  905 sprites/dutchtrainsw.pcx 722 1144 01 12 50 -25 -6
-  908 sprites/dutchtrainsw.pcx 18 1192 01 12 50 -25 -6
-  911 sprites/dutchtrainsw.pcx 114 1192 01 13 50 -25 -7
+  905 sprites/dutchtrainsw.pcx 722 1144 01 12 50 -25 -8
+  908 sprites/dutchtrainsw.pcx 18 1192 01 12 50 -25 -8
+  911 sprites/dutchtrainsw.pcx 114 1193 01 11 50 -25 -8
 -1 * 0  02 00 D0 01 01 \w0 \w0
 -1 * 0  02 00 D1 01 01 \w1 \w1
 -1 * 0  02 00 D2 01 01 \w2 \w2

@@ -172,8 +172,8 @@
 
 // P-list
 -1 * 0  01 00 \b2  01
-1356 sprites/dutchtrainsw.pcx 242 1656 01 15 50 -25 -9
-1409 sprites/dutchtrainsw.pcx 194 1720 01 15 50 -25 -9
+1356 sprites/dutchtrainsw.pcx 242 1659 01 12 50 -25 -8
+1409 sprites/dutchtrainsw.pcx 194 1729 01 15 50 -25 -8
 -1 * 0  02 00 11 01 01 \w0 \w0 // P-list new
 -1 * 0  02 00 12 01 01 \w1 \w1 // P-list old
 -1 * 0  02 00 11 81 01 00 FF 01   12 00 01 \b60   11 00

@@ -1,0 +1,85 @@
+ -1 * 0  04 00 7F 01 3A "DM '90 'Buffel' (Diesel)" 00
+
+ 2081 * 60	 00 00 19 01 3A 00 EF 6A 03 19 04 32 06 0F 05 00 08 01 09 8C 00 0B 82 04 0D 1B 0E 36 4C 00 00 13
+	 00 14 \b75 15 00 16 \b94 24 00 17 14 19 10 1B 00 00 1C 00 1D 00 00 00 00 21 00 28 01 00   1E 3F   12 FD   1F \b39 
+
+// Head
+-1 * 0  01 00 02 08
+ 2083 sprites/dutchtrainsw.pcx 514 2600 01 24 10 -4 -12
+ 2084 sprites/dutchtrainsw.pcx 530 2600 01 16 24 -12 -9
+ 2085 sprites/dutchtrainsw.pcx 562 2600 01 12 32 -16 -7
+ 2086 sprites/dutchtrainsw.pcx 610 2600 01 16 24 -11 -10
+ 2087 sprites/dutchtrainsw.pcx 642 2600 01 24 10 -4 -12
+ 2088 sprites/dutchtrainsw.pcx 658 2600 01 16 24 -12 -9
+ 2089 sprites/dutchtrainsw.pcx 690 2600 01 12 32 -16 -7
+ 2090 sprites/dutchtrainsw.pcx 738 2600 01 16 24 -11 -10
+
+ 2104 sprites/dutchtrainsw.pcx 306 2648 01 24 10 -4 -12
+ 2105 sprites/dutchtrainsw.pcx 322 2648 01 16 24 -12 -9
+ 2106 sprites/dutchtrainsw.pcx 354 2648 01 12 32 -16 -7
+ 2107 sprites/dutchtrainsw.pcx 402 2648 01 16 24 -11 -10
+ 2108 sprites/dutchtrainsw.pcx 434 2648 01 24 10 -4 -12
+ 2109 sprites/dutchtrainsw.pcx 450 2648 01 16 24 -12 -9
+ 2110 sprites/dutchtrainsw.pcx 482 2648 01 12 32 -16 -7
+ 2111 sprites/dutchtrainsw.pcx 530 2648 01 16 24 -11 -10
+-1 * 0  02 00 A0 01 01 \w0 \w0
+-1 * 0  02 00 A1 01 01 \w1 \w1 
+ 
+// End
+-1 * 0  01 00 02 08
+ 2093 sprites/dutchtrainsw.pcx 2 2648 01 24 10 -4 -12
+ 2094 sprites/dutchtrainsw.pcx 18 2648 01 16 24 -12 -9
+ 2095 sprites/dutchtrainsw.pcx 50 2648 01 12 32 -15 -7
+ 2096 sprites/dutchtrainsw.pcx 98 2648 01 16 24 -11 -10
+ 2097 sprites/dutchtrainsw.pcx 130 2648 01 24 10 -4 -12
+ 2098 sprites/dutchtrainsw.pcx 146 2648 01 16 24 -12 -9
+ 2099 sprites/dutchtrainsw.pcx 178 2648 01 12 32 -17 -7
+ 2100 sprites/dutchtrainsw.pcx 226 2648 01 16 24 -11 -10
+
+ 2114 sprites/dutchtrainsw.pcx 594 2648 01 24 10 -4 -12
+ 2115 sprites/dutchtrainsw.pcx 610 2648 01 16 24 -12 -9
+ 2116 sprites/dutchtrainsw.pcx 642 2648 01 12 32 -15 -7
+ 2117 sprites/dutchtrainsw.pcx 690 2648 01 16 24 -11 -10
+ 2118 sprites/dutchtrainsw.pcx 722 2648 01 24 10 -4 -12
+ 2119 sprites/dutchtrainsw.pcx 738 2648 01 16 24 -12 -9
+ 2120 sprites/dutchtrainsw.pcx 2 2696 01 12 32 -17 -7
+ 2121 sprites/dutchtrainsw.pcx 50 2696 01 16 24 -11 -10
+-1 * 0  02 00 B0 01 01 \w0 \w0
+-1 * 0  02 00 B1 01 01 \w1 \w1
+
+-1 * 0  01 00 01 01
+ 2125 sprites/dutchtrainsw.pcx 130 2696 01 12 50 -25 -6
+-1 * 0  02 00 11 01 01 \w0 \w0
+
+
+// What where NS
+-1 * 0  02 00 C0 81 40 00 01 01   A0 00 00 00   B0 00
+// What where Syntus
+-1 * 0  02 00 D0 81 40 00 01 01   A1 00 00 00   B1 00
+
+// Livery gfx
+-1 * 0  02 00 AF 81 F2 00 FF 02
+                          C0 00 00 00
+                          D0 00 01 01
+                          FF FF
+
+
+// P-list vs normal gfx
+-1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    AF 00 // P-list if 0
+
+// Generic
+// Callbacks
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 3A 3A   E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 3A 3A   E0 80  // CB 1D stuff: attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b7  50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   3A 80 01 01   FF FF  // articulation '10
+-1 * 0  02 00 55 81 F2 00 FF 02   F4 80 00 00          // NS      
+                                  FD 80 01 01          // Syntus
+                                  FF FF                // Livery Names
+-1 * 0  02 00 5F 81 0C 00 FF 04   54 00 16 16          // articulate
+                                  55 00 19 19          // Livery names                                   
+                                  53 00 1D 1D          // cannot attach
+                                  3A 80 23 23          // p-list callback
+                                  5F 00                // attach graphics 
+
+ 2129 * 10	 03 00 01 3A 00 5F 00

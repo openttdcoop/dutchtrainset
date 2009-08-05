@@ -1,3 +1,4 @@
+
 -1 * 0  04 00 7F 01 36 "Plan Y 'Sprinter' (Electric)" 00 
 
  1446 * 60	 00 00 19 01 36 00 6B 4E 03 19 04 32 06 0F 05 00 08 01 09 7D 00 0B EA 06 0D 24 0E 3C 4C 00 00 13
@@ -92,8 +93,8 @@
 -1 * 0  02 00 C2 01 01 \w2 \w2
  
 -1 * 0  01 00 02 01
- 1478 sprites/dutchtrainsw.pcx 146 1800 01 14 50 -25 -8
- 1511 sprites/dutchtrainsw.pcx 306 1848 01 14 50 -25 -8
+ 1478 sprites/dutchtrainsw.pcx 146 1802 01 12 50 -25 -8
+ 1511 sprites/dutchtrainsw.pcx 306 1850 01 12 50 -25 -8
 -1 * 0  02 00 F0 01 01 \w0 \w0
 -1 * 0  02 00 F1 01 01 \w1 \w1
 // Change p-list according to year

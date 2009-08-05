@@ -28,25 +28,36 @@
 
 // mat 34 + Plan U + plan x
 -1 * 0  04 00 FF 01 \wxd034                                                   "\n" 
-                           98 "Usage:" 8A "" "I have no idea\n"
+                           98 "Usage:" 8A "" "Local Train"                    "\n"
                            98 "Composition: " 8A "Max three sets"     00
 
+// Mat64
+-1 * 0  04 00 FF 01 \wxd035                                                   "\n"     
+                           98 "Usage:" 8A "Local train"                       "\n" 
+                           98 "Livery Info: " 8A "Plan V (2car)/Plan T(4car)" 00                           
 
-
-// ICE3 + Thalys + HSA
--1 * 0  04 00 FF 01 \wxd03C                                                   "\n" 
-                           98 "Usage:" 8A "Long haul high speed Expresstrain" "\n"
-                           98 "Composition: " 8A "Max two sets"     00
-                           
 // ICM
 -1 * 0  04 00 FF 01 \wxd037                                                      "\n" 
                            98 "Usage:" 8A "InterCity"                            "\n"
                            98 "Composition: " 8A "Max 5 Sets"                    "\n" 
                            98 "Livery info: " 8A "1990-2005: NS/Mendini/Olympic" 00
-// Mat64
--1 * 0  04 00 FF 01 \wxd035                                                   "\n"     
+
+
+// SM90
+-1 * 0  04 00 FF 01 \wxd039                                                   "\n"     
                            98 "Usage:" 8A "Local train"                       "\n" 
-                           98 "Livery Info: " 8A "Plan V (2car)/Plan T(4car)" 00
+                           98 "Composition: " 8A "Max 4 Sets" 00
+
+// ICM
+-1 * 0  04 00 FF 01 \wxd03A                                                      "\n" 
+                           98 "Usage:" 8A "Local Train"                          "\n"
+                           98 "Composition: " 8A "Max 4 Sets"                    "\n" 
+                           98 "Livery info: " 8A "NS / Syntus" 00
+
+// ICE3 + Thalys + HSA
+-1 * 0  04 00 FF 01 \wxd03C                                                   "\n" 
+                           98 "Usage:" 8A "Long haul high speed Expresstrain" "\n"
+                           98 "Composition: " 8A "Max two sets"     00
 
 // Mat64
 -1 * 0  04 00 FF 01 \wxd03F                                                   "\n"     
@@ -94,6 +105,7 @@
 -1 * 0  04 00 FF 01 \wxd0FA " VIRM-VI" 00
 -1 * 0  04 00 FF 01 \wxd0FB " Sprinter" 00
 -1 * 0  04 00 FF 01 \wxd0FC " Citypendel" 00
+-1 * 0  04 00 FF 01 \wxd0FD " Syntus" 00
 -1 * 0  04 00 FF 01 \wxd001 " 1 car" 00
 -1 * 0  04 00 FF 01 \wxd002 " 2 car" 00
 -1 * 0  04 00 FF 01 \wxd003 " 3 car" 00
