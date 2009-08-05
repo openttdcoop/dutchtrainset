@@ -168,9 +168,9 @@
 
 // P-list
 -1 * 0  01 00 03 01
-  801 sprites/dutchtrainsw.pcx 274 1016 01 12 50 -25 -6
-  804 sprites/dutchtrainsw.pcx 370 1016 01 12 50 -25 -6
-  807 sprites/dutchtrainsw.pcx 466 1016 01 12 50 -25 -6
+  801 sprites/dutchtrainsw.pcx 274 1016 01 12 50 -25 -8
+  804 sprites/dutchtrainsw.pcx 370 1016 01 12 50 -25 -8
+  807 sprites/dutchtrainsw.pcx 466 1016 01 12 50 -25 -8
 -1 * 0  02 00 F0 01 01 \w0 \w0
 -1 * 0  02 00 F1 01 01 \w1 \w1
 -1 * 0  02 00 F2 01 01 \w2 \w2

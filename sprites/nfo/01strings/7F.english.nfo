@@ -26,7 +26,7 @@
                            98 "Usage:" 8A "" "I have no idea\n"
                            98 "Composition: " 8A "Max two sets"     00
 
-// mat 34 + Plan U
+// mat 34 + Plan U + plan x
 -1 * 0  04 00 FF 01 \wxd034                                                   "\n" 
                            98 "Usage:" 8A "" "I have no idea\n"
                            98 "Composition: " 8A "Max three sets"     00
