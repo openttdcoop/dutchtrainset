@@ -1,0 +1,230 @@
+
+ -1 * 0  04 00 7F 01 30 "Mat '41 (Diesel)" 00
+  649 * 62	 00 00 19 01 30 00 84 1C 03 19 04 32 06 0F 05 00 08 01 09 A0 00 0B 98 07 0D 2B 0E 36 4C 00 00 13
+	 00 14 \b54 15 00 16 \b17 24 01 17 1E 19 10 1B 00 00 1C 00 1D 00 00 00 00 1E 3F 21 00 28 01 00   12 FD   1f \b27
+
+// Head
+-1 * 0  01 00 03 08
+  651 sprites/dutchtrainsw.pcx 674 728 01 21 8 -3 -8
+  652 sprites/dutchtrainsw.pcx 690 728 01 15 21 -12 -8
+  653 sprites/dutchtrainsw.pcx 722 728 01 12 31 -15 -7
+  654 sprites/dutchtrainsw.pcx 770 728 01 15 19 -10 -10
+  655 sprites/dutchtrainsw.pcx 2 776 01 23 8 -3 -12
+  656 sprites/dutchtrainsw.pcx 18 776 01 15 19 -7 -10
+  657 sprites/dutchtrainsw.pcx 50 776 01 12 31 -15 -7
+  658 sprites/dutchtrainsw.pcx 98 776 01 15 21 -9 -9
+
+  701 sprites/dutchtrainsw.pcx 530 824 01 21 8 -3 -8
+  702 sprites/dutchtrainsw.pcx 546 824 01 15 21 -12 -8
+  703 sprites/dutchtrainsw.pcx 578 824 01 12 31 -15 -7
+  704 sprites/dutchtrainsw.pcx 626 824 01 15 19 -10 -10
+  705 sprites/dutchtrainsw.pcx 658 824 01 23 8 -3 -12
+  706 sprites/dutchtrainsw.pcx 674 824 01 15 19 -7 -10
+  707 sprites/dutchtrainsw.pcx 706 824 01 12 31 -15 -7
+  708 sprites/dutchtrainsw.pcx 754 824 01 15 21 -8 -8
+
+  751 sprites/dutchtrainsw.pcx 402 920 01 21 8 -3 -8
+  752 sprites/dutchtrainsw.pcx 418 920 01 15 21 -12 -8
+  753 sprites/dutchtrainsw.pcx 450 920 01 12 31 -15 -7
+  754 sprites/dutchtrainsw.pcx 498 920 01 15 19 -10 -10
+  755 sprites/dutchtrainsw.pcx 530 920 01 23 8 -3 -12
+  756 sprites/dutchtrainsw.pcx 546 920 01 15 19 -7 -10
+  757 sprites/dutchtrainsw.pcx 578 920 01 12 31 -15 -7
+  758 sprites/dutchtrainsw.pcx 626 920 01 15 21 -8 -8
+-1 * 0  02 00 A0 01 01 \w0 \w0
+-1 * 0  02 00 A1 01 01 \w1 \w1
+-1 * 0  02 00 A2 01 01 \w2 \w2
+
+// 1st pax
+-1 * 0  01 00 03 08
+  661 sprites/dutchtrainsw.pcx 162 776 01 21 8 -3 -10
+  662 sprites/dutchtrainsw.pcx 178 776 01 15 20 -10 -9
+  663 sprites/dutchtrainsw.pcx 210 776 01 12 29 -11 -7
+  664 sprites/dutchtrainsw.pcx 258 776 01 15 20 -8 -9
+  665 sprites/dutchtrainsw.pcx 290 776 01 21 8 -3 -10
+  666 sprites/dutchtrainsw.pcx 306 776 01 15 20 -10 -9
+  667 sprites/dutchtrainsw.pcx 338 776 01 12 29 -17 -7
+  668 sprites/dutchtrainsw.pcx 386 776 01 15 20 -10 -10
+
+  711 sprites/dutchtrainsw.pcx 18 872 01 21 8 -3 -10
+  712 sprites/dutchtrainsw.pcx 34 872 01 15 20 -10 -9
+  713 sprites/dutchtrainsw.pcx 66 872 01 12 29 -11 -7
+  714 sprites/dutchtrainsw.pcx 114 872 01 15 20 -8 -9
+  715 sprites/dutchtrainsw.pcx 146 872 01 21 8 -3 -10
+  716 sprites/dutchtrainsw.pcx 162 872 01 15 20 -10 -9
+  717 sprites/dutchtrainsw.pcx 194 872 01 12 29 -17 -7
+  718 sprites/dutchtrainsw.pcx 242 872 01 15 20 -9 -9
+
+  761 sprites/dutchtrainsw.pcx 690 920 01 21 8 -3 -10
+  762 sprites/dutchtrainsw.pcx 706 920 01 15 20 -10 -9
+  763 sprites/dutchtrainsw.pcx 738 920 01 12 29 -11 -7
+  764 sprites/dutchtrainsw.pcx 2 968 01 15 20 -8 -9
+  765 sprites/dutchtrainsw.pcx 34 968 01 21 8 -3 -10
+  766 sprites/dutchtrainsw.pcx 50 968 01 15 20 -10 -9
+  767 sprites/dutchtrainsw.pcx 82 968 01 12 29 -17 -7
+  768 sprites/dutchtrainsw.pcx 130 968 01 15 20 -9 -9
+-1 * 0  02 00 B0 01 01 \w0 \w0
+-1 * 0  02 00 B1 01 01 \w1 \w1
+-1 * 0  02 00 B2 01 01 \w2 \w2
+
+
+// 2nd pax
+-1 * 0  01 00 03 08
+  671 sprites/dutchtrainsw.pcx 450 776 01 21 8 -3 -10
+  672 sprites/dutchtrainsw.pcx 466 776 01 15 20 -10 -9
+  673 sprites/dutchtrainsw.pcx 498 776 01 12 29 -11 -7
+  674 sprites/dutchtrainsw.pcx 546 776 01 15 20 -8 -9
+  675 sprites/dutchtrainsw.pcx 578 776 01 21 8 -3 -10
+  676 sprites/dutchtrainsw.pcx 594 776 01 15 20 -10 -9
+  677 sprites/dutchtrainsw.pcx 626 776 01 12 29 -17 -7
+  678 sprites/dutchtrainsw.pcx 674 776 01 15 20 -10 -10
+
+  721 sprites/dutchtrainsw.pcx 306 872 01 21 8 -3 -10
+  722 sprites/dutchtrainsw.pcx 322 872 01 15 20 -10 -9
+  723 sprites/dutchtrainsw.pcx 354 872 01 12 29 -11 -7
+  724 sprites/dutchtrainsw.pcx 402 872 01 15 20 -8 -9
+  725 sprites/dutchtrainsw.pcx 434 872 01 21 8 -3 -10
+  726 sprites/dutchtrainsw.pcx 450 872 01 15 20 -10 -9
+  727 sprites/dutchtrainsw.pcx 482 872 01 12 29 -17 -7
+  728 sprites/dutchtrainsw.pcx 530 872 01 15 20 -9 -9
+
+  771 sprites/dutchtrainsw.pcx 194 968 01 21 8 -3 -10
+  772 sprites/dutchtrainsw.pcx 210 968 01 15 20 -10 -9
+  773 sprites/dutchtrainsw.pcx 242 968 01 12 29 -11 -7
+  774 sprites/dutchtrainsw.pcx 290 968 01 15 20 -8 -9
+  775 sprites/dutchtrainsw.pcx 322 968 01 21 8 -3 -10
+  776 sprites/dutchtrainsw.pcx 338 968 01 15 20 -10 -9
+  777 sprites/dutchtrainsw.pcx 370 968 01 12 29 -17 -7
+  778 sprites/dutchtrainsw.pcx 418 968 01 15 20 -9 -9
+-1 * 0  02 00 C0 01 01 \w0 \w0
+-1 * 0  02 00 C1 01 01 \w1 \w1
+-1 * 0  02 00 C2 01 01 \w2 \w2
+
+
+// 3rd pax
+-1 * 0  01 00 03 08
+  681 sprites/dutchtrainsw.pcx 738 776 01 23 8 -3 -11
+  682 sprites/dutchtrainsw.pcx 754 776 01 16 22 -12 -9
+  683 sprites/dutchtrainsw.pcx 2 824 01 13 33 -15 -8
+  684 sprites/dutchtrainsw.pcx 50 824 01 16 22 -10 -10
+  685 sprites/dutchtrainsw.pcx 82 824 01 23 8 -3 -11
+  686 sprites/dutchtrainsw.pcx 98 824 01 16 22 -10 -10
+  687 sprites/dutchtrainsw.pcx 130 824 01 13 33 -17 -8
+  688 sprites/dutchtrainsw.pcx 178 824 01 16 22 -10 -10
+
+  731 sprites/dutchtrainsw.pcx 594 872 01 23 8 -3 -11
+  732 sprites/dutchtrainsw.pcx 610 872 01 16 22 -12 -9
+  733 sprites/dutchtrainsw.pcx 642 872 01 13 33 -15 -8
+  734 sprites/dutchtrainsw.pcx 690 872 01 16 22 -10 -10
+  735 sprites/dutchtrainsw.pcx 722 872 01 23 8 -3 -11
+  736 sprites/dutchtrainsw.pcx 738 872 01 16 22 -10 -10
+  737 sprites/dutchtrainsw.pcx 2 920 01 13 33 -17 -8
+  738 sprites/dutchtrainsw.pcx 50 920 01 16 22 -9 -9
+
+  781 sprites/dutchtrainsw.pcx 482 968 01 23 8 -3 -11
+  782 sprites/dutchtrainsw.pcx 498 968 01 16 22 -12 -9
+  783 sprites/dutchtrainsw.pcx 530 968 01 13 33 -15 -8
+  784 sprites/dutchtrainsw.pcx 578 968 01 16 22 -10 -10
+  785 sprites/dutchtrainsw.pcx 610 968 01 23 8 -3 -11
+  786 sprites/dutchtrainsw.pcx 626 968 01 16 22 -10 -10
+  787 sprites/dutchtrainsw.pcx 658 968 01 13 33 -17 -8
+  788 sprites/dutchtrainsw.pcx 706 968 01 16 22 -9 -9
+-1 * 0  02 00 D0 01 01 \w0 \w0
+-1 * 0  02 00 D1 01 01 \w1 \w1
+-1 * 0  02 00 D2 01 01 \w2 \w2
+
+
+// End
+-1 * 0  01 00 03 08
+  691 sprites/dutchtrainsw.pcx 242 824 01 23 8 -3 -11
+  692 sprites/dutchtrainsw.pcx 258 824 01 15 19 -9 -9
+  693 sprites/dutchtrainsw.pcx 290 824 01 12 31 -13 -7
+  694 sprites/dutchtrainsw.pcx 338 824 01 15 21 -9 -9
+  695 sprites/dutchtrainsw.pcx 370 824 01 21 8 -3 -9
+  696 sprites/dutchtrainsw.pcx 386 824 01 15 21 -10 -9
+  697 sprites/dutchtrainsw.pcx 418 824 01 12 31 -17 -7
+  698 sprites/dutchtrainsw.pcx 466 824 01 15 19 -10 -10
+
+  741 sprites/dutchtrainsw.pcx 114 920 01 23 8 -3 -11
+  742 sprites/dutchtrainsw.pcx 130 920 01 15 19 -9 -9
+  743 sprites/dutchtrainsw.pcx 162 920 01 12 31 -13 -7
+  744 sprites/dutchtrainsw.pcx 210 920 01 15 21 -9 -9
+  745 sprites/dutchtrainsw.pcx 242 920 01 21 8 -3 -9
+  746 sprites/dutchtrainsw.pcx 258 920 01 15 21 -10 -9
+  747 sprites/dutchtrainsw.pcx 290 920 01 12 31 -17 -7
+  748 sprites/dutchtrainsw.pcx 338 920 01 15 19 -9 -9
+
+  791 sprites/dutchtrainsw.pcx 770 968 01 23 8 -3 -11
+  792 sprites/dutchtrainsw.pcx 2 1016 01 15 19 -9 -9
+  793 sprites/dutchtrainsw.pcx 34 1016 01 12 31 -13 -7
+  794 sprites/dutchtrainsw.pcx 82 1016 01 15 21 -9 -9
+  795 sprites/dutchtrainsw.pcx 114 1016 01 21 8 -3 -9
+  796 sprites/dutchtrainsw.pcx 130 1016 01 15 21 -10 -9
+  797 sprites/dutchtrainsw.pcx 162 1016 01 12 31 -17 -7
+  798 sprites/dutchtrainsw.pcx 210 1016 01 15 19 -9 -9
+-1 * 0  02 00 E0 01 01 \w0 \w0
+-1 * 0  02 00 E1 01 01 \w1 \w1
+-1 * 0  02 00 E2 01 01 \w2 \w2
+
+// P-list
+-1 * 0  01 00 03 01
+  801 sprites/dutchtrainsw.pcx 274 1016 01 12 50 -25 -6
+  804 sprites/dutchtrainsw.pcx 370 1016 01 12 50 -25 -6
+  807 sprites/dutchtrainsw.pcx 466 1016 01 12 50 -25 -6
+-1 * 0  02 00 F0 01 01 \w0 \w0
+-1 * 0  02 00 F1 01 01 \w1 \w1
+-1 * 0  02 00 F2 01 01 \w2 \w2
+
+// Change head according to year
+-1 * 0  02 00 A0 81 01 00 FF 02
+                          A0 00 00 21 // -> 1953
+                          A1 00 22 27 // 1954 - 1959
+                          A2 00       // 1960 ->
+// Change 1st pax according to year
+-1 * 0  02 00 B0 81 01 00 FF 02
+                          B0 00 00 21 // -> 1953
+                          B1 00 22 27 // 1954 - 1959
+                          B2 00       // 1960 ->
+// Change 2nd pax according to year
+-1 * 0  02 00 C0 81 01 00 FF 02
+                          C0 00 00 21 // -> 1953
+                          C1 00 22 27 // 1954 - 1959
+                          C2 00       // 1960 ->
+// Change 3rd pax according to year
+-1 * 0  02 00 D0 81 01 00 FF 02
+                          D0 00 00 21 // -> 1953
+                          D1 00 22 27 // 1954 - 1959
+                          D2 00       // 1960 ->
+// Change end according to year
+-1 * 0  02 00 E0 81 01 00 FF 02
+                          E0 00 00 21 // -> 1953
+                          E1 00 22 27 // 1954 - 1959
+                          E2 00       // 1960 ->
+// Change p-list according to year
+-1 * 0  02 00 F0 81 01 00 FF 02
+                          F0 00 00 21 // -> 1953
+                          F1 00 22 27 // 1954 - 1959
+                          F2 00       // 1960 ->
+
+// Make wagon 1 and 2 shorter
+-1 * 0  02 00 B0 81 0C 00 FF 01   01 80 11 11   B0 00
+-1 * 0  02 00 C0 81 0C 00 FF 01   01 80 11 11   C0 00
+
+// What where 
+ -1 * 0	 02 00 AF 81 40 80 FF 00 05 04   A0 00 00 00   B0 00 01 01   C0 00 02 02   D0 00 03 03   E0 00 // Modulo
+
+// P-list vs normal gfx
+-1 * 0  02 00 5F 82 41 10 FF 01   F0 00 00 00    AF 00 // P-list if 0
+
+// Generic
+// Callbacks
+-1 * 0  02 00 50 81 C6 00 FF 01   E1 80 30 30    E0 80  // CB 1D stuff: Cannot attach self, cannot attach other
+-1 * 0  02 00 52 81 C6 00 FF 01   FF 80 30 30    E0 80  // CB 1D stuff: attaches self, cannot attach other
+-1 * 0  02 00 53 82 41 10 FF 01   52 00 01 \b8  50 00  // CB 1D stuff: this or that if this or that range
+-1 * 0  02 00 54 81 10 00 FF 01   30 80 01 04    FF FF  // articulation '10
+-1 * 0  02 00 5F 81 0C 00 FF 03   54 00 16 16          // articulate
+                                  53 00 1D 1D          // cannot attach
+                                  30 80 23 23          // p-list callback
+                                  5F 00                // attach graphics 	 
+ 
+ 1298 * 10	 03 00 01 30 00 5F 00
