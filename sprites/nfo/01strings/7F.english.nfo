@@ -26,6 +26,12 @@
                            98 "Usage:" 8A "" "I have no idea\n"
                            98 "Composition: " 8A "Max two sets"     00
 
+// 3NS/SBB DE-IV TEE
+-1 * 0  04 00 FF 01 \wxd033                                                   "\n" 
+                           98 "Usage:" 8A "" "Cross belgian border service"   "\n"
+                           98 "Composition: " 8A "Max two sets"     00
+
+
 // mat 34 + Plan U + plan x
 -1 * 0  04 00 FF 01 \wxd034                                                   "\n" 
                            98 "Usage:" 8A "" "Local Train"                    "\n"
