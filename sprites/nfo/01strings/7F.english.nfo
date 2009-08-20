@@ -89,7 +89,6 @@
 // ----------- Error Messages -----------
 // --------------------------------------
 
-
 -1 * 0  04 00 FF 01 \wxd0E1 "Already at max length" 00
 -1 * 0  04 00 FF 01 \wxd0E0 "Use only trains of the same type" 00
 

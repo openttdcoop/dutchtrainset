@@ -5,9 +5,8 @@
  
  -1 * 0  04 00 7F 01 35 "Mat '64 (Electric)" 00
  
- 1304 * 60	 00 00 19 01 35   00 BC 3E 03 19   04 32   06 0F   05 00   08 01   09 8C 00   0B \w935   0D \b9   0E 3C 4C 00 00   12 FD   13
+ 1304 * 60	 00 00 19 01 35   00 BC 3E 03 19   04 32   06 0F   05 00   08 01   09 8C 00   0B \w935   0D \b26   0E 3C 4C 00 00   12 FD   13
 	 00   14 \b66 15 00   16 \b86   24 00   17 \b24   19 30   1B 00 00   1C 50   1D 00 00 00 00   1F \b28   21 04   28 01 00   1E 3E
-
 
 
 -1 * 0  01 00 \b7  08
@@ -204,13 +203,12 @@
 // 10' for CB36
 -1 * 0  02 00 4A 81 10 00 FF 03     53 87 0B 0B // power   
                                  \b163 80 16 16 // weight
-                                 \b20  80 0D 0D // Running cost
+                                 \b37  80 0D 0D // Running cost
                                     99 00       // dont matter crap
 // Callbacks
 -1 * 0  02 00 4F 81 0C 00 FF 02   00 80 11 11   // CB 11 - Make _not_ shorter :)  
                                   4A 00 36 36   // CB 36 - More power and tons
                                   4F 00         // Graphics
-
 
 // ---- Both ----
 // What graphics on what livery
@@ -218,7 +216,6 @@
                                   4F 00 01 01          // Livary 1 gfx
                                   FF FF        
 -1 * 0  02 00 5F 82 41 10 FF 01   11 00 00 00    5E 00 // P-list if 0
-
 
 // Generic
 // Callbacks
